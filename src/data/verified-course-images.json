@@ -1,0 +1,412 @@
+[
+   {
+      "id": "administracao",
+      "pagina": "https://anchieta.br/graduacao/administracao/",
+      "origem": "https://anchieta.br/wp-content/uploads/2023/05/banner-graduacao-administracao-1.jpg"
+   },
+   {
+      "id": "agrocomputacao",
+      "pagina": "https://anchieta.br/graduacao/agrocomputacao/",
+      "origem": "https://anchieta.br/wp-content/uploads/2026/08/0ee8f557-71a9-4ac3-a023-387e1500fd18.png"
+   },
+   {
+      "id": "ai-creative-design",
+      "pagina": "https://anchieta.br/graduacao/ai-creative-design/",
+      "origem": "https://anchieta.br/wp-content/uploads/2026/08/Imagem7.jpg"
+   },
+   {
+      "id": "analise-e-desenvolvimento-de-sistemas",
+      "pagina": "https://anchieta.br/graduacao/analise-e-desenvolvimento-de-sistemas/",
+      "origem": "https://anchieta.br/wp-content/uploads/2024/10/analise-e-desenvolvimento-de-sistemas.jpg"
+   },
+   {
+      "id": "arquitetura-e-urbanismo",
+      "pagina": "https://anchieta.br/graduacao/arquitetura-e-urbanismo/",
+      "origem": "https://anchieta.br/wp-content/uploads/2023/06/banner-graduacao-arquitetura-e-urbanismo-1-1.jpg"
+   },
+   {
+      "id": "automacao-industrial",
+      "pagina": "https://anchieta.br/graduacao/automacao-industrial/",
+      "origem": "https://anchieta.br/wp-content/uploads/2023/06/imagem-ead-automacao-industrial.webp"
+   },
+   {
+      "id": "banco-de-dados",
+      "pagina": "https://anchieta.br/graduacao/banco-de-dados/",
+      "origem": "https://anchieta.br/wp-content/uploads/2025/10/imagem-scaled.webp"
+   },
+   {
+      "id": "biblioteconomia",
+      "pagina": "https://anchieta.br/graduacao/biblioteconomia/",
+      "origem": "https://anchieta.br/wp-content/uploads/2026/08/bab85a5d-a30b-4161-8963-96384b287564.png"
+   },
+   {
+      "id": "big-data-e-inteligencia-analitica-4-0",
+      "pagina": "https://anchieta.br/graduacao/big-data-e-inteligencia-analitica-4-0/",
+      "origem": "https://anchieta.br/wp-content/uploads/2023/06/big-data.jpg"
+   },
+   {
+      "id": "biomedicina",
+      "pagina": "https://anchieta.br/graduacao/biomedicina/",
+      "origem": "https://anchieta.br/wp-content/uploads/2023/06/banner-graduacao-biomedicina.jpg"
+   },
+   {
+      "id": "biotecnologia",
+      "pagina": "https://anchieta.br/graduacao/biotecnologia/",
+      "origem": "https://anchieta.br/wp-content/uploads/2026/08/d2eb25de-e4d3-40bf-81c4-8752e15d2904.png"
+   },
+   {
+      "id": "ciencia-da-computacao",
+      "pagina": "https://anchieta.br/graduacao/ciencia-da-computacao/",
+      "origem": "https://anchieta.br/wp-content/uploads/2023/11/Imagem2.jpg"
+   },
+   {
+      "id": "ciencia-de-dados-e-ia",
+      "pagina": "https://anchieta.br/graduacao/ciencia-de-dados-e-ia/",
+      "origem": "https://anchieta.br/wp-content/uploads/2026/09/images-1.jpg"
+   },
+   {
+      "id": "ciencia-politica",
+      "pagina": "https://anchieta.br/graduacao/ciencia-politica/",
+      "origem": "https://anchieta.br/wp-content/uploads/2026/08/e2617f4f-2310-4842-a134-93eccbe8bbd8.png"
+   },
+   {
+      "id": "ciencias-biologicas-bacharelado",
+      "pagina": "https://anchieta.br/graduacao/ciencias-biologicas-bacharelado/",
+      "origem": "https://anchieta.br/wp-content/uploads/2023/06/flowers-276014_1280.jpg"
+   },
+   {
+      "id": "ciencias-biologicas-licenciatura",
+      "pagina": "https://anchieta.br/graduacao/ciencias-biologicas-licenciatura/",
+      "origem": "https://anchieta.br/wp-content/uploads/2023/08/Imagem5-1.jpg"
+   },
+   {
+      "id": "ciencias-contabeis",
+      "pagina": "https://anchieta.br/graduacao/ciencias-contabeis/",
+      "origem": "https://anchieta.br/wp-content/uploads/2023/06/banner-graduacao-ciencias-contabeis.jpg"
+   },
+   {
+      "id": "ciencias-economicas",
+      "pagina": "https://anchieta.br/graduacao/ciencias-economicas/",
+      "origem": "https://anchieta.br/wp-content/uploads/2023/06/banner-graduacao-ciencias-economicas.jpg"
+   },
+   {
+      "id": "comercio-exterior",
+      "pagina": "https://anchieta.br/graduacao/comercio-exterior/",
+      "origem": "https://anchieta.br/wp-content/uploads/2023/06/banner-graduacao-comercio-exterior.jpg"
+   },
+   {
+      "id": "creator-e-digital-influencer",
+      "pagina": "https://anchieta.br/graduacao/creator-e-digital-influencer/",
+      "origem": "https://anchieta.br/wp-content/uploads/2026/08/influenciadores-digitais.jpg"
+   },
+   {
+      "id": "desenvolvimento-mobile",
+      "pagina": "https://anchieta.br/graduacao/desenvolvimento-mobile/",
+      "origem": "https://anchieta.br/wp-content/uploads/2026/08/Imagem5.jpg"
+   },
+   {
+      "id": "design-de-animacao-em-ia",
+      "pagina": "https://anchieta.br/graduacao/design-de-animacao-em-ia/",
+      "origem": "https://anchieta.br/wp-content/uploads/2026/08/Imagem8.jpg"
+   },
+   {
+      "id": "design-de-interiores",
+      "pagina": "https://anchieta.br/graduacao/design-de-interiores/",
+      "origem": "https://anchieta.br/wp-content/uploads/2024/05/design_de_interiores_ead.jpg"
+   },
+   {
+      "id": "design-grafico",
+      "pagina": "https://anchieta.br/graduacao/design-grafico/",
+      "origem": "https://anchieta.br/wp-content/uploads/2023/06/banner-presencial-design-grafico.jpg"
+   },
+   {
+      "id": "direito",
+      "pagina": "https://anchieta.br/graduacao/direito/",
+      "origem": "https://anchieta.br/wp-content/uploads/2025/11/Direito-com-selo.jpg"
+   },
+   {
+      "id": "educacao-fisica-bacharelado",
+      "pagina": "https://anchieta.br/graduacao/educacao-fisica-bacharelado/",
+      "origem": "https://anchieta.br/wp-content/uploads/2023/06/banner-graduacao-educacao-fisica-1.jpg"
+   },
+   {
+      "id": "educacao-fisica-licenciatura",
+      "pagina": "https://anchieta.br/graduacao/educacao-fisica-licenciatura/",
+      "origem": "https://anchieta.br/wp-content/uploads/2023/11/Imagem1.jpg"
+   },
+   {
+      "id": "energias-renovaveis",
+      "pagina": "https://anchieta.br/graduacao/energias-renovaveis/",
+      "origem": "https://anchieta.br/wp-content/uploads/2025/10/Energia-renovavel.jpg"
+   },
+   {
+      "id": "enfermagem",
+      "pagina": "https://anchieta.br/graduacao/enfermagem/",
+      "origem": "https://anchieta.br/wp-content/uploads/2023/06/banner-graduacao-enfermagem.jpg"
+   },
+   {
+      "id": "engenharia-biomedica",
+      "pagina": "https://anchieta.br/graduacao/engenharia-biomedica/",
+      "origem": "https://anchieta.br/wp-content/uploads/2026/08/Imagem10.jpg"
+   },
+   {
+      "id": "engenharia-civil",
+      "pagina": "https://anchieta.br/graduacao/engenharia-civil/",
+      "origem": "https://anchieta.br/wp-content/uploads/2023/06/banner-graduacao-engenharia-civil.jpg"
+   },
+   {
+      "id": "engenharia-da-computacao",
+      "pagina": "https://anchieta.br/graduacao/engenharia-da-computacao/",
+      "origem": "https://anchieta.br/wp-content/uploads/2024/05/Imagem1-e1715369143217.jpg"
+   },
+   {
+      "id": "engenharia-de-controle-e-automacao",
+      "pagina": "https://anchieta.br/graduacao/engenharia-de-controle-e-automacao/",
+      "origem": "https://anchieta.br/wp-content/uploads/2023/06/imagem-ead-controle-automacao.webp"
+   },
+   {
+      "id": "engenharia-de-producao",
+      "pagina": "https://anchieta.br/graduacao/engenharia-de-producao/",
+      "origem": "https://anchieta.br/wp-content/uploads/2023/06/banner-graduacao-engenharia-producao.jpg"
+   },
+   {
+      "id": "engenharia-de-software",
+      "pagina": "https://anchieta.br/graduacao/engenharia-de-software/",
+      "origem": "https://anchieta.br/wp-content/uploads/2024/10/fullstack.png"
+   },
+   {
+      "id": "engenharia-eletrica",
+      "pagina": "https://anchieta.br/graduacao/engenharia-eletrica/",
+      "origem": "https://anchieta.br/wp-content/uploads/2023/06/banner-graduacao-engenharia-eletrica.jpg"
+   },
+   {
+      "id": "engenharia-em-inteligencia-artificial",
+      "pagina": "https://anchieta.br/graduacao/engenharia-em-inteligencia-artificial/",
+      "origem": "https://anchieta.br/wp-content/uploads/2026/08/Imagem9.jpg"
+   },
+   {
+      "id": "engenharia-mecanica",
+      "pagina": "https://anchieta.br/graduacao/engenharia-mecanica/",
+      "origem": "https://anchieta.br/wp-content/uploads/2023/06/banner-graduacao-engenharia-mecanica-1.jpg"
+   },
+   {
+      "id": "engenharia-quimica",
+      "pagina": "https://anchieta.br/graduacao/engenharia-quimica/",
+      "origem": "https://anchieta.br/wp-content/uploads/2023/06/banner-graduacao-engenharia-quimica-presencial.webp"
+   },
+   {
+      "id": "estetica-e-cosmetica",
+      "pagina": "https://anchieta.br/graduacao/estetica-e-cosmetica/",
+      "origem": "https://anchieta.br/wp-content/uploads/2023/06/banner-graduacao-estetica-e-cosmetica-presencial.webp"
+   },
+   {
+      "id": "farmacia",
+      "pagina": "https://anchieta.br/graduacao/farmacia/",
+      "origem": "https://anchieta.br/wp-content/uploads/2023/06/banner-graduacao-farmacia-presencial.webp"
+   },
+   {
+      "id": "filosofia",
+      "pagina": "https://anchieta.br/graduacao/filosofia/",
+      "origem": "https://anchieta.br/wp-content/uploads/2026/08/Imagem12.jpg"
+   },
+   {
+      "id": "fisioterapia",
+      "pagina": "https://anchieta.br/graduacao/fisioterapia/",
+      "origem": "https://anchieta.br/wp-content/uploads/2023/06/banner-graduacao-fisioterapia-presencial.webp"
+   },
+   {
+      "id": "fonoaudiologia",
+      "pagina": "https://anchieta.br/graduacao/fonoaudiologia/",
+      "origem": "https://anchieta.br/wp-content/uploads/2024/10/fonoaudiologia.jpg"
+   },
+   {
+      "id": "gastronomia",
+      "pagina": "https://anchieta.br/graduacao/gastronomia/",
+      "origem": "https://anchieta.br/wp-content/uploads/2025/10/Gastronomia.jpg"
+   },
+   {
+      "id": "gestao-comercial",
+      "pagina": "https://anchieta.br/graduacao/gestao-comercial/",
+      "origem": "https://anchieta.br/wp-content/uploads/2023/06/gestao_comercial-1-scaled-e1696864653810.webp"
+   },
+   {
+      "id": "gestao-da-producao-industrial",
+      "pagina": "https://anchieta.br/graduacao/gestao-da-producao-industrial/",
+      "origem": "https://anchieta.br/wp-content/uploads/2026/08/Imagem13.jpg"
+   },
+   {
+      "id": "gestao-de-qualidade",
+      "pagina": "https://anchieta.br/graduacao/gestao-de-qualidade/",
+      "origem": "https://anchieta.br/wp-content/uploads/2023/06/imagem-ead-gestao-de-qualidade-home.webp"
+   },
+   {
+      "id": "gestao-da-tecnologia-da-informacao",
+      "pagina": "https://anchieta.br/graduacao/gestao-da-tecnologia-da-informacao/",
+      "origem": "https://anchieta.br/wp-content/uploads/2023/06/banner-ead-curso-tecnologia-da-informacao-home.webp"
+   },
+   {
+      "id": "gestao-de-eventos",
+      "pagina": "https://anchieta.br/graduacao/gestao-de-eventos/",
+      "origem": "https://anchieta.br/wp-content/uploads/2023/07/banner-evento-home-e1689362247327.webp"
+   },
+   {
+      "id": "gestao-de-negocios-imobiliarios",
+      "pagina": "https://anchieta.br/graduacao/gestao-de-negocios-imobiliarios/",
+      "origem": "https://anchieta.br/wp-content/uploads/2023/06/negocios-imobiliarios-ead-scaled.webp"
+   },
+   {
+      "id": "gestao-de-recursos-humanos",
+      "pagina": "https://anchieta.br/graduacao/gestao-de-recursos-humanos/",
+      "origem": "https://anchieta.br/wp-content/uploads/2023/06/banner-graduacao-gestao-de-recursos-humanos.webp"
+   },
+   {
+      "id": "gestao-de-turismo",
+      "pagina": "https://anchieta.br/graduacao/gestao-de-turismo/",
+      "origem": "https://anchieta.br/wp-content/uploads/2026/08/Imagem14.jpg"
+   },
+   {
+      "id": "gestao-financeira",
+      "pagina": "https://anchieta.br/graduacao/gestao-financeira/",
+      "origem": "https://anchieta.br/wp-content/uploads/2023/06/gestao-financeira-ead-scaled.webp"
+   },
+   {
+      "id": "gestao-publica",
+      "pagina": "https://anchieta.br/graduacao/gestao-publica/",
+      "origem": "https://anchieta.br/wp-content/uploads/2023/06/gestao_publica-scaled.webp"
+   },
+   {
+      "id": "inteligencia-artificial-e-automacao-inteligente",
+      "pagina": "https://anchieta.br/graduacao/inteligencia-artificial-e-automacao-inteligente/",
+      "origem": "https://anchieta.br/wp-content/uploads/2023/06/banner-ead-curso-tecnologia-da-informacao.webp"
+   },
+   {
+      "id": "internet-das-coisas-iot",
+      "pagina": "https://anchieta.br/graduacao/internet-das-coisas-iot/",
+      "origem": "https://anchieta.br/wp-content/uploads/2026/08/Imagem15.jpg"
+   },
+   {
+      "id": "jogos-digitais",
+      "pagina": "https://anchieta.br/graduacao/jogos-digitais/",
+      "origem": "https://anchieta.br/wp-content/uploads/2023/06/banner-presencial-jogos-digitais.webp"
+   },
+   {
+      "id": "letras-portugues",
+      "pagina": "https://anchieta.br/graduacao/letras-portugues/",
+      "origem": "https://anchieta.br/wp-content/uploads/2023/06/banner-graduacao-letras.jpg"
+   },
+   {
+      "id": "logistica",
+      "pagina": "https://anchieta.br/graduacao/logistica/",
+      "origem": "https://anchieta.br/wp-content/uploads/2023/06/banner-graduacao-logistica.jpg"
+   },
+   {
+      "id": "marketing",
+      "pagina": "https://anchieta.br/graduacao/marketing/",
+      "origem": "https://anchieta.br/wp-content/uploads/2023/06/marketing-digital-ead-scaled.webp"
+   },
+   {
+      "id": "medicina-veterinaria",
+      "pagina": "https://anchieta.br/graduacao/medicina-veterinaria/",
+      "origem": "https://anchieta.br/wp-content/uploads/2024/08/vecteezy_ai-generated-healing-paws-embracing-the-love-and-dedication_37375572-scaled-e1724256726302.jpg"
+   },
+   {
+      "id": "midias-sociais-digitais",
+      "pagina": "https://anchieta.br/graduacao/midias-sociais-digitais/",
+      "origem": "https://anchieta.br/wp-content/uploads/2024/10/Imagem2.jpg"
+   },
+   {
+      "id": "nutricao",
+      "pagina": "https://anchieta.br/graduacao/nutricao/",
+      "origem": "https://anchieta.br/wp-content/uploads/2023/06/banner-graduacao-nutricao-presencial.webp"
+   },
+   {
+      "id": "odontologia",
+      "pagina": "https://anchieta.br/graduacao/odontologia/",
+      "origem": "https://anchieta.br/wp-content/uploads/2025/02/healthcare-dentistry-medicine-male-doctor-dentist-2024-12-08-04-15-44-utc.jpg"
+   },
+   {
+      "id": "oftalmica",
+      "pagina": "https://anchieta.br/graduacao/oftalmica/",
+      "origem": "https://anchieta.br/wp-content/uploads/2025/10/oftalmica.jpg"
+   },
+   {
+      "id": "pedagogia-licenciatura",
+      "pagina": "https://anchieta.br/graduacao/pedagogia-licenciatura/",
+      "origem": "https://anchieta.br/wp-content/uploads/2023/06/banner-graduacao-pedagogia.jpg"
+   },
+   {
+      "id": "pedagogia-bilingue-licenciatura",
+      "pagina": "https://anchieta.br/graduacao/pedagogia-bilingue-licenciatura/",
+      "origem": "https://anchieta.br/wp-content/uploads/2026/08/Imagem19.jpg"
+   },
+   {
+      "id": "podologia",
+      "pagina": "https://anchieta.br/graduacao/podologia/",
+      "origem": "https://anchieta.br/wp-content/uploads/2025/10/Podologia.jpg"
+   },
+   {
+      "id": "processos-gerenciais",
+      "pagina": "https://anchieta.br/graduacao/processos-gerenciais/",
+      "origem": "https://anchieta.br/wp-content/uploads/2023/06/processos-gerenciais-ead-scaled.webp"
+   },
+   {
+      "id": "producao-multimidia",
+      "pagina": "https://anchieta.br/graduacao/producao-multimidia/",
+      "origem": "https://anchieta.br/wp-content/uploads/2023/06/banner-presencial-producao-multimidia.jpg"
+   },
+   {
+      "id": "psicologia",
+      "pagina": "https://anchieta.br/graduacao/psicologia/",
+      "origem": "https://anchieta.br/wp-content/uploads/2023/06/banner-graduacao-psicologia.jpg"
+   },
+   {
+      "id": "psicopedagogia",
+      "pagina": "https://anchieta.br/graduacao/psicopedagogia/",
+      "origem": "https://anchieta.br/wp-content/uploads/2026/08/13a85ce4-8a11-48b9-bbf7-4fe4205340b8.png"
+   },
+   {
+      "id": "publicidade-e-propaganda",
+      "pagina": "https://anchieta.br/graduacao/publicidade-e-propaganda/",
+      "origem": "https://anchieta.br/wp-content/uploads/2023/06/banner-graduacao-publicidade-e-propaganda-1.jpg"
+   },
+   {
+      "id": "redes-de-telecomunicacoes",
+      "pagina": "https://anchieta.br/graduacao/redes-de-telecomunicacoes/",
+      "origem": "https://anchieta.br/wp-content/uploads/2026/08/770cae84-88d1-4538-b984-47d96cf8fd92.png"
+   },
+   {
+      "id": "relacoes-internacionais",
+      "pagina": "https://anchieta.br/graduacao/relacoes-internacionais/",
+      "origem": "https://anchieta.br/wp-content/uploads/2023/06/relacoes-internacionais-ead-scaled.webp"
+   },
+   {
+      "id": "relacoes-publicas",
+      "pagina": "https://anchieta.br/graduacao/relacoes-publicas/",
+      "origem": "https://anchieta.br/wp-content/uploads/2026/08/Imagem6.jpg"
+   },
+   {
+      "id": "seguranca-da-informacao",
+      "pagina": "https://anchieta.br/graduacao/seguranca-da-informacao/",
+      "origem": "https://anchieta.br/wp-content/uploads/2023/06/banner-ead-curso-seguranca-da-informacao-home.webp"
+   },
+   {
+      "id": "servico-social",
+      "pagina": "https://anchieta.br/graduacao/servico-social/",
+      "origem": "https://anchieta.br/wp-content/uploads/2023/06/imagem-ead-servico-social.webp"
+   },
+   {
+      "id": "social-commerce",
+      "pagina": "https://anchieta.br/graduacao/social-commerce/",
+      "origem": "https://anchieta.br/wp-content/uploads/2026/08/Imagem8-1.jpg"
+   },
+   {
+      "id": "teologia",
+      "pagina": "https://anchieta.br/graduacao/teologia/",
+      "origem": "https://anchieta.br/wp-content/uploads/2026/08/Imagem10-1.jpg"
+   },
+   {
+      "id": "terapia-ocupacional",
+      "pagina": "https://anchieta.br/graduacao/terapia-ocupacional/",
+      "origem": "https://anchieta.br/wp-content/uploads/2024/10/Imagem5.png"
+   }
+]

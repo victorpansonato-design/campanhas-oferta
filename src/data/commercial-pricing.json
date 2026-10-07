@@ -1,0 +1,877 @@
+[
+   {
+      "ano": 2027,
+      "ofertaId": "administracao__presencial",
+      "turno": "Noturno",
+      "valorContratoCentavos": 199605,
+      "bolsaComercialBps": 5500
+   },
+   {
+      "ano": 2027,
+      "ofertaId": "administracao__ead",
+      "turno": "Flexível",
+      "valorContratoCentavos": 88400,
+      "bolsaComercialBps": 4000
+   },
+   {
+      "ano": 2027,
+      "ofertaId": "administracao__semipresencial",
+      "turno": "Noturno",
+      "valorContratoCentavos": 146900,
+      "bolsaComercialBps": 4500
+   },
+   {
+      "ano": 2027,
+      "ofertaId": "agrocomputacao__ead",
+      "turno": "Flexível",
+      "valorContratoCentavos": 105400,
+      "bolsaComercialBps": 4000
+   },
+   {
+      "ano": 2027,
+      "ofertaId": "agrocomputacao__semipresencial",
+      "turno": "Noturno",
+      "valorContratoCentavos": 163900,
+      "bolsaComercialBps": 4500
+   },
+   {
+      "ano": 2027,
+      "ofertaId": "ai-creative-design__ead",
+      "turno": "Flexível",
+      "valorContratoCentavos": 122400,
+      "bolsaComercialBps": 4000
+   },
+   {
+      "ano": 2027,
+      "ofertaId": "analise-e-desenvolvimento-de-sistemas__presencial",
+      "turno": "Noturno",
+      "valorContratoCentavos": 220900,
+      "bolsaComercialBps": 5500
+   },
+   {
+      "ano": 2027,
+      "ofertaId": "analise-e-desenvolvimento-de-sistemas__ead",
+      "turno": "Flexível",
+      "valorContratoCentavos": 139400,
+      "bolsaComercialBps": 4000
+   },
+   {
+      "ano": 2027,
+      "ofertaId": "analise-e-desenvolvimento-de-sistemas__semipresencial",
+      "turno": "Noturno",
+      "valorContratoCentavos": 197900,
+      "bolsaComercialBps": 4500
+   },
+   {
+      "ano": 2027,
+      "ofertaId": "arquitetura-e-urbanismo__presencial",
+      "turno": "Noturno",
+      "valorContratoCentavos": 169900,
+      "bolsaComercialBps": 5500
+   },
+   {
+      "ano": 2027,
+      "ofertaId": "arquitetura-e-urbanismo__semipresencial",
+      "turno": "Noturno",
+      "valorContratoCentavos": 138400,
+      "bolsaComercialBps": 4500
+   },
+   {
+      "ano": 2027,
+      "ofertaId": "automacao-industrial__ead",
+      "turno": "Flexível",
+      "valorContratoCentavos": 96900,
+      "bolsaComercialBps": 4000
+   },
+   {
+      "ano": 2027,
+      "ofertaId": "automacao-industrial__semipresencial",
+      "turno": "Noturno",
+      "valorContratoCentavos": 155400,
+      "bolsaComercialBps": 4500
+   },
+   {
+      "ano": 2027,
+      "ofertaId": "banco-de-dados__presencial",
+      "turno": "Matutino",
+      "valorContratoCentavos": 203900,
+      "bolsaComercialBps": 5500
+   },
+   {
+      "ano": 2027,
+      "ofertaId": "banco-de-dados__presencial",
+      "turno": "Noturno",
+      "valorContratoCentavos": 203900,
+      "bolsaComercialBps": 5500
+   },
+   {
+      "ano": 2027,
+      "ofertaId": "banco-de-dados__semipresencial",
+      "turno": "Noturno",
+      "valorContratoCentavos": 172400,
+      "bolsaComercialBps": 4500
+   },
+   {
+      "ano": 2027,
+      "ofertaId": "biblioteconomia__ead",
+      "turno": "Flexível",
+      "valorContratoCentavos": 130900,
+      "bolsaComercialBps": 4000
+   },
+   {
+      "ano": 2027,
+      "ofertaId": "big-data-e-inteligencia-analitica-4-0__ead",
+      "turno": "Flexível",
+      "valorContratoCentavos": 139400,
+      "bolsaComercialBps": 4000
+   },
+   {
+      "ano": 2027,
+      "ofertaId": "biomedicina__presencial",
+      "turno": "Noturno",
+      "valorContratoCentavos": 237900,
+      "bolsaComercialBps": 5500
+   },
+   {
+      "ano": 2027,
+      "ofertaId": "biomedicina__semipresencial",
+      "turno": "Noturno",
+      "valorContratoCentavos": 129900,
+      "bolsaComercialBps": 4500
+   },
+   {
+      "ano": 2027,
+      "ofertaId": "biotecnologia__semipresencial",
+      "turno": "Noturno",
+      "valorContratoCentavos": 138400,
+      "bolsaComercialBps": 4500
+   },
+   {
+      "ano": 2027,
+      "ofertaId": "ciencia-da-computacao__presencial",
+      "turno": "Noturno",
+      "valorContratoCentavos": 186900,
+      "bolsaComercialBps": 5500
+   },
+   {
+      "ano": 2027,
+      "ofertaId": "ciencia-da-computacao__ead",
+      "turno": "Flexível",
+      "valorContratoCentavos": 105400,
+      "bolsaComercialBps": 4000
+   },
+   {
+      "ano": 2027,
+      "ofertaId": "ciencia-da-computacao__semipresencial",
+      "turno": "Noturno",
+      "valorContratoCentavos": 163900,
+      "bolsaComercialBps": 4500
+   },
+   {
+      "ano": 2027,
+      "ofertaId": "ciencia-de-dados-e-ia__ead",
+      "turno": "Flexível",
+      "valorContratoCentavos": 122400,
+      "bolsaComercialBps": 4000
+   },
+   {
+      "ano": 2027,
+      "ofertaId": "ciencia-politica__ead",
+      "turno": "Flexível",
+      "valorContratoCentavos": 130900,
+      "bolsaComercialBps": 4000
+   },
+   {
+      "ano": 2027,
+      "ofertaId": "ciencias-biologicas-bacharelado__semipresencial",
+      "turno": "Noturno",
+      "valorContratoCentavos": 189400,
+      "bolsaComercialBps": 4500
+   },
+   {
+      "ano": 2027,
+      "ofertaId": "ciencias-biologicas-licenciatura__semipresencial",
+      "turno": "Noturno",
+      "valorContratoCentavos": 197900,
+      "bolsaComercialBps": 4500
+   },
+   {
+      "ano": 2027,
+      "ofertaId": "ciencias-contabeis__presencial",
+      "turno": "Noturno",
+      "valorContratoCentavos": 169900,
+      "bolsaComercialBps": 5500
+   },
+   {
+      "ano": 2027,
+      "ofertaId": "ciencias-contabeis__ead",
+      "turno": "Flexível",
+      "valorContratoCentavos": 88400,
+      "bolsaComercialBps": 4000
+   },
+   {
+      "ano": 2027,
+      "ofertaId": "ciencias-contabeis__semipresencial",
+      "turno": "Noturno",
+      "valorContratoCentavos": 146900,
+      "bolsaComercialBps": 4500
+   },
+   {
+      "ano": 2027,
+      "ofertaId": "ciencias-economicas__presencial",
+      "turno": "Noturno",
+      "valorContratoCentavos": 195400,
+      "bolsaComercialBps": 5500
+   },
+   {
+      "ano": 2027,
+      "ofertaId": "ciencias-economicas__ead",
+      "turno": "Flexível",
+      "valorContratoCentavos": 113900,
+      "bolsaComercialBps": 4000
+   },
+   {
+      "ano": 2027,
+      "ofertaId": "comercio-exterior__ead",
+      "turno": "Flexível",
+      "valorContratoCentavos": 122400,
+      "bolsaComercialBps": 4000
+   },
+   {
+      "ano": 2027,
+      "ofertaId": "comercio-exterior__semipresencial",
+      "turno": "Noturno",
+      "valorContratoCentavos": 180900,
+      "bolsaComercialBps": 4500
+   },
+   {
+      "ano": 2027,
+      "ofertaId": "creator-e-digital-influencer__ead",
+      "turno": "Flexível",
+      "valorContratoCentavos": 139400,
+      "bolsaComercialBps": 4000
+   },
+   {
+      "ano": 2027,
+      "ofertaId": "creator-e-digital-influencer__semipresencial",
+      "turno": "Noturno",
+      "valorContratoCentavos": 197900,
+      "bolsaComercialBps": 4500
+   },
+   {
+      "ano": 2027,
+      "ofertaId": "desenvolvimento-mobile__ead",
+      "turno": "Flexível",
+      "valorContratoCentavos": 79900,
+      "bolsaComercialBps": 4000
+   },
+   {
+      "ano": 2027,
+      "ofertaId": "design-de-animacao-em-ia__ead",
+      "turno": "Flexível",
+      "valorContratoCentavos": 88400,
+      "bolsaComercialBps": 4000
+   },
+   {
+      "ano": 2027,
+      "ofertaId": "design-de-interiores__ead",
+      "turno": "Flexível",
+      "valorContratoCentavos": 96900,
+      "bolsaComercialBps": 4000
+   },
+   {
+      "ano": 2027,
+      "ofertaId": "design-de-interiores__semipresencial",
+      "turno": "Noturno",
+      "valorContratoCentavos": 155400,
+      "bolsaComercialBps": 4500
+   },
+   {
+      "ano": 2027,
+      "ofertaId": "design-grafico__presencial",
+      "turno": "Noturno",
+      "valorContratoCentavos": 203900,
+      "bolsaComercialBps": 5500
+   },
+   {
+      "ano": 2027,
+      "ofertaId": "design-grafico__ead",
+      "turno": "Flexível",
+      "valorContratoCentavos": 122400,
+      "bolsaComercialBps": 4000
+   },
+   {
+      "ano": 2027,
+      "ofertaId": "design-grafico__semipresencial",
+      "turno": "Noturno",
+      "valorContratoCentavos": 180900,
+      "bolsaComercialBps": 4500
+   },
+   {
+      "ano": 2027,
+      "ofertaId": "direito__presencial",
+      "turno": "Noturno",
+      "valorContratoCentavos": 229400,
+      "bolsaComercialBps": 5500
+   },
+   {
+      "ano": 2027,
+      "ofertaId": "direito__intensivo",
+      "turno": "Noturno",
+      "valorContratoCentavos": 197900,
+      "bolsaComercialBps": 4500
+   },
+   {
+      "ano": 2027,
+      "ofertaId": "educacao-fisica-bacharelado__presencial",
+      "turno": "Noturno",
+      "valorContratoCentavos": 169900,
+      "bolsaComercialBps": 5500
+   },
+   {
+      "ano": 2027,
+      "ofertaId": "educacao-fisica-bacharelado__semipresencial",
+      "turno": "Noturno",
+      "valorContratoCentavos": 138400,
+      "bolsaComercialBps": 4500
+   },
+   {
+      "ano": 2027,
+      "ofertaId": "educacao-fisica-licenciatura__semipresencial",
+      "turno": "Noturno",
+      "valorContratoCentavos": 146900,
+      "bolsaComercialBps": 4500
+   },
+   {
+      "ano": 2027,
+      "ofertaId": "energias-renovaveis__semipresencial",
+      "turno": "Noturno",
+      "valorContratoCentavos": 155400,
+      "bolsaComercialBps": 4500
+   },
+   {
+      "ano": 2027,
+      "ofertaId": "enfermagem__intensivo",
+      "turno": "Noturno",
+      "valorContratoCentavos": 163900,
+      "bolsaComercialBps": 4500
+   },
+   {
+      "ano": 2027,
+      "ofertaId": "engenharia-biomedica__presencial",
+      "turno": "Noturno",
+      "valorContratoCentavos": 212400,
+      "bolsaComercialBps": 5500
+   },
+   {
+      "ano": 2027,
+      "ofertaId": "engenharia-civil__presencial",
+      "turno": "Noturno",
+      "valorContratoCentavos": 220900,
+      "bolsaComercialBps": 5500
+   },
+   {
+      "ano": 2027,
+      "ofertaId": "engenharia-civil__semipresencial",
+      "turno": "Noturno",
+      "valorContratoCentavos": 189400,
+      "bolsaComercialBps": 4500
+   },
+   {
+      "ano": 2027,
+      "ofertaId": "engenharia-da-computacao__semipresencial",
+      "turno": "Noturno",
+      "valorContratoCentavos": 197900,
+      "bolsaComercialBps": 4500
+   },
+   {
+      "ano": 2027,
+      "ofertaId": "engenharia-de-controle-e-automacao__semipresencial",
+      "turno": "Noturno",
+      "valorContratoCentavos": 129900,
+      "bolsaComercialBps": 4500
+   },
+   {
+      "ano": 2027,
+      "ofertaId": "engenharia-de-producao__presencial",
+      "turno": "Noturno",
+      "valorContratoCentavos": 178400,
+      "bolsaComercialBps": 5500
+   },
+   {
+      "ano": 2027,
+      "ofertaId": "engenharia-de-producao__semipresencial",
+      "turno": "Noturno",
+      "valorContratoCentavos": 146900,
+      "bolsaComercialBps": 4500
+   },
+   {
+      "ano": 2027,
+      "ofertaId": "engenharia-de-software__presencial",
+      "turno": "Noturno",
+      "valorContratoCentavos": 195400,
+      "bolsaComercialBps": 5500
+   },
+   {
+      "ano": 2027,
+      "ofertaId": "engenharia-de-software__ead",
+      "turno": "Flexível",
+      "valorContratoCentavos": 113900,
+      "bolsaComercialBps": 4000
+   },
+   {
+      "ano": 2027,
+      "ofertaId": "engenharia-de-software__semipresencial",
+      "turno": "Noturno",
+      "valorContratoCentavos": 172400,
+      "bolsaComercialBps": 4500
+   },
+   {
+      "ano": 2027,
+      "ofertaId": "engenharia-eletrica__presencial",
+      "turno": "Noturno",
+      "valorContratoCentavos": 220900,
+      "bolsaComercialBps": 5500
+   },
+   {
+      "ano": 2027,
+      "ofertaId": "engenharia-eletrica__semipresencial",
+      "turno": "Noturno",
+      "valorContratoCentavos": 189400,
+      "bolsaComercialBps": 4500
+   },
+   {
+      "ano": 2027,
+      "ofertaId": "engenharia-em-inteligencia-artificial__presencial",
+      "turno": "Noturno",
+      "valorContratoCentavos": 237900,
+      "bolsaComercialBps": 5500
+   },
+   {
+      "ano": 2027,
+      "ofertaId": "engenharia-mecanica__presencial",
+      "turno": "Noturno",
+      "valorContratoCentavos": 169900,
+      "bolsaComercialBps": 5500
+   },
+   {
+      "ano": 2027,
+      "ofertaId": "engenharia-mecanica__semipresencial",
+      "turno": "Noturno",
+      "valorContratoCentavos": 138400,
+      "bolsaComercialBps": 4500
+   },
+   {
+      "ano": 2027,
+      "ofertaId": "engenharia-quimica__presencial",
+      "turno": "Noturno",
+      "valorContratoCentavos": 186900,
+      "bolsaComercialBps": 5500
+   },
+   {
+      "ano": 2027,
+      "ofertaId": "estetica-e-cosmetica__presencial",
+      "turno": "Noturno",
+      "valorContratoCentavos": 195400,
+      "bolsaComercialBps": 5500
+   },
+   {
+      "ano": 2027,
+      "ofertaId": "estetica-e-cosmetica__semipresencial",
+      "turno": "Noturno",
+      "valorContratoCentavos": 163900,
+      "bolsaComercialBps": 4500
+   },
+   {
+      "ano": 2027,
+      "ofertaId": "farmacia__presencial",
+      "turno": "Noturno",
+      "valorContratoCentavos": 212400,
+      "bolsaComercialBps": 5500
+   },
+   {
+      "ano": 2027,
+      "ofertaId": "farmacia__semipresencial",
+      "turno": "Noturno",
+      "valorContratoCentavos": 180900,
+      "bolsaComercialBps": 4500
+   },
+   {
+      "ano": 2027,
+      "ofertaId": "filosofia__ead",
+      "turno": "Flexível",
+      "valorContratoCentavos": 139400,
+      "bolsaComercialBps": 4000
+   },
+   {
+      "ano": 2027,
+      "ofertaId": "fisioterapia__presencial",
+      "turno": "Noturno",
+      "valorContratoCentavos": 237900,
+      "bolsaComercialBps": 5500
+   },
+   {
+      "ano": 2027,
+      "ofertaId": "fisioterapia__semipresencial",
+      "turno": "Noturno",
+      "valorContratoCentavos": 129900,
+      "bolsaComercialBps": 4500
+   },
+   {
+      "ano": 2027,
+      "ofertaId": "fonoaudiologia__presencial",
+      "turno": "Noturno",
+      "valorContratoCentavos": 178400,
+      "bolsaComercialBps": 5500
+   },
+   {
+      "ano": 2027,
+      "ofertaId": "fonoaudiologia__semipresencial",
+      "turno": "Noturno",
+      "valorContratoCentavos": 146900,
+      "bolsaComercialBps": 4500
+   },
+   {
+      "ano": 2027,
+      "ofertaId": "gastronomia__semipresencial",
+      "turno": "Noturno",
+      "valorContratoCentavos": 155400,
+      "bolsaComercialBps": 4500
+   },
+   {
+      "ano": 2027,
+      "ofertaId": "gestao-comercial__ead",
+      "turno": "Flexível",
+      "valorContratoCentavos": 113900,
+      "bolsaComercialBps": 4000
+   },
+   {
+      "ano": 2027,
+      "ofertaId": "gestao-da-producao-industrial__ead",
+      "turno": "Flexível",
+      "valorContratoCentavos": 122400,
+      "bolsaComercialBps": 4000
+   },
+   {
+      "ano": 2027,
+      "ofertaId": "gestao-de-qualidade__ead",
+      "turno": "Flexível",
+      "valorContratoCentavos": 130900,
+      "bolsaComercialBps": 4000
+   },
+   {
+      "ano": 2027,
+      "ofertaId": "gestao-da-tecnologia-da-informacao__ead",
+      "turno": "Flexível",
+      "valorContratoCentavos": 139400,
+      "bolsaComercialBps": 4000
+   },
+   {
+      "ano": 2027,
+      "ofertaId": "gestao-de-eventos__ead",
+      "turno": "Flexível",
+      "valorContratoCentavos": 147900,
+      "bolsaComercialBps": 4000
+   },
+   {
+      "ano": 2027,
+      "ofertaId": "gestao-de-negocios-imobiliarios__ead",
+      "turno": "Flexível",
+      "valorContratoCentavos": 79900,
+      "bolsaComercialBps": 4000
+   },
+   {
+      "ano": 2027,
+      "ofertaId": "gestao-de-recursos-humanos__presencial",
+      "turno": "Noturno",
+      "valorContratoCentavos": 178400,
+      "bolsaComercialBps": 5500
+   },
+   {
+      "ano": 2027,
+      "ofertaId": "gestao-de-recursos-humanos__ead",
+      "turno": "Flexível",
+      "valorContratoCentavos": 96900,
+      "bolsaComercialBps": 4000
+   },
+   {
+      "ano": 2027,
+      "ofertaId": "gestao-de-recursos-humanos__semipresencial",
+      "turno": "Noturno",
+      "valorContratoCentavos": 155400,
+      "bolsaComercialBps": 4500
+   },
+   {
+      "ano": 2027,
+      "ofertaId": "gestao-de-turismo__ead",
+      "turno": "Flexível",
+      "valorContratoCentavos": 113900,
+      "bolsaComercialBps": 4000
+   },
+   {
+      "ano": 2027,
+      "ofertaId": "gestao-financeira__ead",
+      "turno": "Flexível",
+      "valorContratoCentavos": 122400,
+      "bolsaComercialBps": 4000
+   },
+   {
+      "ano": 2027,
+      "ofertaId": "gestao-publica__ead",
+      "turno": "Flexível",
+      "valorContratoCentavos": 130900,
+      "bolsaComercialBps": 4000
+   },
+   {
+      "ano": 2027,
+      "ofertaId": "inteligencia-artificial-e-automacao-inteligente__ead",
+      "turno": "Flexível",
+      "valorContratoCentavos": 139400,
+      "bolsaComercialBps": 4000
+   },
+   {
+      "ano": 2027,
+      "ofertaId": "inteligencia-artificial-e-automacao-inteligente__semipresencial",
+      "turno": "Noturno",
+      "valorContratoCentavos": 197900,
+      "bolsaComercialBps": 4500
+   },
+   {
+      "ano": 2027,
+      "ofertaId": "internet-das-coisas-iot__ead",
+      "turno": "Flexível",
+      "valorContratoCentavos": 79900,
+      "bolsaComercialBps": 4000
+   },
+   {
+      "ano": 2027,
+      "ofertaId": "jogos-digitais__ead",
+      "turno": "Flexível",
+      "valorContratoCentavos": 88400,
+      "bolsaComercialBps": 4000
+   },
+   {
+      "ano": 2027,
+      "ofertaId": "letras-portugues__semipresencial",
+      "turno": "Noturno",
+      "valorContratoCentavos": 146900,
+      "bolsaComercialBps": 4500
+   },
+   {
+      "ano": 2027,
+      "ofertaId": "logistica__presencial",
+      "turno": "Noturno",
+      "valorContratoCentavos": 195400,
+      "bolsaComercialBps": 5500
+   },
+   {
+      "ano": 2027,
+      "ofertaId": "logistica__ead",
+      "turno": "Flexível",
+      "valorContratoCentavos": 113900,
+      "bolsaComercialBps": 4000
+   },
+   {
+      "ano": 2027,
+      "ofertaId": "logistica__semipresencial",
+      "turno": "Noturno",
+      "valorContratoCentavos": 172400,
+      "bolsaComercialBps": 4500
+   },
+   {
+      "ano": 2027,
+      "ofertaId": "marketing__ead",
+      "turno": "Flexível",
+      "valorContratoCentavos": 130900,
+      "bolsaComercialBps": 4000
+   },
+   {
+      "ano": 2027,
+      "ofertaId": "medicina-veterinaria__presencial",
+      "turno": "Noturno",
+      "valorContratoCentavos": 229400,
+      "bolsaComercialBps": 5500
+   },
+   {
+      "ano": 2027,
+      "ofertaId": "midias-sociais-digitais__ead",
+      "turno": "Flexível",
+      "valorContratoCentavos": 147900,
+      "bolsaComercialBps": 4000
+   },
+   {
+      "ano": 2027,
+      "ofertaId": "nutricao__presencial",
+      "turno": "Noturno",
+      "valorContratoCentavos": 169900,
+      "bolsaComercialBps": 5500
+   },
+   {
+      "ano": 2027,
+      "ofertaId": "nutricao__semipresencial",
+      "turno": "Noturno",
+      "valorContratoCentavos": 138400,
+      "bolsaComercialBps": 4500
+   },
+   {
+      "ano": 2027,
+      "ofertaId": "odontologia__presencial",
+      "turno": "Noturno",
+      "valorContratoCentavos": 186900,
+      "bolsaComercialBps": 5500
+   },
+   {
+      "ano": 2027,
+      "ofertaId": "oftalmica__semipresencial",
+      "turno": "Noturno",
+      "valorContratoCentavos": 155400,
+      "bolsaComercialBps": 4500
+   },
+   {
+      "ano": 2027,
+      "ofertaId": "pedagogia-licenciatura__presencial",
+      "turno": "Noturno",
+      "valorContratoCentavos": 203900,
+      "bolsaComercialBps": 5500
+   },
+   {
+      "ano": 2027,
+      "ofertaId": "pedagogia-licenciatura__semipresencial",
+      "turno": "Noturno",
+      "valorContratoCentavos": 172400,
+      "bolsaComercialBps": 4500
+   },
+   {
+      "ano": 2027,
+      "ofertaId": "pedagogia-bilingue-licenciatura__semipresencial",
+      "turno": "Noturno",
+      "valorContratoCentavos": 180900,
+      "bolsaComercialBps": 4500
+   },
+   {
+      "ano": 2027,
+      "ofertaId": "podologia__semipresencial",
+      "turno": "Noturno",
+      "valorContratoCentavos": 189400,
+      "bolsaComercialBps": 4500
+   },
+   {
+      "ano": 2027,
+      "ofertaId": "processos-gerenciais__ead",
+      "turno": "Flexível",
+      "valorContratoCentavos": 147900,
+      "bolsaComercialBps": 4000
+   },
+   {
+      "ano": 2027,
+      "ofertaId": "producao-multimidia__presencial",
+      "turno": "Noturno",
+      "valorContratoCentavos": 169900,
+      "bolsaComercialBps": 5500
+   },
+   {
+      "ano": 2027,
+      "ofertaId": "psicologia__presencial",
+      "turno": "Noturno",
+      "valorContratoCentavos": 178400,
+      "bolsaComercialBps": 5500
+   },
+   {
+      "ano": 2027,
+      "ofertaId": "psicologia__intensivo",
+      "turno": "Noturno",
+      "valorContratoCentavos": 146900,
+      "bolsaComercialBps": 4500
+   },
+   {
+      "ano": 2027,
+      "ofertaId": "psicopedagogia__semipresencial",
+      "turno": "Noturno",
+      "valorContratoCentavos": 155400,
+      "bolsaComercialBps": 4500
+   },
+   {
+      "ano": 2027,
+      "ofertaId": "publicidade-e-propaganda__presencial",
+      "turno": "Noturno",
+      "valorContratoCentavos": 203900,
+      "bolsaComercialBps": 5500
+   },
+   {
+      "ano": 2027,
+      "ofertaId": "publicidade-e-propaganda__ead",
+      "turno": "Flexível",
+      "valorContratoCentavos": 122400,
+      "bolsaComercialBps": 4000
+   },
+   {
+      "ano": 2027,
+      "ofertaId": "publicidade-e-propaganda__semipresencial",
+      "turno": "Noturno",
+      "valorContratoCentavos": 180900,
+      "bolsaComercialBps": 4500
+   },
+   {
+      "ano": 2027,
+      "ofertaId": "redes-de-telecomunicacoes__semipresencial",
+      "turno": "Noturno",
+      "valorContratoCentavos": 189400,
+      "bolsaComercialBps": 4500
+   },
+   {
+      "ano": 2027,
+      "ofertaId": "relacoes-internacionais__ead",
+      "turno": "Flexível",
+      "valorContratoCentavos": 147900,
+      "bolsaComercialBps": 4000
+   },
+   {
+      "ano": 2027,
+      "ofertaId": "relacoes-publicas__ead",
+      "turno": "Flexível",
+      "valorContratoCentavos": 79900,
+      "bolsaComercialBps": 4000
+   },
+   {
+      "ano": 2027,
+      "ofertaId": "seguranca-da-informacao__ead",
+      "turno": "Flexível",
+      "valorContratoCentavos": 88400,
+      "bolsaComercialBps": 4000
+   },
+   {
+      "ano": 2027,
+      "ofertaId": "servico-social__semipresencial",
+      "turno": "Noturno",
+      "valorContratoCentavos": 146900,
+      "bolsaComercialBps": 4500
+   },
+   {
+      "ano": 2027,
+      "ofertaId": "social-commerce__ead",
+      "turno": "Flexível",
+      "valorContratoCentavos": 105400,
+      "bolsaComercialBps": 4000
+   },
+   {
+      "ano": 2027,
+      "ofertaId": "teologia__ead",
+      "turno": "Flexível",
+      "valorContratoCentavos": 113900,
+      "bolsaComercialBps": 4000
+   },
+   {
+      "ano": 2027,
+      "ofertaId": "terapia-ocupacional__presencial",
+      "turno": "Noturno",
+      "valorContratoCentavos": 212400,
+      "bolsaComercialBps": 5500
+   },
+   {
+      "ano": 2027,
+      "ofertaId": "terapia-ocupacional__semipresencial",
+      "turno": "Noturno",
+      "valorContratoCentavos": 180900,
+      "bolsaComercialBps": 4500
+   }
+]

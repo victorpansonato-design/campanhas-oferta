@@ -1,0 +1,83 @@
+slug	nome	diploma	novo	formatos
+administracao	Administração	Bacharelado	false	Presencial|EAD|Semipresencial
+agrocomputacao	Agrocomputação	Tecnólogo	true	EAD|Semipresencial
+ai-creative-design	AI Creative Design	Tecnólogo	true	EAD
+analise-e-desenvolvimento-de-sistemas	Análise e Desenvolvimento de Sistemas	Tecnólogo	false	Presencial|EAD|Semipresencial
+arquitetura-e-urbanismo	Arquitetura e Urbanismo	Bacharelado	false	Presencial|Semipresencial
+automacao-industrial	Automação Industrial	Tecnólogo	true	EAD|Semipresencial
+banco-de-dados	Banco de Dados	Tecnólogo	true	Presencial|Semipresencial
+biblioteconomia	Biblioteconomia	Bacharelado	true	EAD
+big-data-e-inteligencia-analitica-4-0	Big Data e Inteligência Analítica 4.0	Tecnólogo	false	EAD
+biomedicina	Biomedicina	Bacharelado	false	Presencial|Presencial Integral|Semipresencial
+biotecnologia	Biotecnologia	Tecnólogo	true	Semipresencial
+ciencia-da-computacao	Ciência da Computação	Bacharelado	false	Presencial|EAD|Semipresencial
+ciencia-de-dados-e-ia	Ciência de Dados e IA	Bacharelado	true	EAD
+ciencia-politica	Ciência Política	Bacharelado	true	EAD
+ciencias-biologicas-bacharelado	Ciências Biológicas Bacharelado	Bacharelado	false	Semipresencial
+ciencias-biologicas-licenciatura	Ciências Biológicas Licenciatura	Licenciatura	true	Semipresencial
+ciencias-contabeis	Ciências Contábeis	Bacharelado	false	Presencial|EAD|Semipresencial
+ciencias-economicas	Ciências Econômicas	Bacharelado	false	Presencial|EAD
+comercio-exterior	Comércio Exterior	Tecnólogo	false	EAD|Semipresencial
+creator-e-digital-influencer	Creator e Digital Influencer	Tecnólogo	true	EAD|Semipresencial
+desenvolvimento-mobile	Desenvolvimento Mobile	Tecnólogo	true	EAD
+design-de-animacao-em-ia	Design de Animação em IA	Tecnólogo	true	EAD
+design-de-interiores	Design de Interiores	Tecnólogo	true	EAD|Semipresencial
+design-grafico	Design Gráfico	Tecnólogo	false	Presencial|EAD|Semipresencial
+direito	Direito	Bacharelado	false	Presencial|Presencial Intensivo
+educacao-fisica-bacharelado	Educação Física Bacharelado	Bacharelado	false	Presencial|Semipresencial
+educacao-fisica-licenciatura	Educação Física Licenciatura	Licenciatura	false	Semipresencial
+energias-renovaveis	Energias Renováveis	Tecnólogo	true	Semipresencial
+enfermagem	Enfermagem	Bacharelado	false	Presencial Integral|Presencial Intensivo
+engenharia-biomedica	Engenharia Biomédica	Bacharelado	true	Presencial
+engenharia-civil	Engenharia Civil	Bacharelado	false	Presencial|Semipresencial
+engenharia-da-computacao	Engenharia da Computação	Bacharelado	true	Semipresencial
+engenharia-de-controle-e-automacao	Engenharia de Controle e Automação	Bacharelado	false	Semipresencial
+engenharia-de-producao	Engenharia de Produção	Bacharelado	false	Presencial|Semipresencial
+engenharia-de-software	Engenharia de Software	Bacharelado	false	Presencial|EAD|Semipresencial
+engenharia-eletrica	Engenharia Elétrica	Bacharelado	false	Presencial|Semipresencial
+engenharia-em-inteligencia-artificial	Engenharia em Inteligência Artificial	Bacharelado	true	Presencial
+engenharia-mecanica	Engenharia Mecânica	Bacharelado	false	Presencial|Semipresencial
+engenharia-quimica	Engenharia Química	Bacharelado	false	Presencial
+estetica-e-cosmetica	Estética e Cosmética	Tecnólogo	false	Presencial|Semipresencial
+farmacia	Farmácia	Bacharelado	false	Presencial|Semipresencial
+filosofia	Filosofia	Bacharelado	true	EAD
+fisioterapia	Fisioterapia	Bacharelado	false	Presencial|Presencial Integral|Semipresencial
+fonoaudiologia	Fonoaudiologia	Bacharelado	false	Presencial|Semipresencial
+gastronomia	Gastronomia	Tecnólogo	true	Semipresencial
+gestao-comercial	Gestão Comercial	Tecnólogo	false	EAD
+gestao-da-producao-industrial	Gestão da Produção Industrial	Tecnólogo	false	EAD
+gestao-de-qualidade	Gestão da Qualidade	Tecnólogo	false	EAD
+gestao-da-tecnologia-da-informacao	Gestão da Tecnologia da Informação	Tecnólogo	false	EAD
+gestao-de-eventos	Gestão de Eventos	Tecnólogo	false	EAD
+gestao-de-negocios-imobiliarios	Gestão de Negócios Imobiliários	Tecnólogo	false	EAD
+gestao-de-recursos-humanos	Gestão de Recursos Humanos	Tecnólogo	false	Presencial|EAD|Semipresencial
+gestao-de-turismo	Gestão de Turismo	Tecnólogo	true	EAD
+gestao-financeira	Gestão Financeira	Tecnólogo	false	EAD
+gestao-publica	Gestão Pública	Tecnólogo	false	EAD
+inteligencia-artificial-e-automacao-inteligente	Inteligência Artificial e Automação Inteligente	Tecnólogo	true	EAD|Semipresencial
+internet-das-coisas-iot	Internet das Coisas (IoT)	Tecnólogo	true	EAD
+jogos-digitais	Jogos Digitais	Tecnólogo	true	EAD
+letras-portugues	Letras Português	Licenciatura	false	Semipresencial
+logistica	Logística	Tecnólogo	false	Presencial|EAD|Semipresencial
+marketing	Marketing	Tecnólogo	false	EAD
+medicina-veterinaria	Medicina Veterinária	Bacharelado	false	Presencial|Presencial Integral
+midias-sociais-digitais	Mídias Sociais Digitais	Tecnólogo	true	EAD
+nutricao	Nutrição	Bacharelado	false	Presencial|Semipresencial
+odontologia	Odontologia	Bacharelado	false	Presencial
+oftalmica	Oftálmica	Tecnólogo	false	Semipresencial
+pedagogia-licenciatura	Pedagogia	Licenciatura	false	Presencial|Semipresencial
+pedagogia-bilingue-licenciatura	Pedagogia Bilíngue	Licenciatura	true	Semipresencial
+podologia	Podologia	Tecnólogo	false	Semipresencial
+processos-gerenciais	Processos Gerenciais	Tecnólogo	false	EAD
+producao-multimidia	Produção Multimídia	Tecnólogo	false	Presencial
+psicologia	Psicologia	Bacharelado	false	Presencial|Presencial Integral|Presencial Intensivo
+psicopedagogia	Psicopedagogia	Bacharelado	true	Semipresencial
+publicidade-e-propaganda	Publicidade e Propaganda	Bacharelado	false	Presencial|EAD|Semipresencial
+redes-de-telecomunicacoes	Redes de Telecomunicações	Tecnólogo	true	Semipresencial
+relacoes-internacionais	Relações Internacionais	Bacharelado	false	EAD
+relacoes-publicas	Relações Públicas	Bacharelado	false	EAD
+seguranca-da-informacao	Segurança da Informação	Tecnólogo	true	EAD
+servico-social	Serviço Social	Bacharelado	false	Semipresencial
+social-commerce	Social Commerce	Tecnólogo	true	EAD
+teologia	Teologia	Bacharelado	true	EAD
+terapia-ocupacional	Terapia Ocupacional	Bacharelado	false	Presencial|Semipresencial

@@ -1,0 +1,285 @@
+{
+  "origem": "Períodos informados pelo usuário; extensível a outros anos",
+  "entradas": [
+    {
+      "codigo": "2025/1",
+      "ano": 2025,
+      "modalidade": "Presencial",
+      "inicio": "2025-01-01",
+      "fim": "2025-06-30"
+    },
+    {
+      "codigo": "2025/2",
+      "ano": 2025,
+      "modalidade": "Presencial",
+      "inicio": "2025-07-01",
+      "fim": "2025-12-31"
+    },
+    {
+      "codigo": "2025/21",
+      "ano": 2025,
+      "modalidade": "Híbrido",
+      "inicio": "2025-01-01",
+      "fim": "2025-03-31"
+    },
+    {
+      "codigo": "2025/22",
+      "ano": 2025,
+      "modalidade": "Híbrido",
+      "inicio": "2025-04-01",
+      "fim": "2025-06-30"
+    },
+    {
+      "codigo": "2025/23",
+      "ano": 2025,
+      "modalidade": "Híbrido",
+      "inicio": "2025-07-01",
+      "fim": "2025-09-30"
+    },
+    {
+      "codigo": "2025/24",
+      "ano": 2025,
+      "modalidade": "Híbrido",
+      "inicio": "2025-10-01",
+      "fim": "2025-12-31"
+    },
+    {
+      "codigo": "2025/71",
+      "ano": 2025,
+      "modalidade": "EAD",
+      "inicio": "2025-01-01",
+      "fim": "2025-03-31"
+    },
+    {
+      "codigo": "2025/72",
+      "ano": 2025,
+      "modalidade": "EAD",
+      "inicio": "2025-04-01",
+      "fim": "2025-06-30"
+    },
+    {
+      "codigo": "2025/73",
+      "ano": 2025,
+      "modalidade": "EAD",
+      "inicio": "2025-07-01",
+      "fim": "2025-09-30"
+    },
+    {
+      "codigo": "2025/74",
+      "ano": 2025,
+      "modalidade": "EAD",
+      "inicio": "2025-10-01",
+      "fim": "2025-12-31"
+    },
+    {
+      "codigo": "2026/1",
+      "ano": 2026,
+      "modalidade": "Presencial",
+      "inicio": "2026-01-01",
+      "fim": "2026-06-30"
+    },
+    {
+      "codigo": "2026/2",
+      "ano": 2026,
+      "modalidade": "Presencial",
+      "inicio": "2026-07-01",
+      "fim": "2026-12-31"
+    },
+    {
+      "codigo": "2026/21",
+      "ano": 2026,
+      "modalidade": "Híbrido",
+      "inicio": "2026-01-01",
+      "fim": "2026-03-31"
+    },
+    {
+      "codigo": "2026/22",
+      "ano": 2026,
+      "modalidade": "Híbrido",
+      "inicio": "2026-04-01",
+      "fim": "2026-06-30"
+    },
+    {
+      "codigo": "2026/23",
+      "ano": 2026,
+      "modalidade": "Híbrido",
+      "inicio": "2026-07-01",
+      "fim": "2026-09-30"
+    },
+    {
+      "codigo": "2026/24",
+      "ano": 2026,
+      "modalidade": "Híbrido",
+      "inicio": "2026-10-01",
+      "fim": "2026-12-31"
+    },
+    {
+      "codigo": "2026/71",
+      "ano": 2026,
+      "modalidade": "EAD",
+      "inicio": "2026-01-01",
+      "fim": "2026-03-31"
+    },
+    {
+      "codigo": "2026/72",
+      "ano": 2026,
+      "modalidade": "EAD",
+      "inicio": "2026-04-01",
+      "fim": "2026-06-30"
+    },
+    {
+      "codigo": "2026/73",
+      "ano": 2026,
+      "modalidade": "EAD",
+      "inicio": "2026-07-01",
+      "fim": "2026-09-30"
+    },
+    {
+      "codigo": "2026/74",
+      "ano": 2026,
+      "modalidade": "EAD",
+      "inicio": "2026-10-01",
+      "fim": "2026-12-31"
+    },
+    {
+      "codigo": "2027/1",
+      "ano": 2027,
+      "modalidade": "Presencial",
+      "inicio": "2027-01-01",
+      "fim": "2027-06-30"
+    },
+    {
+      "codigo": "2027/2",
+      "ano": 2027,
+      "modalidade": "Presencial",
+      "inicio": "2027-07-01",
+      "fim": "2027-12-31"
+    },
+    {
+      "codigo": "2027/21",
+      "ano": 2027,
+      "modalidade": "Híbrido",
+      "inicio": "2027-01-01",
+      "fim": "2027-03-31"
+    },
+    {
+      "codigo": "2027/22",
+      "ano": 2027,
+      "modalidade": "Híbrido",
+      "inicio": "2027-04-01",
+      "fim": "2027-06-30"
+    },
+    {
+      "codigo": "2027/23",
+      "ano": 2027,
+      "modalidade": "Híbrido",
+      "inicio": "2027-07-01",
+      "fim": "2027-09-30"
+    },
+    {
+      "codigo": "2027/24",
+      "ano": 2027,
+      "modalidade": "Híbrido",
+      "inicio": "2027-10-01",
+      "fim": "2027-12-31"
+    },
+    {
+      "codigo": "2027/71",
+      "ano": 2027,
+      "modalidade": "EAD",
+      "inicio": "2027-01-01",
+      "fim": "2027-03-31"
+    },
+    {
+      "codigo": "2027/72",
+      "ano": 2027,
+      "modalidade": "EAD",
+      "inicio": "2027-04-01",
+      "fim": "2027-06-30"
+    },
+    {
+      "codigo": "2027/73",
+      "ano": 2027,
+      "modalidade": "EAD",
+      "inicio": "2027-07-01",
+      "fim": "2027-09-30"
+    },
+    {
+      "codigo": "2027/74",
+      "ano": 2027,
+      "modalidade": "EAD",
+      "inicio": "2027-10-01",
+      "fim": "2027-12-31"
+    },
+    {
+      "codigo": "2028/1",
+      "ano": 2028,
+      "modalidade": "Presencial",
+      "inicio": "2028-01-01",
+      "fim": "2028-06-30"
+    },
+    {
+      "codigo": "2028/2",
+      "ano": 2028,
+      "modalidade": "Presencial",
+      "inicio": "2028-07-01",
+      "fim": "2028-12-31"
+    },
+    {
+      "codigo": "2028/21",
+      "ano": 2028,
+      "modalidade": "Híbrido",
+      "inicio": "2028-01-01",
+      "fim": "2028-03-31"
+    },
+    {
+      "codigo": "2028/22",
+      "ano": 2028,
+      "modalidade": "Híbrido",
+      "inicio": "2028-04-01",
+      "fim": "2028-06-30"
+    },
+    {
+      "codigo": "2028/23",
+      "ano": 2028,
+      "modalidade": "Híbrido",
+      "inicio": "2028-07-01",
+      "fim": "2028-09-30"
+    },
+    {
+      "codigo": "2028/24",
+      "ano": 2028,
+      "modalidade": "Híbrido",
+      "inicio": "2028-10-01",
+      "fim": "2028-12-31"
+    },
+    {
+      "codigo": "2028/71",
+      "ano": 2028,
+      "modalidade": "EAD",
+      "inicio": "2028-01-01",
+      "fim": "2028-03-31"
+    },
+    {
+      "codigo": "2028/72",
+      "ano": 2028,
+      "modalidade": "EAD",
+      "inicio": "2028-04-01",
+      "fim": "2028-06-30"
+    },
+    {
+      "codigo": "2028/73",
+      "ano": 2028,
+      "modalidade": "EAD",
+      "inicio": "2028-07-01",
+      "fim": "2028-09-30"
+    },
+    {
+      "codigo": "2028/74",
+      "ano": 2028,
+      "modalidade": "EAD",
+      "inicio": "2028-10-01",
+      "fim": "2028-12-31"
+    }
+  ]
+}

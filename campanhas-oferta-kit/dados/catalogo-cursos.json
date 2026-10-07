@@ -1,0 +1,1792 @@
+{
+  "fonte": "https://anchieta.br/graduacao/",
+  "verificadoEm": "2026-10-07",
+  "cursos": [
+    {
+      "id": "administracao",
+      "nome": "Administração",
+      "diploma": "Bacharelado",
+      "novo": false,
+      "formatosOriginais": [
+        "Presencial",
+        "EAD",
+        "Semipresencial"
+      ],
+      "formatosPermitidos": [
+        "Presencial",
+        "EAD",
+        "Semipresencial"
+      ],
+      "modalidades": [
+        "Presencial",
+        "EAD",
+        "Híbrido"
+      ],
+      "fonteUrl": "https://anchieta.br/graduacao/administracao/",
+      "verificadoEm": "2026-10-07",
+      "imagem": null,
+      "lyceumCursoId": null,
+      "aliases": []
+    },
+    {
+      "id": "agrocomputacao",
+      "nome": "Agrocomputação",
+      "diploma": "Tecnólogo",
+      "novo": true,
+      "formatosOriginais": [
+        "EAD",
+        "Semipresencial"
+      ],
+      "formatosPermitidos": [
+        "EAD",
+        "Semipresencial"
+      ],
+      "modalidades": [
+        "EAD",
+        "Híbrido"
+      ],
+      "fonteUrl": "https://anchieta.br/graduacao/agrocomputacao/",
+      "verificadoEm": "2026-10-07",
+      "imagem": null,
+      "lyceumCursoId": null,
+      "aliases": []
+    },
+    {
+      "id": "ai-creative-design",
+      "nome": "AI Creative Design",
+      "diploma": "Tecnólogo",
+      "novo": true,
+      "formatosOriginais": [
+        "EAD"
+      ],
+      "formatosPermitidos": [
+        "EAD"
+      ],
+      "modalidades": [
+        "EAD"
+      ],
+      "fonteUrl": "https://anchieta.br/graduacao/ai-creative-design/",
+      "verificadoEm": "2026-10-07",
+      "imagem": null,
+      "lyceumCursoId": null,
+      "aliases": []
+    },
+    {
+      "id": "analise-e-desenvolvimento-de-sistemas",
+      "nome": "Análise e Desenvolvimento de Sistemas",
+      "diploma": "Tecnólogo",
+      "novo": false,
+      "formatosOriginais": [
+        "Presencial",
+        "EAD",
+        "Semipresencial"
+      ],
+      "formatosPermitidos": [
+        "Presencial",
+        "EAD",
+        "Semipresencial"
+      ],
+      "modalidades": [
+        "Presencial",
+        "EAD",
+        "Híbrido"
+      ],
+      "fonteUrl": "https://anchieta.br/graduacao/analise-e-desenvolvimento-de-sistemas/",
+      "verificadoEm": "2026-10-07",
+      "imagem": null,
+      "lyceumCursoId": null,
+      "aliases": [
+        "ADS",
+        "análise de sistemas"
+      ]
+    },
+    {
+      "id": "arquitetura-e-urbanismo",
+      "nome": "Arquitetura e Urbanismo",
+      "diploma": "Bacharelado",
+      "novo": false,
+      "formatosOriginais": [
+        "Presencial",
+        "Semipresencial"
+      ],
+      "formatosPermitidos": [
+        "Presencial",
+        "Semipresencial"
+      ],
+      "modalidades": [
+        "Presencial",
+        "Híbrido"
+      ],
+      "fonteUrl": "https://anchieta.br/graduacao/arquitetura-e-urbanismo/",
+      "verificadoEm": "2026-10-07",
+      "imagem": null,
+      "lyceumCursoId": null,
+      "aliases": []
+    },
+    {
+      "id": "automacao-industrial",
+      "nome": "Automação Industrial",
+      "diploma": "Tecnólogo",
+      "novo": true,
+      "formatosOriginais": [
+        "EAD",
+        "Semipresencial"
+      ],
+      "formatosPermitidos": [
+        "EAD",
+        "Semipresencial"
+      ],
+      "modalidades": [
+        "EAD",
+        "Híbrido"
+      ],
+      "fonteUrl": "https://anchieta.br/graduacao/automacao-industrial/",
+      "verificadoEm": "2026-10-07",
+      "imagem": null,
+      "lyceumCursoId": null,
+      "aliases": []
+    },
+    {
+      "id": "banco-de-dados",
+      "nome": "Banco de Dados",
+      "diploma": "Tecnólogo",
+      "novo": true,
+      "formatosOriginais": [
+        "Presencial",
+        "Semipresencial"
+      ],
+      "formatosPermitidos": [
+        "Presencial",
+        "Semipresencial"
+      ],
+      "modalidades": [
+        "Presencial",
+        "Híbrido"
+      ],
+      "fonteUrl": "https://anchieta.br/graduacao/banco-de-dados/",
+      "verificadoEm": "2026-10-07",
+      "imagem": null,
+      "lyceumCursoId": null,
+      "aliases": []
+    },
+    {
+      "id": "biblioteconomia",
+      "nome": "Biblioteconomia",
+      "diploma": "Bacharelado",
+      "novo": true,
+      "formatosOriginais": [
+        "EAD"
+      ],
+      "formatosPermitidos": [
+        "EAD"
+      ],
+      "modalidades": [
+        "EAD"
+      ],
+      "fonteUrl": "https://anchieta.br/graduacao/biblioteconomia/",
+      "verificadoEm": "2026-10-07",
+      "imagem": null,
+      "lyceumCursoId": null,
+      "aliases": []
+    },
+    {
+      "id": "big-data-e-inteligencia-analitica-4-0",
+      "nome": "Big Data e Inteligência Analítica 4.0",
+      "diploma": "Tecnólogo",
+      "novo": false,
+      "formatosOriginais": [
+        "EAD"
+      ],
+      "formatosPermitidos": [
+        "EAD"
+      ],
+      "modalidades": [
+        "EAD"
+      ],
+      "fonteUrl": "https://anchieta.br/graduacao/big-data-e-inteligencia-analitica-4-0/",
+      "verificadoEm": "2026-10-07",
+      "imagem": null,
+      "lyceumCursoId": null,
+      "aliases": [
+        "big data"
+      ]
+    },
+    {
+      "id": "biomedicina",
+      "nome": "Biomedicina",
+      "diploma": "Bacharelado",
+      "novo": false,
+      "formatosOriginais": [
+        "Presencial",
+        "Presencial Integral",
+        "Semipresencial"
+      ],
+      "formatosPermitidos": [
+        "Presencial",
+        "Semipresencial"
+      ],
+      "modalidades": [
+        "Presencial",
+        "Híbrido"
+      ],
+      "fonteUrl": "https://anchieta.br/graduacao/biomedicina/",
+      "verificadoEm": "2026-10-07",
+      "imagem": null,
+      "lyceumCursoId": null,
+      "aliases": []
+    },
+    {
+      "id": "biotecnologia",
+      "nome": "Biotecnologia",
+      "diploma": "Tecnólogo",
+      "novo": true,
+      "formatosOriginais": [
+        "Semipresencial"
+      ],
+      "formatosPermitidos": [
+        "Semipresencial"
+      ],
+      "modalidades": [
+        "Híbrido"
+      ],
+      "fonteUrl": "https://anchieta.br/graduacao/biotecnologia/",
+      "verificadoEm": "2026-10-07",
+      "imagem": null,
+      "lyceumCursoId": null,
+      "aliases": []
+    },
+    {
+      "id": "ciencia-da-computacao",
+      "nome": "Ciência da Computação",
+      "diploma": "Bacharelado",
+      "novo": false,
+      "formatosOriginais": [
+        "Presencial",
+        "EAD",
+        "Semipresencial"
+      ],
+      "formatosPermitidos": [
+        "Presencial",
+        "EAD",
+        "Semipresencial"
+      ],
+      "modalidades": [
+        "Presencial",
+        "EAD",
+        "Híbrido"
+      ],
+      "fonteUrl": "https://anchieta.br/graduacao/ciencia-da-computacao/",
+      "verificadoEm": "2026-10-07",
+      "imagem": null,
+      "lyceumCursoId": null,
+      "aliases": [
+        "computação"
+      ]
+    },
+    {
+      "id": "ciencia-de-dados-e-ia",
+      "nome": "Ciência de Dados e IA",
+      "diploma": "Bacharelado",
+      "novo": true,
+      "formatosOriginais": [
+        "EAD"
+      ],
+      "formatosPermitidos": [
+        "EAD"
+      ],
+      "modalidades": [
+        "EAD"
+      ],
+      "fonteUrl": "https://anchieta.br/graduacao/ciencia-de-dados-e-ia/",
+      "verificadoEm": "2026-10-07",
+      "imagem": null,
+      "lyceumCursoId": null,
+      "aliases": []
+    },
+    {
+      "id": "ciencia-politica",
+      "nome": "Ciência Política",
+      "diploma": "Bacharelado",
+      "novo": true,
+      "formatosOriginais": [
+        "EAD"
+      ],
+      "formatosPermitidos": [
+        "EAD"
+      ],
+      "modalidades": [
+        "EAD"
+      ],
+      "fonteUrl": "https://anchieta.br/graduacao/ciencia-politica/",
+      "verificadoEm": "2026-10-07",
+      "imagem": null,
+      "lyceumCursoId": null,
+      "aliases": []
+    },
+    {
+      "id": "ciencias-biologicas-bacharelado",
+      "nome": "Ciências Biológicas Bacharelado",
+      "diploma": "Bacharelado",
+      "novo": false,
+      "formatosOriginais": [
+        "Semipresencial"
+      ],
+      "formatosPermitidos": [
+        "Semipresencial"
+      ],
+      "modalidades": [
+        "Híbrido"
+      ],
+      "fonteUrl": "https://anchieta.br/graduacao/ciencias-biologicas-bacharelado/",
+      "verificadoEm": "2026-10-07",
+      "imagem": null,
+      "lyceumCursoId": null,
+      "aliases": []
+    },
+    {
+      "id": "ciencias-biologicas-licenciatura",
+      "nome": "Ciências Biológicas Licenciatura",
+      "diploma": "Licenciatura",
+      "novo": true,
+      "formatosOriginais": [
+        "Semipresencial"
+      ],
+      "formatosPermitidos": [
+        "Semipresencial"
+      ],
+      "modalidades": [
+        "Híbrido"
+      ],
+      "fonteUrl": "https://anchieta.br/graduacao/ciencias-biologicas-licenciatura/",
+      "verificadoEm": "2026-10-07",
+      "imagem": null,
+      "lyceumCursoId": null,
+      "aliases": []
+    },
+    {
+      "id": "ciencias-contabeis",
+      "nome": "Ciências Contábeis",
+      "diploma": "Bacharelado",
+      "novo": false,
+      "formatosOriginais": [
+        "Presencial",
+        "EAD",
+        "Semipresencial"
+      ],
+      "formatosPermitidos": [
+        "Presencial",
+        "EAD",
+        "Semipresencial"
+      ],
+      "modalidades": [
+        "Presencial",
+        "EAD",
+        "Híbrido"
+      ],
+      "fonteUrl": "https://anchieta.br/graduacao/ciencias-contabeis/",
+      "verificadoEm": "2026-10-07",
+      "imagem": null,
+      "lyceumCursoId": null,
+      "aliases": []
+    },
+    {
+      "id": "ciencias-economicas",
+      "nome": "Ciências Econômicas",
+      "diploma": "Bacharelado",
+      "novo": false,
+      "formatosOriginais": [
+        "Presencial",
+        "EAD"
+      ],
+      "formatosPermitidos": [
+        "Presencial",
+        "EAD"
+      ],
+      "modalidades": [
+        "Presencial",
+        "EAD"
+      ],
+      "fonteUrl": "https://anchieta.br/graduacao/ciencias-economicas/",
+      "verificadoEm": "2026-10-07",
+      "imagem": null,
+      "lyceumCursoId": null,
+      "aliases": []
+    },
+    {
+      "id": "comercio-exterior",
+      "nome": "Comércio Exterior",
+      "diploma": "Tecnólogo",
+      "novo": false,
+      "formatosOriginais": [
+        "EAD",
+        "Semipresencial"
+      ],
+      "formatosPermitidos": [
+        "EAD",
+        "Semipresencial"
+      ],
+      "modalidades": [
+        "EAD",
+        "Híbrido"
+      ],
+      "fonteUrl": "https://anchieta.br/graduacao/comercio-exterior/",
+      "verificadoEm": "2026-10-07",
+      "imagem": null,
+      "lyceumCursoId": null,
+      "aliases": []
+    },
+    {
+      "id": "creator-e-digital-influencer",
+      "nome": "Creator e Digital Influencer",
+      "diploma": "Tecnólogo",
+      "novo": true,
+      "formatosOriginais": [
+        "EAD",
+        "Semipresencial"
+      ],
+      "formatosPermitidos": [
+        "EAD",
+        "Semipresencial"
+      ],
+      "modalidades": [
+        "EAD",
+        "Híbrido"
+      ],
+      "fonteUrl": "https://anchieta.br/graduacao/creator-e-digital-influencer/",
+      "verificadoEm": "2026-10-07",
+      "imagem": null,
+      "lyceumCursoId": null,
+      "aliases": []
+    },
+    {
+      "id": "desenvolvimento-mobile",
+      "nome": "Desenvolvimento Mobile",
+      "diploma": "Tecnólogo",
+      "novo": true,
+      "formatosOriginais": [
+        "EAD"
+      ],
+      "formatosPermitidos": [
+        "EAD"
+      ],
+      "modalidades": [
+        "EAD"
+      ],
+      "fonteUrl": "https://anchieta.br/graduacao/desenvolvimento-mobile/",
+      "verificadoEm": "2026-10-07",
+      "imagem": null,
+      "lyceumCursoId": null,
+      "aliases": []
+    },
+    {
+      "id": "design-de-animacao-em-ia",
+      "nome": "Design de Animação em IA",
+      "diploma": "Tecnólogo",
+      "novo": true,
+      "formatosOriginais": [
+        "EAD"
+      ],
+      "formatosPermitidos": [
+        "EAD"
+      ],
+      "modalidades": [
+        "EAD"
+      ],
+      "fonteUrl": "https://anchieta.br/graduacao/design-de-animacao-em-ia/",
+      "verificadoEm": "2026-10-07",
+      "imagem": null,
+      "lyceumCursoId": null,
+      "aliases": []
+    },
+    {
+      "id": "design-de-interiores",
+      "nome": "Design de Interiores",
+      "diploma": "Tecnólogo",
+      "novo": true,
+      "formatosOriginais": [
+        "EAD",
+        "Semipresencial"
+      ],
+      "formatosPermitidos": [
+        "EAD",
+        "Semipresencial"
+      ],
+      "modalidades": [
+        "EAD",
+        "Híbrido"
+      ],
+      "fonteUrl": "https://anchieta.br/graduacao/design-de-interiores/",
+      "verificadoEm": "2026-10-07",
+      "imagem": null,
+      "lyceumCursoId": null,
+      "aliases": []
+    },
+    {
+      "id": "design-grafico",
+      "nome": "Design Gráfico",
+      "diploma": "Tecnólogo",
+      "novo": false,
+      "formatosOriginais": [
+        "Presencial",
+        "EAD",
+        "Semipresencial"
+      ],
+      "formatosPermitidos": [
+        "Presencial",
+        "EAD",
+        "Semipresencial"
+      ],
+      "modalidades": [
+        "Presencial",
+        "EAD",
+        "Híbrido"
+      ],
+      "fonteUrl": "https://anchieta.br/graduacao/design-grafico/",
+      "verificadoEm": "2026-10-07",
+      "imagem": null,
+      "lyceumCursoId": null,
+      "aliases": []
+    },
+    {
+      "id": "direito",
+      "nome": "Direito",
+      "diploma": "Bacharelado",
+      "novo": false,
+      "formatosOriginais": [
+        "Presencial",
+        "Presencial Intensivo"
+      ],
+      "formatosPermitidos": [
+        "Presencial",
+        "Presencial Intensivo"
+      ],
+      "modalidades": [
+        "Presencial",
+        "Híbrido"
+      ],
+      "fonteUrl": "https://anchieta.br/graduacao/direito/",
+      "verificadoEm": "2026-10-07",
+      "imagem": null,
+      "lyceumCursoId": null,
+      "aliases": []
+    },
+    {
+      "id": "educacao-fisica-bacharelado",
+      "nome": "Educação Física Bacharelado",
+      "diploma": "Bacharelado",
+      "novo": false,
+      "formatosOriginais": [
+        "Presencial",
+        "Semipresencial"
+      ],
+      "formatosPermitidos": [
+        "Presencial",
+        "Semipresencial"
+      ],
+      "modalidades": [
+        "Presencial",
+        "Híbrido"
+      ],
+      "fonteUrl": "https://anchieta.br/graduacao/educacao-fisica-bacharelado/",
+      "verificadoEm": "2026-10-07",
+      "imagem": null,
+      "lyceumCursoId": null,
+      "aliases": []
+    },
+    {
+      "id": "educacao-fisica-licenciatura",
+      "nome": "Educação Física Licenciatura",
+      "diploma": "Licenciatura",
+      "novo": false,
+      "formatosOriginais": [
+        "Semipresencial"
+      ],
+      "formatosPermitidos": [
+        "Semipresencial"
+      ],
+      "modalidades": [
+        "Híbrido"
+      ],
+      "fonteUrl": "https://anchieta.br/graduacao/educacao-fisica-licenciatura/",
+      "verificadoEm": "2026-10-07",
+      "imagem": null,
+      "lyceumCursoId": null,
+      "aliases": []
+    },
+    {
+      "id": "energias-renovaveis",
+      "nome": "Energias Renováveis",
+      "diploma": "Tecnólogo",
+      "novo": true,
+      "formatosOriginais": [
+        "Semipresencial"
+      ],
+      "formatosPermitidos": [
+        "Semipresencial"
+      ],
+      "modalidades": [
+        "Híbrido"
+      ],
+      "fonteUrl": "https://anchieta.br/graduacao/energias-renovaveis/",
+      "verificadoEm": "2026-10-07",
+      "imagem": null,
+      "lyceumCursoId": null,
+      "aliases": []
+    },
+    {
+      "id": "enfermagem",
+      "nome": "Enfermagem",
+      "diploma": "Bacharelado",
+      "novo": false,
+      "formatosOriginais": [
+        "Presencial Integral",
+        "Presencial Intensivo"
+      ],
+      "formatosPermitidos": [
+        "Presencial Intensivo"
+      ],
+      "modalidades": [
+        "Híbrido"
+      ],
+      "fonteUrl": "https://anchieta.br/graduacao/enfermagem/",
+      "verificadoEm": "2026-10-07",
+      "imagem": null,
+      "lyceumCursoId": null,
+      "aliases": []
+    },
+    {
+      "id": "engenharia-biomedica",
+      "nome": "Engenharia Biomédica",
+      "diploma": "Bacharelado",
+      "novo": true,
+      "formatosOriginais": [
+        "Presencial"
+      ],
+      "formatosPermitidos": [
+        "Presencial"
+      ],
+      "modalidades": [
+        "Presencial"
+      ],
+      "fonteUrl": "https://anchieta.br/graduacao/engenharia-biomedica/",
+      "verificadoEm": "2026-10-07",
+      "imagem": null,
+      "lyceumCursoId": null,
+      "aliases": []
+    },
+    {
+      "id": "engenharia-civil",
+      "nome": "Engenharia Civil",
+      "diploma": "Bacharelado",
+      "novo": false,
+      "formatosOriginais": [
+        "Presencial",
+        "Semipresencial"
+      ],
+      "formatosPermitidos": [
+        "Presencial",
+        "Semipresencial"
+      ],
+      "modalidades": [
+        "Presencial",
+        "Híbrido"
+      ],
+      "fonteUrl": "https://anchieta.br/graduacao/engenharia-civil/",
+      "verificadoEm": "2026-10-07",
+      "imagem": null,
+      "lyceumCursoId": null,
+      "aliases": []
+    },
+    {
+      "id": "engenharia-da-computacao",
+      "nome": "Engenharia da Computação",
+      "diploma": "Bacharelado",
+      "novo": true,
+      "formatosOriginais": [
+        "Semipresencial"
+      ],
+      "formatosPermitidos": [
+        "Semipresencial"
+      ],
+      "modalidades": [
+        "Híbrido"
+      ],
+      "fonteUrl": "https://anchieta.br/graduacao/engenharia-da-computacao/",
+      "verificadoEm": "2026-10-07",
+      "imagem": null,
+      "lyceumCursoId": null,
+      "aliases": []
+    },
+    {
+      "id": "engenharia-de-controle-e-automacao",
+      "nome": "Engenharia de Controle e Automação",
+      "diploma": "Bacharelado",
+      "novo": false,
+      "formatosOriginais": [
+        "Semipresencial"
+      ],
+      "formatosPermitidos": [
+        "Semipresencial"
+      ],
+      "modalidades": [
+        "Híbrido"
+      ],
+      "fonteUrl": "https://anchieta.br/graduacao/engenharia-de-controle-e-automacao/",
+      "verificadoEm": "2026-10-07",
+      "imagem": null,
+      "lyceumCursoId": null,
+      "aliases": []
+    },
+    {
+      "id": "engenharia-de-producao",
+      "nome": "Engenharia de Produção",
+      "diploma": "Bacharelado",
+      "novo": false,
+      "formatosOriginais": [
+        "Presencial",
+        "Semipresencial"
+      ],
+      "formatosPermitidos": [
+        "Presencial",
+        "Semipresencial"
+      ],
+      "modalidades": [
+        "Presencial",
+        "Híbrido"
+      ],
+      "fonteUrl": "https://anchieta.br/graduacao/engenharia-de-producao/",
+      "verificadoEm": "2026-10-07",
+      "imagem": null,
+      "lyceumCursoId": null,
+      "aliases": []
+    },
+    {
+      "id": "engenharia-de-software",
+      "nome": "Engenharia de Software",
+      "diploma": "Bacharelado",
+      "novo": false,
+      "formatosOriginais": [
+        "Presencial",
+        "EAD",
+        "Semipresencial"
+      ],
+      "formatosPermitidos": [
+        "Presencial",
+        "EAD",
+        "Semipresencial"
+      ],
+      "modalidades": [
+        "Presencial",
+        "EAD",
+        "Híbrido"
+      ],
+      "fonteUrl": "https://anchieta.br/graduacao/engenharia-de-software/",
+      "verificadoEm": "2026-10-07",
+      "imagem": null,
+      "lyceumCursoId": null,
+      "aliases": []
+    },
+    {
+      "id": "engenharia-eletrica",
+      "nome": "Engenharia Elétrica",
+      "diploma": "Bacharelado",
+      "novo": false,
+      "formatosOriginais": [
+        "Presencial",
+        "Semipresencial"
+      ],
+      "formatosPermitidos": [
+        "Presencial",
+        "Semipresencial"
+      ],
+      "modalidades": [
+        "Presencial",
+        "Híbrido"
+      ],
+      "fonteUrl": "https://anchieta.br/graduacao/engenharia-eletrica/",
+      "verificadoEm": "2026-10-07",
+      "imagem": null,
+      "lyceumCursoId": null,
+      "aliases": []
+    },
+    {
+      "id": "engenharia-em-inteligencia-artificial",
+      "nome": "Engenharia em Inteligência Artificial",
+      "diploma": "Bacharelado",
+      "novo": true,
+      "formatosOriginais": [
+        "Presencial"
+      ],
+      "formatosPermitidos": [
+        "Presencial"
+      ],
+      "modalidades": [
+        "Presencial"
+      ],
+      "fonteUrl": "https://anchieta.br/graduacao/engenharia-em-inteligencia-artificial/",
+      "verificadoEm": "2026-10-07",
+      "imagem": null,
+      "lyceumCursoId": null,
+      "aliases": []
+    },
+    {
+      "id": "engenharia-mecanica",
+      "nome": "Engenharia Mecânica",
+      "diploma": "Bacharelado",
+      "novo": false,
+      "formatosOriginais": [
+        "Presencial",
+        "Semipresencial"
+      ],
+      "formatosPermitidos": [
+        "Presencial",
+        "Semipresencial"
+      ],
+      "modalidades": [
+        "Presencial",
+        "Híbrido"
+      ],
+      "fonteUrl": "https://anchieta.br/graduacao/engenharia-mecanica/",
+      "verificadoEm": "2026-10-07",
+      "imagem": null,
+      "lyceumCursoId": null,
+      "aliases": []
+    },
+    {
+      "id": "engenharia-quimica",
+      "nome": "Engenharia Química",
+      "diploma": "Bacharelado",
+      "novo": false,
+      "formatosOriginais": [
+        "Presencial"
+      ],
+      "formatosPermitidos": [
+        "Presencial"
+      ],
+      "modalidades": [
+        "Presencial"
+      ],
+      "fonteUrl": "https://anchieta.br/graduacao/engenharia-quimica/",
+      "verificadoEm": "2026-10-07",
+      "imagem": null,
+      "lyceumCursoId": null,
+      "aliases": []
+    },
+    {
+      "id": "estetica-e-cosmetica",
+      "nome": "Estética e Cosmética",
+      "diploma": "Tecnólogo",
+      "novo": false,
+      "formatosOriginais": [
+        "Presencial",
+        "Semipresencial"
+      ],
+      "formatosPermitidos": [
+        "Presencial",
+        "Semipresencial"
+      ],
+      "modalidades": [
+        "Presencial",
+        "Híbrido"
+      ],
+      "fonteUrl": "https://anchieta.br/graduacao/estetica-e-cosmetica/",
+      "verificadoEm": "2026-10-07",
+      "imagem": null,
+      "lyceumCursoId": null,
+      "aliases": []
+    },
+    {
+      "id": "farmacia",
+      "nome": "Farmácia",
+      "diploma": "Bacharelado",
+      "novo": false,
+      "formatosOriginais": [
+        "Presencial",
+        "Semipresencial"
+      ],
+      "formatosPermitidos": [
+        "Presencial",
+        "Semipresencial"
+      ],
+      "modalidades": [
+        "Presencial",
+        "Híbrido"
+      ],
+      "fonteUrl": "https://anchieta.br/graduacao/farmacia/",
+      "verificadoEm": "2026-10-07",
+      "imagem": null,
+      "lyceumCursoId": null,
+      "aliases": []
+    },
+    {
+      "id": "filosofia",
+      "nome": "Filosofia",
+      "diploma": "Bacharelado",
+      "novo": true,
+      "formatosOriginais": [
+        "EAD"
+      ],
+      "formatosPermitidos": [
+        "EAD"
+      ],
+      "modalidades": [
+        "EAD"
+      ],
+      "fonteUrl": "https://anchieta.br/graduacao/filosofia/",
+      "verificadoEm": "2026-10-07",
+      "imagem": null,
+      "lyceumCursoId": null,
+      "aliases": []
+    },
+    {
+      "id": "fisioterapia",
+      "nome": "Fisioterapia",
+      "diploma": "Bacharelado",
+      "novo": false,
+      "formatosOriginais": [
+        "Presencial",
+        "Presencial Integral",
+        "Semipresencial"
+      ],
+      "formatosPermitidos": [
+        "Presencial",
+        "Semipresencial"
+      ],
+      "modalidades": [
+        "Presencial",
+        "Híbrido"
+      ],
+      "fonteUrl": "https://anchieta.br/graduacao/fisioterapia/",
+      "verificadoEm": "2026-10-07",
+      "imagem": null,
+      "lyceumCursoId": null,
+      "aliases": []
+    },
+    {
+      "id": "fonoaudiologia",
+      "nome": "Fonoaudiologia",
+      "diploma": "Bacharelado",
+      "novo": false,
+      "formatosOriginais": [
+        "Presencial",
+        "Semipresencial"
+      ],
+      "formatosPermitidos": [
+        "Presencial",
+        "Semipresencial"
+      ],
+      "modalidades": [
+        "Presencial",
+        "Híbrido"
+      ],
+      "fonteUrl": "https://anchieta.br/graduacao/fonoaudiologia/",
+      "verificadoEm": "2026-10-07",
+      "imagem": null,
+      "lyceumCursoId": null,
+      "aliases": []
+    },
+    {
+      "id": "gastronomia",
+      "nome": "Gastronomia",
+      "diploma": "Tecnólogo",
+      "novo": true,
+      "formatosOriginais": [
+        "Semipresencial"
+      ],
+      "formatosPermitidos": [
+        "Semipresencial"
+      ],
+      "modalidades": [
+        "Híbrido"
+      ],
+      "fonteUrl": "https://anchieta.br/graduacao/gastronomia/",
+      "verificadoEm": "2026-10-07",
+      "imagem": null,
+      "lyceumCursoId": null,
+      "aliases": []
+    },
+    {
+      "id": "gestao-comercial",
+      "nome": "Gestão Comercial",
+      "diploma": "Tecnólogo",
+      "novo": false,
+      "formatosOriginais": [
+        "EAD"
+      ],
+      "formatosPermitidos": [
+        "EAD"
+      ],
+      "modalidades": [
+        "EAD"
+      ],
+      "fonteUrl": "https://anchieta.br/graduacao/gestao-comercial/",
+      "verificadoEm": "2026-10-07",
+      "imagem": null,
+      "lyceumCursoId": null,
+      "aliases": []
+    },
+    {
+      "id": "gestao-da-producao-industrial",
+      "nome": "Gestão da Produção Industrial",
+      "diploma": "Tecnólogo",
+      "novo": false,
+      "formatosOriginais": [
+        "EAD"
+      ],
+      "formatosPermitidos": [
+        "EAD"
+      ],
+      "modalidades": [
+        "EAD"
+      ],
+      "fonteUrl": "https://anchieta.br/graduacao/gestao-da-producao-industrial/",
+      "verificadoEm": "2026-10-07",
+      "imagem": null,
+      "lyceumCursoId": null,
+      "aliases": []
+    },
+    {
+      "id": "gestao-de-qualidade",
+      "nome": "Gestão da Qualidade",
+      "diploma": "Tecnólogo",
+      "novo": false,
+      "formatosOriginais": [
+        "EAD"
+      ],
+      "formatosPermitidos": [
+        "EAD"
+      ],
+      "modalidades": [
+        "EAD"
+      ],
+      "fonteUrl": "https://anchieta.br/graduacao/gestao-de-qualidade/",
+      "verificadoEm": "2026-10-07",
+      "imagem": null,
+      "lyceumCursoId": null,
+      "aliases": []
+    },
+    {
+      "id": "gestao-da-tecnologia-da-informacao",
+      "nome": "Gestão da Tecnologia da Informação",
+      "diploma": "Tecnólogo",
+      "novo": false,
+      "formatosOriginais": [
+        "EAD"
+      ],
+      "formatosPermitidos": [
+        "EAD"
+      ],
+      "modalidades": [
+        "EAD"
+      ],
+      "fonteUrl": "https://anchieta.br/graduacao/gestao-da-tecnologia-da-informacao/",
+      "verificadoEm": "2026-10-07",
+      "imagem": null,
+      "lyceumCursoId": null,
+      "aliases": []
+    },
+    {
+      "id": "gestao-de-eventos",
+      "nome": "Gestão de Eventos",
+      "diploma": "Tecnólogo",
+      "novo": false,
+      "formatosOriginais": [
+        "EAD"
+      ],
+      "formatosPermitidos": [
+        "EAD"
+      ],
+      "modalidades": [
+        "EAD"
+      ],
+      "fonteUrl": "https://anchieta.br/graduacao/gestao-de-eventos/",
+      "verificadoEm": "2026-10-07",
+      "imagem": null,
+      "lyceumCursoId": null,
+      "aliases": []
+    },
+    {
+      "id": "gestao-de-negocios-imobiliarios",
+      "nome": "Gestão de Negócios Imobiliários",
+      "diploma": "Tecnólogo",
+      "novo": false,
+      "formatosOriginais": [
+        "EAD"
+      ],
+      "formatosPermitidos": [
+        "EAD"
+      ],
+      "modalidades": [
+        "EAD"
+      ],
+      "fonteUrl": "https://anchieta.br/graduacao/gestao-de-negocios-imobiliarios/",
+      "verificadoEm": "2026-10-07",
+      "imagem": null,
+      "lyceumCursoId": null,
+      "aliases": []
+    },
+    {
+      "id": "gestao-de-recursos-humanos",
+      "nome": "Gestão de Recursos Humanos",
+      "diploma": "Tecnólogo",
+      "novo": false,
+      "formatosOriginais": [
+        "Presencial",
+        "EAD",
+        "Semipresencial"
+      ],
+      "formatosPermitidos": [
+        "Presencial",
+        "EAD",
+        "Semipresencial"
+      ],
+      "modalidades": [
+        "Presencial",
+        "EAD",
+        "Híbrido"
+      ],
+      "fonteUrl": "https://anchieta.br/graduacao/gestao-de-recursos-humanos/",
+      "verificadoEm": "2026-10-07",
+      "imagem": null,
+      "lyceumCursoId": null,
+      "aliases": [
+        "RH",
+        "recursos humanos"
+      ]
+    },
+    {
+      "id": "gestao-de-turismo",
+      "nome": "Gestão de Turismo",
+      "diploma": "Tecnólogo",
+      "novo": true,
+      "formatosOriginais": [
+        "EAD"
+      ],
+      "formatosPermitidos": [
+        "EAD"
+      ],
+      "modalidades": [
+        "EAD"
+      ],
+      "fonteUrl": "https://anchieta.br/graduacao/gestao-de-turismo/",
+      "verificadoEm": "2026-10-07",
+      "imagem": null,
+      "lyceumCursoId": null,
+      "aliases": []
+    },
+    {
+      "id": "gestao-financeira",
+      "nome": "Gestão Financeira",
+      "diploma": "Tecnólogo",
+      "novo": false,
+      "formatosOriginais": [
+        "EAD"
+      ],
+      "formatosPermitidos": [
+        "EAD"
+      ],
+      "modalidades": [
+        "EAD"
+      ],
+      "fonteUrl": "https://anchieta.br/graduacao/gestao-financeira/",
+      "verificadoEm": "2026-10-07",
+      "imagem": null,
+      "lyceumCursoId": null,
+      "aliases": []
+    },
+    {
+      "id": "gestao-publica",
+      "nome": "Gestão Pública",
+      "diploma": "Tecnólogo",
+      "novo": false,
+      "formatosOriginais": [
+        "EAD"
+      ],
+      "formatosPermitidos": [
+        "EAD"
+      ],
+      "modalidades": [
+        "EAD"
+      ],
+      "fonteUrl": "https://anchieta.br/graduacao/gestao-publica/",
+      "verificadoEm": "2026-10-07",
+      "imagem": null,
+      "lyceumCursoId": null,
+      "aliases": []
+    },
+    {
+      "id": "inteligencia-artificial-e-automacao-inteligente",
+      "nome": "Inteligência Artificial e Automação Inteligente",
+      "diploma": "Tecnólogo",
+      "novo": true,
+      "formatosOriginais": [
+        "EAD",
+        "Semipresencial"
+      ],
+      "formatosPermitidos": [
+        "EAD",
+        "Semipresencial"
+      ],
+      "modalidades": [
+        "EAD",
+        "Híbrido"
+      ],
+      "fonteUrl": "https://anchieta.br/graduacao/inteligencia-artificial-e-automacao-inteligente/",
+      "verificadoEm": "2026-10-07",
+      "imagem": null,
+      "lyceumCursoId": null,
+      "aliases": [
+        "IA",
+        "automação inteligente"
+      ]
+    },
+    {
+      "id": "internet-das-coisas-iot",
+      "nome": "Internet das Coisas (IoT)",
+      "diploma": "Tecnólogo",
+      "novo": true,
+      "formatosOriginais": [
+        "EAD"
+      ],
+      "formatosPermitidos": [
+        "EAD"
+      ],
+      "modalidades": [
+        "EAD"
+      ],
+      "fonteUrl": "https://anchieta.br/graduacao/internet-das-coisas-iot/",
+      "verificadoEm": "2026-10-07",
+      "imagem": null,
+      "lyceumCursoId": null,
+      "aliases": [
+        "IoT"
+      ]
+    },
+    {
+      "id": "jogos-digitais",
+      "nome": "Jogos Digitais",
+      "diploma": "Tecnólogo",
+      "novo": true,
+      "formatosOriginais": [
+        "EAD"
+      ],
+      "formatosPermitidos": [
+        "EAD"
+      ],
+      "modalidades": [
+        "EAD"
+      ],
+      "fonteUrl": "https://anchieta.br/graduacao/jogos-digitais/",
+      "verificadoEm": "2026-10-07",
+      "imagem": null,
+      "lyceumCursoId": null,
+      "aliases": []
+    },
+    {
+      "id": "letras-portugues",
+      "nome": "Letras Português",
+      "diploma": "Licenciatura",
+      "novo": false,
+      "formatosOriginais": [
+        "Semipresencial"
+      ],
+      "formatosPermitidos": [
+        "Semipresencial"
+      ],
+      "modalidades": [
+        "Híbrido"
+      ],
+      "fonteUrl": "https://anchieta.br/graduacao/letras-portugues/",
+      "verificadoEm": "2026-10-07",
+      "imagem": null,
+      "lyceumCursoId": null,
+      "aliases": []
+    },
+    {
+      "id": "logistica",
+      "nome": "Logística",
+      "diploma": "Tecnólogo",
+      "novo": false,
+      "formatosOriginais": [
+        "Presencial",
+        "EAD",
+        "Semipresencial"
+      ],
+      "formatosPermitidos": [
+        "Presencial",
+        "EAD",
+        "Semipresencial"
+      ],
+      "modalidades": [
+        "Presencial",
+        "EAD",
+        "Híbrido"
+      ],
+      "fonteUrl": "https://anchieta.br/graduacao/logistica/",
+      "verificadoEm": "2026-10-07",
+      "imagem": null,
+      "lyceumCursoId": null,
+      "aliases": []
+    },
+    {
+      "id": "marketing",
+      "nome": "Marketing",
+      "diploma": "Tecnólogo",
+      "novo": false,
+      "formatosOriginais": [
+        "EAD"
+      ],
+      "formatosPermitidos": [
+        "EAD"
+      ],
+      "modalidades": [
+        "EAD"
+      ],
+      "fonteUrl": "https://anchieta.br/graduacao/marketing/",
+      "verificadoEm": "2026-10-07",
+      "imagem": null,
+      "lyceumCursoId": null,
+      "aliases": []
+    },
+    {
+      "id": "medicina-veterinaria",
+      "nome": "Medicina Veterinária",
+      "diploma": "Bacharelado",
+      "novo": false,
+      "formatosOriginais": [
+        "Presencial",
+        "Presencial Integral"
+      ],
+      "formatosPermitidos": [
+        "Presencial"
+      ],
+      "modalidades": [
+        "Presencial"
+      ],
+      "fonteUrl": "https://anchieta.br/graduacao/medicina-veterinaria/",
+      "verificadoEm": "2026-10-07",
+      "imagem": null,
+      "lyceumCursoId": null,
+      "aliases": []
+    },
+    {
+      "id": "midias-sociais-digitais",
+      "nome": "Mídias Sociais Digitais",
+      "diploma": "Tecnólogo",
+      "novo": true,
+      "formatosOriginais": [
+        "EAD"
+      ],
+      "formatosPermitidos": [
+        "EAD"
+      ],
+      "modalidades": [
+        "EAD"
+      ],
+      "fonteUrl": "https://anchieta.br/graduacao/midias-sociais-digitais/",
+      "verificadoEm": "2026-10-07",
+      "imagem": null,
+      "lyceumCursoId": null,
+      "aliases": []
+    },
+    {
+      "id": "nutricao",
+      "nome": "Nutrição",
+      "diploma": "Bacharelado",
+      "novo": false,
+      "formatosOriginais": [
+        "Presencial",
+        "Semipresencial"
+      ],
+      "formatosPermitidos": [
+        "Presencial",
+        "Semipresencial"
+      ],
+      "modalidades": [
+        "Presencial",
+        "Híbrido"
+      ],
+      "fonteUrl": "https://anchieta.br/graduacao/nutricao/",
+      "verificadoEm": "2026-10-07",
+      "imagem": null,
+      "lyceumCursoId": null,
+      "aliases": []
+    },
+    {
+      "id": "odontologia",
+      "nome": "Odontologia",
+      "diploma": "Bacharelado",
+      "novo": false,
+      "formatosOriginais": [
+        "Presencial"
+      ],
+      "formatosPermitidos": [
+        "Presencial"
+      ],
+      "modalidades": [
+        "Presencial"
+      ],
+      "fonteUrl": "https://anchieta.br/graduacao/odontologia/",
+      "verificadoEm": "2026-10-07",
+      "imagem": null,
+      "lyceumCursoId": null,
+      "aliases": []
+    },
+    {
+      "id": "oftalmica",
+      "nome": "Oftálmica",
+      "diploma": "Tecnólogo",
+      "novo": false,
+      "formatosOriginais": [
+        "Semipresencial"
+      ],
+      "formatosPermitidos": [
+        "Semipresencial"
+      ],
+      "modalidades": [
+        "Híbrido"
+      ],
+      "fonteUrl": "https://anchieta.br/graduacao/oftalmica/",
+      "verificadoEm": "2026-10-07",
+      "imagem": null,
+      "lyceumCursoId": null,
+      "aliases": []
+    },
+    {
+      "id": "pedagogia-licenciatura",
+      "nome": "Pedagogia",
+      "diploma": "Licenciatura",
+      "novo": false,
+      "formatosOriginais": [
+        "Presencial",
+        "Semipresencial"
+      ],
+      "formatosPermitidos": [
+        "Presencial",
+        "Semipresencial"
+      ],
+      "modalidades": [
+        "Presencial",
+        "Híbrido"
+      ],
+      "fonteUrl": "https://anchieta.br/graduacao/pedagogia-licenciatura/",
+      "verificadoEm": "2026-10-07",
+      "imagem": null,
+      "lyceumCursoId": null,
+      "aliases": []
+    },
+    {
+      "id": "pedagogia-bilingue-licenciatura",
+      "nome": "Pedagogia Bilíngue",
+      "diploma": "Licenciatura",
+      "novo": true,
+      "formatosOriginais": [
+        "Semipresencial"
+      ],
+      "formatosPermitidos": [
+        "Semipresencial"
+      ],
+      "modalidades": [
+        "Híbrido"
+      ],
+      "fonteUrl": "https://anchieta.br/graduacao/pedagogia-bilingue-licenciatura/",
+      "verificadoEm": "2026-10-07",
+      "imagem": null,
+      "lyceumCursoId": null,
+      "aliases": []
+    },
+    {
+      "id": "podologia",
+      "nome": "Podologia",
+      "diploma": "Tecnólogo",
+      "novo": false,
+      "formatosOriginais": [
+        "Semipresencial"
+      ],
+      "formatosPermitidos": [
+        "Semipresencial"
+      ],
+      "modalidades": [
+        "Híbrido"
+      ],
+      "fonteUrl": "https://anchieta.br/graduacao/podologia/",
+      "verificadoEm": "2026-10-07",
+      "imagem": null,
+      "lyceumCursoId": null,
+      "aliases": []
+    },
+    {
+      "id": "processos-gerenciais",
+      "nome": "Processos Gerenciais",
+      "diploma": "Tecnólogo",
+      "novo": false,
+      "formatosOriginais": [
+        "EAD"
+      ],
+      "formatosPermitidos": [
+        "EAD"
+      ],
+      "modalidades": [
+        "EAD"
+      ],
+      "fonteUrl": "https://anchieta.br/graduacao/processos-gerenciais/",
+      "verificadoEm": "2026-10-07",
+      "imagem": null,
+      "lyceumCursoId": null,
+      "aliases": []
+    },
+    {
+      "id": "producao-multimidia",
+      "nome": "Produção Multimídia",
+      "diploma": "Tecnólogo",
+      "novo": false,
+      "formatosOriginais": [
+        "Presencial"
+      ],
+      "formatosPermitidos": [
+        "Presencial"
+      ],
+      "modalidades": [
+        "Presencial"
+      ],
+      "fonteUrl": "https://anchieta.br/graduacao/producao-multimidia/",
+      "verificadoEm": "2026-10-07",
+      "imagem": null,
+      "lyceumCursoId": null,
+      "aliases": []
+    },
+    {
+      "id": "psicologia",
+      "nome": "Psicologia",
+      "diploma": "Bacharelado",
+      "novo": false,
+      "formatosOriginais": [
+        "Presencial",
+        "Presencial Integral",
+        "Presencial Intensivo"
+      ],
+      "formatosPermitidos": [
+        "Presencial",
+        "Presencial Intensivo"
+      ],
+      "modalidades": [
+        "Presencial",
+        "Híbrido"
+      ],
+      "fonteUrl": "https://anchieta.br/graduacao/psicologia/",
+      "verificadoEm": "2026-10-07",
+      "imagem": null,
+      "lyceumCursoId": null,
+      "aliases": []
+    },
+    {
+      "id": "psicopedagogia",
+      "nome": "Psicopedagogia",
+      "diploma": "Bacharelado",
+      "novo": true,
+      "formatosOriginais": [
+        "Semipresencial"
+      ],
+      "formatosPermitidos": [
+        "Semipresencial"
+      ],
+      "modalidades": [
+        "Híbrido"
+      ],
+      "fonteUrl": "https://anchieta.br/graduacao/psicopedagogia/",
+      "verificadoEm": "2026-10-07",
+      "imagem": null,
+      "lyceumCursoId": null,
+      "aliases": []
+    },
+    {
+      "id": "publicidade-e-propaganda",
+      "nome": "Publicidade e Propaganda",
+      "diploma": "Bacharelado",
+      "novo": false,
+      "formatosOriginais": [
+        "Presencial",
+        "EAD",
+        "Semipresencial"
+      ],
+      "formatosPermitidos": [
+        "Presencial",
+        "EAD",
+        "Semipresencial"
+      ],
+      "modalidades": [
+        "Presencial",
+        "EAD",
+        "Híbrido"
+      ],
+      "fonteUrl": "https://anchieta.br/graduacao/publicidade-e-propaganda/",
+      "verificadoEm": "2026-10-07",
+      "imagem": null,
+      "lyceumCursoId": null,
+      "aliases": []
+    },
+    {
+      "id": "redes-de-telecomunicacoes",
+      "nome": "Redes de Telecomunicações",
+      "diploma": "Tecnólogo",
+      "novo": true,
+      "formatosOriginais": [
+        "Semipresencial"
+      ],
+      "formatosPermitidos": [
+        "Semipresencial"
+      ],
+      "modalidades": [
+        "Híbrido"
+      ],
+      "fonteUrl": "https://anchieta.br/graduacao/redes-de-telecomunicacoes/",
+      "verificadoEm": "2026-10-07",
+      "imagem": null,
+      "lyceumCursoId": null,
+      "aliases": []
+    },
+    {
+      "id": "relacoes-internacionais",
+      "nome": "Relações Internacionais",
+      "diploma": "Bacharelado",
+      "novo": false,
+      "formatosOriginais": [
+        "EAD"
+      ],
+      "formatosPermitidos": [
+        "EAD"
+      ],
+      "modalidades": [
+        "EAD"
+      ],
+      "fonteUrl": "https://anchieta.br/graduacao/relacoes-internacionais/",
+      "verificadoEm": "2026-10-07",
+      "imagem": null,
+      "lyceumCursoId": null,
+      "aliases": []
+    },
+    {
+      "id": "relacoes-publicas",
+      "nome": "Relações Públicas",
+      "diploma": "Bacharelado",
+      "novo": false,
+      "formatosOriginais": [
+        "EAD"
+      ],
+      "formatosPermitidos": [
+        "EAD"
+      ],
+      "modalidades": [
+        "EAD"
+      ],
+      "fonteUrl": "https://anchieta.br/graduacao/relacoes-publicas/",
+      "verificadoEm": "2026-10-07",
+      "imagem": null,
+      "lyceumCursoId": null,
+      "aliases": []
+    },
+    {
+      "id": "seguranca-da-informacao",
+      "nome": "Segurança da Informação",
+      "diploma": "Tecnólogo",
+      "novo": true,
+      "formatosOriginais": [
+        "EAD"
+      ],
+      "formatosPermitidos": [
+        "EAD"
+      ],
+      "modalidades": [
+        "EAD"
+      ],
+      "fonteUrl": "https://anchieta.br/graduacao/seguranca-da-informacao/",
+      "verificadoEm": "2026-10-07",
+      "imagem": null,
+      "lyceumCursoId": null,
+      "aliases": []
+    },
+    {
+      "id": "servico-social",
+      "nome": "Serviço Social",
+      "diploma": "Bacharelado",
+      "novo": false,
+      "formatosOriginais": [
+        "Semipresencial"
+      ],
+      "formatosPermitidos": [
+        "Semipresencial"
+      ],
+      "modalidades": [
+        "Híbrido"
+      ],
+      "fonteUrl": "https://anchieta.br/graduacao/servico-social/",
+      "verificadoEm": "2026-10-07",
+      "imagem": null,
+      "lyceumCursoId": null,
+      "aliases": []
+    },
+    {
+      "id": "social-commerce",
+      "nome": "Social Commerce",
+      "diploma": "Tecnólogo",
+      "novo": true,
+      "formatosOriginais": [
+        "EAD"
+      ],
+      "formatosPermitidos": [
+        "EAD"
+      ],
+      "modalidades": [
+        "EAD"
+      ],
+      "fonteUrl": "https://anchieta.br/graduacao/social-commerce/",
+      "verificadoEm": "2026-10-07",
+      "imagem": null,
+      "lyceumCursoId": null,
+      "aliases": []
+    },
+    {
+      "id": "teologia",
+      "nome": "Teologia",
+      "diploma": "Bacharelado",
+      "novo": true,
+      "formatosOriginais": [
+        "EAD"
+      ],
+      "formatosPermitidos": [
+        "EAD"
+      ],
+      "modalidades": [
+        "EAD"
+      ],
+      "fonteUrl": "https://anchieta.br/graduacao/teologia/",
+      "verificadoEm": "2026-10-07",
+      "imagem": null,
+      "lyceumCursoId": null,
+      "aliases": []
+    },
+    {
+      "id": "terapia-ocupacional",
+      "nome": "Terapia Ocupacional",
+      "diploma": "Bacharelado",
+      "novo": false,
+      "formatosOriginais": [
+        "Presencial",
+        "Semipresencial"
+      ],
+      "formatosPermitidos": [
+        "Presencial",
+        "Semipresencial"
+      ],
+      "modalidades": [
+        "Presencial",
+        "Híbrido"
+      ],
+      "fonteUrl": "https://anchieta.br/graduacao/terapia-ocupacional/",
+      "verificadoEm": "2026-10-07",
+      "imagem": null,
+      "lyceumCursoId": null,
+      "aliases": []
+    }
+  ]
+}

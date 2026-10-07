@@ -1,0 +1,2298 @@
+{
+   "administracao": {
+      "id": "administracao",
+      "pagina": "https://anchieta.br/graduacao/administracao/",
+      "origem": "https://anchieta.br/wp-content/uploads/2023/05/banner-graduacao-administracao-1.jpg",
+      "sha256Original": "ff4ff82ea740a3c041fcc429c21f6a5cf27668026c8392fe92a4737d9e349d94",
+      "dimensoesOriginal": [1000, 665],
+      "obtidaEm": "2026-10-07",
+      "variantes": [
+         {
+            "url": "/images/cursos/administracao-320.webp",
+            "largura": 320,
+            "altura": 213,
+            "bytes": 12540
+         },
+         {
+            "url": "/images/cursos/administracao-640.webp",
+            "largura": 640,
+            "altura": 426,
+            "bytes": 34344
+         },
+         {
+            "url": "/images/cursos/administracao-1280.webp",
+            "largura": 1000,
+            "altura": 665,
+            "bytes": 62346
+         }
+      ]
+   },
+   "agrocomputacao": {
+      "id": "agrocomputacao",
+      "pagina": "https://anchieta.br/graduacao/agrocomputacao/",
+      "origem": "https://anchieta.br/wp-content/uploads/2026/08/0ee8f557-71a9-4ac3-a023-387e1500fd18.png",
+      "sha256Original": "aa7b773fc94d8d0a1da114b7961c137fd2969fe8a6a51c21ad39432da88720a0",
+      "dimensoesOriginal": [1597, 985],
+      "obtidaEm": "2026-10-07",
+      "variantes": [
+         {
+            "url": "/images/cursos/agrocomputacao-320.webp",
+            "largura": 320,
+            "altura": 197,
+            "bytes": 10926
+         },
+         {
+            "url": "/images/cursos/agrocomputacao-640.webp",
+            "largura": 640,
+            "altura": 395,
+            "bytes": 30126
+         },
+         {
+            "url": "/images/cursos/agrocomputacao-1280.webp",
+            "largura": 1280,
+            "altura": 789,
+            "bytes": 76356
+         }
+      ]
+   },
+   "ai-creative-design": {
+      "id": "ai-creative-design",
+      "pagina": "https://anchieta.br/graduacao/ai-creative-design/",
+      "origem": "https://anchieta.br/wp-content/uploads/2026/08/Imagem7.jpg",
+      "sha256Original": "074c3ed216689dc446b85343b81c815b5cab712d5fa47bb2983b216bcfdc09a2",
+      "dimensoesOriginal": [529, 298],
+      "obtidaEm": "2026-10-07",
+      "variantes": [
+         {
+            "url": "/images/cursos/ai-creative-design-320.webp",
+            "largura": 320,
+            "altura": 180,
+            "bytes": 9730
+         },
+         {
+            "url": "/images/cursos/ai-creative-design-640.webp",
+            "largura": 529,
+            "altura": 298,
+            "bytes": 18872
+         },
+         {
+            "url": "/images/cursos/ai-creative-design-1280.webp",
+            "largura": 529,
+            "altura": 298,
+            "bytes": 18872
+         }
+      ]
+   },
+   "analise-e-desenvolvimento-de-sistemas": {
+      "id": "analise-e-desenvolvimento-de-sistemas",
+      "pagina": "https://anchieta.br/graduacao/analise-e-desenvolvimento-de-sistemas/",
+      "origem": "https://anchieta.br/wp-content/uploads/2024/10/analise-e-desenvolvimento-de-sistemas.jpg",
+      "sha256Original": "228eea6e482a1bfa712cda14749190f44c85a16e59beb509124b93091ab7e2d0",
+      "dimensoesOriginal": [588, 392],
+      "obtidaEm": "2026-10-07",
+      "variantes": [
+         {
+            "url": "/images/cursos/analise-e-desenvolvimento-de-sistemas-320.webp",
+            "largura": 320,
+            "altura": 213,
+            "bytes": 11452
+         },
+         {
+            "url": "/images/cursos/analise-e-desenvolvimento-de-sistemas-640.webp",
+            "largura": 588,
+            "altura": 392,
+            "bytes": 26834
+         },
+         {
+            "url": "/images/cursos/analise-e-desenvolvimento-de-sistemas-1280.webp",
+            "largura": 588,
+            "altura": 392,
+            "bytes": 26834
+         }
+      ]
+   },
+   "arquitetura-e-urbanismo": {
+      "id": "arquitetura-e-urbanismo",
+      "pagina": "https://anchieta.br/graduacao/arquitetura-e-urbanismo/",
+      "origem": "https://anchieta.br/wp-content/uploads/2023/06/banner-graduacao-arquitetura-e-urbanismo-1-1.jpg",
+      "sha256Original": "129614f9c5c5299bcab740d04403ea3b2e722b0caf70116c52118c3a0ac05963",
+      "dimensoesOriginal": [1000, 665],
+      "obtidaEm": "2026-10-07",
+      "variantes": [
+         {
+            "url": "/images/cursos/arquitetura-e-urbanismo-320.webp",
+            "largura": 320,
+            "altura": 213,
+            "bytes": 11202
+         },
+         {
+            "url": "/images/cursos/arquitetura-e-urbanismo-640.webp",
+            "largura": 640,
+            "altura": 426,
+            "bytes": 29914
+         },
+         {
+            "url": "/images/cursos/arquitetura-e-urbanismo-1280.webp",
+            "largura": 1000,
+            "altura": 665,
+            "bytes": 55002
+         }
+      ]
+   },
+   "automacao-industrial": {
+      "id": "automacao-industrial",
+      "pagina": "https://anchieta.br/graduacao/automacao-industrial/",
+      "origem": "https://anchieta.br/wp-content/uploads/2023/06/imagem-ead-automacao-industrial.webp",
+      "sha256Original": "79d57a581cba77b2b0c1c8ebc8cf3bbbcf7e88d2028a9fe02008d078b383af84",
+      "dimensoesOriginal": [805, 537],
+      "obtidaEm": "2026-10-07",
+      "variantes": [
+         {
+            "url": "/images/cursos/automacao-industrial-320.webp",
+            "largura": 320,
+            "altura": 213,
+            "bytes": 10998
+         },
+         {
+            "url": "/images/cursos/automacao-industrial-640.webp",
+            "largura": 640,
+            "altura": 427,
+            "bytes": 31538
+         },
+         {
+            "url": "/images/cursos/automacao-industrial-1280.webp",
+            "largura": 805,
+            "altura": 537,
+            "bytes": 52778
+         }
+      ]
+   },
+   "banco-de-dados": {
+      "id": "banco-de-dados",
+      "pagina": "https://anchieta.br/graduacao/banco-de-dados/",
+      "origem": "https://anchieta.br/wp-content/uploads/2025/10/imagem-scaled.webp",
+      "sha256Original": "eee8d32525bef1b369add01248b41603292e4294352d6ad4f44895475f3afee1",
+      "dimensoesOriginal": [2560, 1707],
+      "obtidaEm": "2026-10-07",
+      "variantes": [
+         {
+            "url": "/images/cursos/banco-de-dados-320.webp",
+            "largura": 320,
+            "altura": 213,
+            "bytes": 10712
+         },
+         {
+            "url": "/images/cursos/banco-de-dados-640.webp",
+            "largura": 640,
+            "altura": 427,
+            "bytes": 26740
+         },
+         {
+            "url": "/images/cursos/banco-de-dados-1280.webp",
+            "largura": 1280,
+            "altura": 854,
+            "bytes": 65174
+         }
+      ]
+   },
+   "biblioteconomia": {
+      "id": "biblioteconomia",
+      "pagina": "https://anchieta.br/graduacao/biblioteconomia/",
+      "origem": "https://anchieta.br/wp-content/uploads/2026/08/bab85a5d-a30b-4161-8963-96384b287564.png",
+      "sha256Original": "d2f30e27c0875c1d9919a7acbb6db628e6a15c86a6738aaf0ef845c4acabcb2a",
+      "dimensoesOriginal": [1597, 985],
+      "obtidaEm": "2026-10-07",
+      "variantes": [
+         {
+            "url": "/images/cursos/biblioteconomia-320.webp",
+            "largura": 320,
+            "altura": 197,
+            "bytes": 12642
+         },
+         {
+            "url": "/images/cursos/biblioteconomia-640.webp",
+            "largura": 640,
+            "altura": 395,
+            "bytes": 29404
+         },
+         {
+            "url": "/images/cursos/biblioteconomia-1280.webp",
+            "largura": 1280,
+            "altura": 789,
+            "bytes": 65402
+         }
+      ]
+   },
+   "big-data-e-inteligencia-analitica-4-0": {
+      "id": "big-data-e-inteligencia-analitica-4-0",
+      "pagina": "https://anchieta.br/graduacao/big-data-e-inteligencia-analitica-4-0/",
+      "origem": "https://anchieta.br/wp-content/uploads/2023/06/big-data.jpg",
+      "sha256Original": "27b481238b9fc7a09101366cffc3f82249f206fb338f0c9baa9dfe748036d757",
+      "dimensoesOriginal": [1920, 1440],
+      "obtidaEm": "2026-10-07",
+      "variantes": [
+         {
+            "url": "/images/cursos/big-data-e-inteligencia-analitica-4-0-320.webp",
+            "largura": 320,
+            "altura": 240,
+            "bytes": 11594
+         },
+         {
+            "url": "/images/cursos/big-data-e-inteligencia-analitica-4-0-640.webp",
+            "largura": 640,
+            "altura": 480,
+            "bytes": 29170
+         },
+         {
+            "url": "/images/cursos/big-data-e-inteligencia-analitica-4-0-1280.webp",
+            "largura": 1280,
+            "altura": 960,
+            "bytes": 72222
+         }
+      ]
+   },
+   "biomedicina": {
+      "id": "biomedicina",
+      "pagina": "https://anchieta.br/graduacao/biomedicina/",
+      "origem": "https://anchieta.br/wp-content/uploads/2023/06/banner-graduacao-biomedicina.jpg",
+      "sha256Original": "162f1d4a19ae109d2004a9dd4a1dcd9ef83cdf7e9927e44913f2027c3959ff3b",
+      "dimensoesOriginal": [380, 253],
+      "obtidaEm": "2026-10-07",
+      "variantes": [
+         {
+            "url": "/images/cursos/biomedicina-320.webp",
+            "largura": 320,
+            "altura": 213,
+            "bytes": 4376
+         },
+         {
+            "url": "/images/cursos/biomedicina-640.webp",
+            "largura": 380,
+            "altura": 253,
+            "bytes": 5544
+         },
+         {
+            "url": "/images/cursos/biomedicina-1280.webp",
+            "largura": 380,
+            "altura": 253,
+            "bytes": 5544
+         }
+      ]
+   },
+   "biotecnologia": {
+      "id": "biotecnologia",
+      "pagina": "https://anchieta.br/graduacao/biotecnologia/",
+      "origem": "https://anchieta.br/wp-content/uploads/2026/08/d2eb25de-e4d3-40bf-81c4-8752e15d2904.png",
+      "sha256Original": "090bc6c868b8e79621e6acde9c9bb8102e68eaed562d3dd2715adfe7b5d6d4ae",
+      "dimensoesOriginal": [1597, 985],
+      "obtidaEm": "2026-10-07",
+      "variantes": [
+         {
+            "url": "/images/cursos/biotecnologia-320.webp",
+            "largura": 320,
+            "altura": 197,
+            "bytes": 11850
+         },
+         {
+            "url": "/images/cursos/biotecnologia-640.webp",
+            "largura": 640,
+            "altura": 395,
+            "bytes": 29730
+         },
+         {
+            "url": "/images/cursos/biotecnologia-1280.webp",
+            "largura": 1280,
+            "altura": 789,
+            "bytes": 71170
+         }
+      ]
+   },
+   "ciencia-da-computacao": {
+      "id": "ciencia-da-computacao",
+      "pagina": "https://anchieta.br/graduacao/ciencia-da-computacao/",
+      "origem": "https://anchieta.br/wp-content/uploads/2023/11/Imagem2.jpg",
+      "sha256Original": "d9686cb0d43608710c9db3f9dade9b0a703a0f996ba65a8bfebf7492a5c022f2",
+      "dimensoesOriginal": [1312, 820],
+      "obtidaEm": "2026-10-07",
+      "variantes": [
+         {
+            "url": "/images/cursos/ciencia-da-computacao-320.webp",
+            "largura": 320,
+            "altura": 200,
+            "bytes": 6120
+         },
+         {
+            "url": "/images/cursos/ciencia-da-computacao-640.webp",
+            "largura": 640,
+            "altura": 400,
+            "bytes": 19644
+         },
+         {
+            "url": "/images/cursos/ciencia-da-computacao-1280.webp",
+            "largura": 1280,
+            "altura": 800,
+            "bytes": 51638
+         }
+      ]
+   },
+   "ciencia-de-dados-e-ia": {
+      "id": "ciencia-de-dados-e-ia",
+      "pagina": "https://anchieta.br/graduacao/ciencia-de-dados-e-ia/",
+      "origem": "https://anchieta.br/wp-content/uploads/2026/09/images-1.jpg",
+      "sha256Original": "61149e2740bc6bd8af585f3734b6929699165300c575cb33cb1344842544bd87",
+      "dimensoesOriginal": [678, 452],
+      "obtidaEm": "2026-10-07",
+      "variantes": [
+         {
+            "url": "/images/cursos/ciencia-de-dados-e-ia-320.webp",
+            "largura": 320,
+            "altura": 213,
+            "bytes": 7706
+         },
+         {
+            "url": "/images/cursos/ciencia-de-dados-e-ia-640.webp",
+            "largura": 640,
+            "altura": 427,
+            "bytes": 18568
+         },
+         {
+            "url": "/images/cursos/ciencia-de-dados-e-ia-1280.webp",
+            "largura": 678,
+            "altura": 452,
+            "bytes": 20960
+         }
+      ]
+   },
+   "ciencia-politica": {
+      "id": "ciencia-politica",
+      "pagina": "https://anchieta.br/graduacao/ciencia-politica/",
+      "origem": "https://anchieta.br/wp-content/uploads/2026/08/e2617f4f-2310-4842-a134-93eccbe8bbd8.png",
+      "sha256Original": "b253654c80edd6def12c3420b2c31a8afa3095b28dc8f727093eeeb560faa96d",
+      "dimensoesOriginal": [1672, 941],
+      "obtidaEm": "2026-10-07",
+      "variantes": [
+         {
+            "url": "/images/cursos/ciencia-politica-320.webp",
+            "largura": 320,
+            "altura": 180,
+            "bytes": 9734
+         },
+         {
+            "url": "/images/cursos/ciencia-politica-640.webp",
+            "largura": 640,
+            "altura": 360,
+            "bytes": 24506
+         },
+         {
+            "url": "/images/cursos/ciencia-politica-1280.webp",
+            "largura": 1280,
+            "altura": 720,
+            "bytes": 59672
+         }
+      ]
+   },
+   "ciencias-biologicas-bacharelado": {
+      "id": "ciencias-biologicas-bacharelado",
+      "pagina": "https://anchieta.br/graduacao/ciencias-biologicas-bacharelado/",
+      "origem": "https://anchieta.br/wp-content/uploads/2023/06/flowers-276014_1280.jpg",
+      "sha256Original": "ab26acdfccec933eb9910164304218468e17298511db74f384f5b4be684744fe",
+      "dimensoesOriginal": [1280, 814],
+      "obtidaEm": "2026-10-07",
+      "variantes": [
+         {
+            "url": "/images/cursos/ciencias-biologicas-bacharelado-320.webp",
+            "largura": 320,
+            "altura": 204,
+            "bytes": 14990
+         },
+         {
+            "url": "/images/cursos/ciencias-biologicas-bacharelado-640.webp",
+            "largura": 640,
+            "altura": 407,
+            "bytes": 49258
+         },
+         {
+            "url": "/images/cursos/ciencias-biologicas-bacharelado-1280.webp",
+            "largura": 1280,
+            "altura": 814,
+            "bytes": 153774
+         }
+      ]
+   },
+   "ciencias-biologicas-licenciatura": {
+      "id": "ciencias-biologicas-licenciatura",
+      "pagina": "https://anchieta.br/graduacao/ciencias-biologicas-licenciatura/",
+      "origem": "https://anchieta.br/wp-content/uploads/2023/08/Imagem5-1.jpg",
+      "sha256Original": "43d03284b6f4c72052555775e8b6170d9afa141cde87da873ff1ca57c1553c1b",
+      "dimensoesOriginal": [1180, 663],
+      "obtidaEm": "2026-10-07",
+      "variantes": [
+         {
+            "url": "/images/cursos/ciencias-biologicas-licenciatura-320.webp",
+            "largura": 320,
+            "altura": 180,
+            "bytes": 5662
+         },
+         {
+            "url": "/images/cursos/ciencias-biologicas-licenciatura-640.webp",
+            "largura": 640,
+            "altura": 360,
+            "bytes": 13288
+         },
+         {
+            "url": "/images/cursos/ciencias-biologicas-licenciatura-1280.webp",
+            "largura": 1180,
+            "altura": 663,
+            "bytes": 27832
+         }
+      ]
+   },
+   "ciencias-contabeis": {
+      "id": "ciencias-contabeis",
+      "pagina": "https://anchieta.br/graduacao/ciencias-contabeis/",
+      "origem": "https://anchieta.br/wp-content/uploads/2023/06/banner-graduacao-ciencias-contabeis.jpg",
+      "sha256Original": "8d0548fcea11afa4bfd0ef2a5eca82fff0c1625cfe541d17362b88d1a6167204",
+      "dimensoesOriginal": [380, 253],
+      "obtidaEm": "2026-10-07",
+      "variantes": [
+         {
+            "url": "/images/cursos/ciencias-contabeis-320.webp",
+            "largura": 320,
+            "altura": 213,
+            "bytes": 10140
+         },
+         {
+            "url": "/images/cursos/ciencias-contabeis-640.webp",
+            "largura": 380,
+            "altura": 253,
+            "bytes": 13034
+         },
+         {
+            "url": "/images/cursos/ciencias-contabeis-1280.webp",
+            "largura": 380,
+            "altura": 253,
+            "bytes": 13034
+         }
+      ]
+   },
+   "ciencias-economicas": {
+      "id": "ciencias-economicas",
+      "pagina": "https://anchieta.br/graduacao/ciencias-economicas/",
+      "origem": "https://anchieta.br/wp-content/uploads/2023/06/banner-graduacao-ciencias-economicas.jpg",
+      "sha256Original": "0accc942d71d339dfd2a68767ce58f7402be987f946476df1b11691ec28706c1",
+      "dimensoesOriginal": [380, 253],
+      "obtidaEm": "2026-10-07",
+      "variantes": [
+         {
+            "url": "/images/cursos/ciencias-economicas-320.webp",
+            "largura": 320,
+            "altura": 213,
+            "bytes": 11428
+         },
+         {
+            "url": "/images/cursos/ciencias-economicas-640.webp",
+            "largura": 380,
+            "altura": 253,
+            "bytes": 14972
+         },
+         {
+            "url": "/images/cursos/ciencias-economicas-1280.webp",
+            "largura": 380,
+            "altura": 253,
+            "bytes": 14972
+         }
+      ]
+   },
+   "comercio-exterior": {
+      "id": "comercio-exterior",
+      "pagina": "https://anchieta.br/graduacao/comercio-exterior/",
+      "origem": "https://anchieta.br/wp-content/uploads/2023/06/banner-graduacao-comercio-exterior.jpg",
+      "sha256Original": "4333b9e48b391e6da8999ab7a79327f2afcdee09b98b2a249e093d1d17eb2d3a",
+      "dimensoesOriginal": [380, 253],
+      "obtidaEm": "2026-10-07",
+      "variantes": [
+         {
+            "url": "/images/cursos/comercio-exterior-320.webp",
+            "largura": 320,
+            "altura": 213,
+            "bytes": 8998
+         },
+         {
+            "url": "/images/cursos/comercio-exterior-640.webp",
+            "largura": 380,
+            "altura": 253,
+            "bytes": 11736
+         },
+         {
+            "url": "/images/cursos/comercio-exterior-1280.webp",
+            "largura": 380,
+            "altura": 253,
+            "bytes": 11736
+         }
+      ]
+   },
+   "creator-e-digital-influencer": {
+      "id": "creator-e-digital-influencer",
+      "pagina": "https://anchieta.br/graduacao/creator-e-digital-influencer/",
+      "origem": "https://anchieta.br/wp-content/uploads/2026/08/influenciadores-digitais.jpg",
+      "sha256Original": "7d955b4d36e47e3d5e992e742ea5acee6d242449ccb822b9102ee832ec68c845",
+      "dimensoesOriginal": [1600, 900],
+      "obtidaEm": "2026-10-07",
+      "variantes": [
+         {
+            "url": "/images/cursos/creator-e-digital-influencer-320.webp",
+            "largura": 320,
+            "altura": 180,
+            "bytes": 7636
+         },
+         {
+            "url": "/images/cursos/creator-e-digital-influencer-640.webp",
+            "largura": 640,
+            "altura": 360,
+            "bytes": 20540
+         },
+         {
+            "url": "/images/cursos/creator-e-digital-influencer-1280.webp",
+            "largura": 1280,
+            "altura": 720,
+            "bytes": 58830
+         }
+      ]
+   },
+   "desenvolvimento-mobile": {
+      "id": "desenvolvimento-mobile",
+      "pagina": "https://anchieta.br/graduacao/desenvolvimento-mobile/",
+      "origem": "https://anchieta.br/wp-content/uploads/2026/08/Imagem5.jpg",
+      "sha256Original": "edf44434b8b8ed6b06ba364749422485029aad7a1dd4c4b2eb53932dc25d5da1",
+      "dimensoesOriginal": [524, 348],
+      "obtidaEm": "2026-10-07",
+      "variantes": [
+         {
+            "url": "/images/cursos/desenvolvimento-mobile-320.webp",
+            "largura": 320,
+            "altura": 213,
+            "bytes": 12536
+         },
+         {
+            "url": "/images/cursos/desenvolvimento-mobile-640.webp",
+            "largura": 524,
+            "altura": 348,
+            "bytes": 24446
+         },
+         {
+            "url": "/images/cursos/desenvolvimento-mobile-1280.webp",
+            "largura": 524,
+            "altura": 348,
+            "bytes": 24446
+         }
+      ]
+   },
+   "design-de-animacao-em-ia": {
+      "id": "design-de-animacao-em-ia",
+      "pagina": "https://anchieta.br/graduacao/design-de-animacao-em-ia/",
+      "origem": "https://anchieta.br/wp-content/uploads/2026/08/Imagem8.jpg",
+      "sha256Original": "09415bd39756049e5e852d9696d04c461cedca16ec0ef9756222b01de59e3951",
+      "dimensoesOriginal": [500, 331],
+      "obtidaEm": "2026-10-07",
+      "variantes": [
+         {
+            "url": "/images/cursos/design-de-animacao-em-ia-320.webp",
+            "largura": 320,
+            "altura": 212,
+            "bytes": 9654
+         },
+         {
+            "url": "/images/cursos/design-de-animacao-em-ia-640.webp",
+            "largura": 500,
+            "altura": 331,
+            "bytes": 17166
+         },
+         {
+            "url": "/images/cursos/design-de-animacao-em-ia-1280.webp",
+            "largura": 500,
+            "altura": 331,
+            "bytes": 17166
+         }
+      ]
+   },
+   "design-de-interiores": {
+      "id": "design-de-interiores",
+      "pagina": "https://anchieta.br/graduacao/design-de-interiores/",
+      "origem": "https://anchieta.br/wp-content/uploads/2024/05/design_de_interiores_ead.jpg",
+      "sha256Original": "62ab8307f917b9cb9ef1b8db8383b90accc9b7e54d74dcbb08c1bc6193348796",
+      "dimensoesOriginal": [1223, 816],
+      "obtidaEm": "2026-10-07",
+      "variantes": [
+         {
+            "url": "/images/cursos/design-de-interiores-320.webp",
+            "largura": 320,
+            "altura": 214,
+            "bytes": 13588
+         },
+         {
+            "url": "/images/cursos/design-de-interiores-640.webp",
+            "largura": 640,
+            "altura": 427,
+            "bytes": 36578
+         },
+         {
+            "url": "/images/cursos/design-de-interiores-1280.webp",
+            "largura": 1223,
+            "altura": 816,
+            "bytes": 82752
+         }
+      ]
+   },
+   "design-grafico": {
+      "id": "design-grafico",
+      "pagina": "https://anchieta.br/graduacao/design-grafico/",
+      "origem": "https://anchieta.br/wp-content/uploads/2023/06/banner-presencial-design-grafico.jpg",
+      "sha256Original": "bdd3b28fed83517f6d43a1d418a4a933b71d49a595b6a1ba7ea385096ad7c37a",
+      "dimensoesOriginal": [380, 253],
+      "obtidaEm": "2026-10-07",
+      "variantes": [
+         {
+            "url": "/images/cursos/design-grafico-320.webp",
+            "largura": 320,
+            "altura": 213,
+            "bytes": 8966
+         },
+         {
+            "url": "/images/cursos/design-grafico-640.webp",
+            "largura": 380,
+            "altura": 253,
+            "bytes": 11668
+         },
+         {
+            "url": "/images/cursos/design-grafico-1280.webp",
+            "largura": 380,
+            "altura": 253,
+            "bytes": 11668
+         }
+      ]
+   },
+   "direito": {
+      "id": "direito",
+      "pagina": "https://anchieta.br/graduacao/direito/",
+      "origem": "https://anchieta.br/wp-content/uploads/2025/11/Direito-com-selo.jpg",
+      "sha256Original": "a0dbd2b2197ff141cfc34f4f9af36ddd79ce8708dc2ef39c5be2173cff5b5d31",
+      "dimensoesOriginal": [800, 535],
+      "obtidaEm": "2026-10-07",
+      "variantes": [
+         {
+            "url": "/images/cursos/direito-320.webp",
+            "largura": 320,
+            "altura": 214,
+            "bytes": 7750
+         },
+         {
+            "url": "/images/cursos/direito-640.webp",
+            "largura": 640,
+            "altura": 428,
+            "bytes": 19364
+         },
+         {
+            "url": "/images/cursos/direito-1280.webp",
+            "largura": 800,
+            "altura": 535,
+            "bytes": 27668
+         }
+      ]
+   },
+   "educacao-fisica-bacharelado": {
+      "id": "educacao-fisica-bacharelado",
+      "pagina": "https://anchieta.br/graduacao/educacao-fisica-bacharelado/",
+      "origem": "https://anchieta.br/wp-content/uploads/2023/06/banner-graduacao-educacao-fisica-1.jpg",
+      "sha256Original": "fa64625b60a5c020cfaadff884ec39976c01c8dbe7843d747950b54a50130356",
+      "dimensoesOriginal": [1000, 665],
+      "obtidaEm": "2026-10-07",
+      "variantes": [
+         {
+            "url": "/images/cursos/educacao-fisica-bacharelado-320.webp",
+            "largura": 320,
+            "altura": 213,
+            "bytes": 11866
+         },
+         {
+            "url": "/images/cursos/educacao-fisica-bacharelado-640.webp",
+            "largura": 640,
+            "altura": 426,
+            "bytes": 28980
+         },
+         {
+            "url": "/images/cursos/educacao-fisica-bacharelado-1280.webp",
+            "largura": 1000,
+            "altura": 665,
+            "bytes": 51258
+         }
+      ]
+   },
+   "educacao-fisica-licenciatura": {
+      "id": "educacao-fisica-licenciatura",
+      "pagina": "https://anchieta.br/graduacao/educacao-fisica-licenciatura/",
+      "origem": "https://anchieta.br/wp-content/uploads/2023/11/Imagem1.jpg",
+      "sha256Original": "a3f475fd651cb7538ab21e75b2fa84217cdca424abc69eaae9c40657bd3642ea",
+      "dimensoesOriginal": [989, 659],
+      "obtidaEm": "2026-10-07",
+      "variantes": [
+         {
+            "url": "/images/cursos/educacao-fisica-licenciatura-320.webp",
+            "largura": 320,
+            "altura": 213,
+            "bytes": 10684
+         },
+         {
+            "url": "/images/cursos/educacao-fisica-licenciatura-640.webp",
+            "largura": 640,
+            "altura": 426,
+            "bytes": 26298
+         },
+         {
+            "url": "/images/cursos/educacao-fisica-licenciatura-1280.webp",
+            "largura": 989,
+            "altura": 659,
+            "bytes": 46420
+         }
+      ]
+   },
+   "energias-renovaveis": {
+      "id": "energias-renovaveis",
+      "pagina": "https://anchieta.br/graduacao/energias-renovaveis/",
+      "origem": "https://anchieta.br/wp-content/uploads/2025/10/Energia-renovavel.jpg",
+      "sha256Original": "f81999d00be8fe79441114cb0326d2e7662972b1765254c6b92abbd466ad2052",
+      "dimensoesOriginal": [800, 533],
+      "obtidaEm": "2026-10-07",
+      "variantes": [
+         {
+            "url": "/images/cursos/energias-renovaveis-320.webp",
+            "largura": 320,
+            "altura": 213,
+            "bytes": 6704
+         },
+         {
+            "url": "/images/cursos/energias-renovaveis-640.webp",
+            "largura": 640,
+            "altura": 426,
+            "bytes": 19976
+         },
+         {
+            "url": "/images/cursos/energias-renovaveis-1280.webp",
+            "largura": 800,
+            "altura": 533,
+            "bytes": 31486
+         }
+      ]
+   },
+   "enfermagem": {
+      "id": "enfermagem",
+      "pagina": "https://anchieta.br/graduacao/enfermagem/",
+      "origem": "https://anchieta.br/wp-content/uploads/2023/06/banner-graduacao-enfermagem.jpg",
+      "sha256Original": "cdf18c224cf0545c93cc3dd0c22dd4ba3b3465e0aa840a11d17124a0146b8b70",
+      "dimensoesOriginal": [380, 253],
+      "obtidaEm": "2026-10-07",
+      "variantes": [
+         {
+            "url": "/images/cursos/enfermagem-320.webp",
+            "largura": 320,
+            "altura": 213,
+            "bytes": 7244
+         },
+         {
+            "url": "/images/cursos/enfermagem-640.webp",
+            "largura": 380,
+            "altura": 253,
+            "bytes": 9062
+         },
+         {
+            "url": "/images/cursos/enfermagem-1280.webp",
+            "largura": 380,
+            "altura": 253,
+            "bytes": 9062
+         }
+      ]
+   },
+   "engenharia-biomedica": {
+      "id": "engenharia-biomedica",
+      "pagina": "https://anchieta.br/graduacao/engenharia-biomedica/",
+      "origem": "https://anchieta.br/wp-content/uploads/2026/08/Imagem10.jpg",
+      "sha256Original": "30f32f78e87c7d26cf9213784789876b45d2d40e17b60c306dc8c1963cb035e2",
+      "dimensoesOriginal": [522, 315],
+      "obtidaEm": "2026-10-07",
+      "variantes": [
+         {
+            "url": "/images/cursos/engenharia-biomedica-320.webp",
+            "largura": 320,
+            "altura": 193,
+            "bytes": 13592
+         },
+         {
+            "url": "/images/cursos/engenharia-biomedica-640.webp",
+            "largura": 522,
+            "altura": 315,
+            "bytes": 28342
+         },
+         {
+            "url": "/images/cursos/engenharia-biomedica-1280.webp",
+            "largura": 522,
+            "altura": 315,
+            "bytes": 28342
+         }
+      ]
+   },
+   "engenharia-civil": {
+      "id": "engenharia-civil",
+      "pagina": "https://anchieta.br/graduacao/engenharia-civil/",
+      "origem": "https://anchieta.br/wp-content/uploads/2023/06/banner-graduacao-engenharia-civil.jpg",
+      "sha256Original": "b6e2795d7037cf62cafa6c6e6bdf24a8e34725e9f57ac1733616c6b2aa800dd8",
+      "dimensoesOriginal": [380, 253],
+      "obtidaEm": "2026-10-07",
+      "variantes": [
+         {
+            "url": "/images/cursos/engenharia-civil-320.webp",
+            "largura": 320,
+            "altura": 213,
+            "bytes": 8100
+         },
+         {
+            "url": "/images/cursos/engenharia-civil-640.webp",
+            "largura": 380,
+            "altura": 253,
+            "bytes": 10216
+         },
+         {
+            "url": "/images/cursos/engenharia-civil-1280.webp",
+            "largura": 380,
+            "altura": 253,
+            "bytes": 10216
+         }
+      ]
+   },
+   "engenharia-da-computacao": {
+      "id": "engenharia-da-computacao",
+      "pagina": "https://anchieta.br/graduacao/engenharia-da-computacao/",
+      "origem": "https://anchieta.br/wp-content/uploads/2024/05/Imagem1-e1715369143217.jpg",
+      "sha256Original": "3981d76c0a168469d003525eaa5611a147486534853a25d5ae6b2d7243d40a83",
+      "dimensoesOriginal": [703, 785],
+      "obtidaEm": "2026-10-07",
+      "variantes": [
+         {
+            "url": "/images/cursos/engenharia-da-computacao-320.webp",
+            "largura": 320,
+            "altura": 357,
+            "bytes": 12732
+         },
+         {
+            "url": "/images/cursos/engenharia-da-computacao-640.webp",
+            "largura": 640,
+            "altura": 715,
+            "bytes": 32098
+         },
+         {
+            "url": "/images/cursos/engenharia-da-computacao-1280.webp",
+            "largura": 703,
+            "altura": 785,
+            "bytes": 40120
+         }
+      ]
+   },
+   "engenharia-de-controle-e-automacao": {
+      "id": "engenharia-de-controle-e-automacao",
+      "pagina": "https://anchieta.br/graduacao/engenharia-de-controle-e-automacao/",
+      "origem": "https://anchieta.br/wp-content/uploads/2023/06/imagem-ead-controle-automacao.webp",
+      "sha256Original": "95c64bd371942d55adc766d8c79ca581d78044c72c8df563383126b05c100319",
+      "dimensoesOriginal": [2008, 1537],
+      "obtidaEm": "2026-10-07",
+      "variantes": [
+         {
+            "url": "/images/cursos/engenharia-de-controle-e-automacao-320.webp",
+            "largura": 320,
+            "altura": 245,
+            "bytes": 12294
+         },
+         {
+            "url": "/images/cursos/engenharia-de-controle-e-automacao-640.webp",
+            "largura": 640,
+            "altura": 490,
+            "bytes": 31998
+         },
+         {
+            "url": "/images/cursos/engenharia-de-controle-e-automacao-1280.webp",
+            "largura": 1280,
+            "altura": 980,
+            "bytes": 77612
+         }
+      ]
+   },
+   "engenharia-de-producao": {
+      "id": "engenharia-de-producao",
+      "pagina": "https://anchieta.br/graduacao/engenharia-de-producao/",
+      "origem": "https://anchieta.br/wp-content/uploads/2023/06/banner-graduacao-engenharia-producao.jpg",
+      "sha256Original": "a18d5e696d93ed7382964a0434d5be2e3b46d42e1d45f6646d496346c58207cb",
+      "dimensoesOriginal": [380, 253],
+      "obtidaEm": "2026-10-07",
+      "variantes": [
+         {
+            "url": "/images/cursos/engenharia-de-producao-320.webp",
+            "largura": 320,
+            "altura": 213,
+            "bytes": 7152
+         },
+         {
+            "url": "/images/cursos/engenharia-de-producao-640.webp",
+            "largura": 380,
+            "altura": 253,
+            "bytes": 8984
+         },
+         {
+            "url": "/images/cursos/engenharia-de-producao-1280.webp",
+            "largura": 380,
+            "altura": 253,
+            "bytes": 8984
+         }
+      ]
+   },
+   "engenharia-de-software": {
+      "id": "engenharia-de-software",
+      "pagina": "https://anchieta.br/graduacao/engenharia-de-software/",
+      "origem": "https://anchieta.br/wp-content/uploads/2024/10/fullstack.png",
+      "sha256Original": "b10dc467e605d723df6d59f62c0cf97622008d0dbd1e9520232e99de020a04d7",
+      "dimensoesOriginal": [614, 342],
+      "obtidaEm": "2026-10-07",
+      "variantes": [
+         {
+            "url": "/images/cursos/engenharia-de-software-320.webp",
+            "largura": 320,
+            "altura": 178,
+            "bytes": 7476
+         },
+         {
+            "url": "/images/cursos/engenharia-de-software-640.webp",
+            "largura": 614,
+            "altura": 342,
+            "bytes": 17076
+         },
+         {
+            "url": "/images/cursos/engenharia-de-software-1280.webp",
+            "largura": 614,
+            "altura": 342,
+            "bytes": 17076
+         }
+      ]
+   },
+   "engenharia-eletrica": {
+      "id": "engenharia-eletrica",
+      "pagina": "https://anchieta.br/graduacao/engenharia-eletrica/",
+      "origem": "https://anchieta.br/wp-content/uploads/2023/06/banner-graduacao-engenharia-eletrica.jpg",
+      "sha256Original": "751a0e25573365f6feaaa555b70c25dc883983beeae9061dd2d067847db78e70",
+      "dimensoesOriginal": [380, 253],
+      "obtidaEm": "2026-10-07",
+      "variantes": [
+         {
+            "url": "/images/cursos/engenharia-eletrica-320.webp",
+            "largura": 320,
+            "altura": 213,
+            "bytes": 9460
+         },
+         {
+            "url": "/images/cursos/engenharia-eletrica-640.webp",
+            "largura": 380,
+            "altura": 253,
+            "bytes": 12342
+         },
+         {
+            "url": "/images/cursos/engenharia-eletrica-1280.webp",
+            "largura": 380,
+            "altura": 253,
+            "bytes": 12342
+         }
+      ]
+   },
+   "engenharia-em-inteligencia-artificial": {
+      "id": "engenharia-em-inteligencia-artificial",
+      "pagina": "https://anchieta.br/graduacao/engenharia-em-inteligencia-artificial/",
+      "origem": "https://anchieta.br/wp-content/uploads/2026/08/Imagem9.jpg",
+      "sha256Original": "4533aaa6d1cbc9aae5c29256ac0b718a3996ad090a0bf0d6549469ecf56579bd",
+      "dimensoesOriginal": [539, 326],
+      "obtidaEm": "2026-10-07",
+      "variantes": [
+         {
+            "url": "/images/cursos/engenharia-em-inteligencia-artificial-320.webp",
+            "largura": 320,
+            "altura": 194,
+            "bytes": 11768
+         },
+         {
+            "url": "/images/cursos/engenharia-em-inteligencia-artificial-640.webp",
+            "largura": 539,
+            "altura": 326,
+            "bytes": 26784
+         },
+         {
+            "url": "/images/cursos/engenharia-em-inteligencia-artificial-1280.webp",
+            "largura": 539,
+            "altura": 326,
+            "bytes": 26784
+         }
+      ]
+   },
+   "engenharia-mecanica": {
+      "id": "engenharia-mecanica",
+      "pagina": "https://anchieta.br/graduacao/engenharia-mecanica/",
+      "origem": "https://anchieta.br/wp-content/uploads/2023/06/banner-graduacao-engenharia-mecanica-1.jpg",
+      "sha256Original": "94e100bf7c17f1695c423ae8be1fda871a916b93ae165bdd7efd3e9a07ef14d5",
+      "dimensoesOriginal": [1000, 665],
+      "obtidaEm": "2026-10-07",
+      "variantes": [
+         {
+            "url": "/images/cursos/engenharia-mecanica-320.webp",
+            "largura": 320,
+            "altura": 213,
+            "bytes": 8790
+         },
+         {
+            "url": "/images/cursos/engenharia-mecanica-640.webp",
+            "largura": 640,
+            "altura": 426,
+            "bytes": 22400
+         },
+         {
+            "url": "/images/cursos/engenharia-mecanica-1280.webp",
+            "largura": 1000,
+            "altura": 665,
+            "bytes": 40846
+         }
+      ]
+   },
+   "engenharia-quimica": {
+      "id": "engenharia-quimica",
+      "pagina": "https://anchieta.br/graduacao/engenharia-quimica/",
+      "origem": "https://anchieta.br/wp-content/uploads/2023/06/banner-graduacao-engenharia-quimica-presencial.webp",
+      "sha256Original": "c5cc3a362147f057e53ea3d91110512d92bfc8c7ac31ce2dcb47c349721ba468",
+      "dimensoesOriginal": [1000, 665],
+      "obtidaEm": "2026-10-07",
+      "variantes": [
+         {
+            "url": "/images/cursos/engenharia-quimica-320.webp",
+            "largura": 320,
+            "altura": 213,
+            "bytes": 7866
+         },
+         {
+            "url": "/images/cursos/engenharia-quimica-640.webp",
+            "largura": 640,
+            "altura": 426,
+            "bytes": 19810
+         },
+         {
+            "url": "/images/cursos/engenharia-quimica-1280.webp",
+            "largura": 1000,
+            "altura": 665,
+            "bytes": 36776
+         }
+      ]
+   },
+   "estetica-e-cosmetica": {
+      "id": "estetica-e-cosmetica",
+      "pagina": "https://anchieta.br/graduacao/estetica-e-cosmetica/",
+      "origem": "https://anchieta.br/wp-content/uploads/2023/06/banner-graduacao-estetica-e-cosmetica-presencial.webp",
+      "sha256Original": "a271cbcf1816a56d22d2503af6fbdeb6a99c249fdf83f3a156068a10237b6e2f",
+      "dimensoesOriginal": [1000, 665],
+      "obtidaEm": "2026-10-07",
+      "variantes": [
+         {
+            "url": "/images/cursos/estetica-e-cosmetica-320.webp",
+            "largura": 320,
+            "altura": 213,
+            "bytes": 5164
+         },
+         {
+            "url": "/images/cursos/estetica-e-cosmetica-640.webp",
+            "largura": 640,
+            "altura": 426,
+            "bytes": 11916
+         },
+         {
+            "url": "/images/cursos/estetica-e-cosmetica-1280.webp",
+            "largura": 1000,
+            "altura": 665,
+            "bytes": 22596
+         }
+      ]
+   },
+   "farmacia": {
+      "id": "farmacia",
+      "pagina": "https://anchieta.br/graduacao/farmacia/",
+      "origem": "https://anchieta.br/wp-content/uploads/2023/06/banner-graduacao-farmacia-presencial.webp",
+      "sha256Original": "bd35e0d97069b195962fea08f29bd1eb45b5458d7979f8d04cf5eecae71f9f0f",
+      "dimensoesOriginal": [1000, 665],
+      "obtidaEm": "2026-10-07",
+      "variantes": [
+         {
+            "url": "/images/cursos/farmacia-320.webp",
+            "largura": 320,
+            "altura": 213,
+            "bytes": 7752
+         },
+         {
+            "url": "/images/cursos/farmacia-640.webp",
+            "largura": 640,
+            "altura": 426,
+            "bytes": 17106
+         },
+         {
+            "url": "/images/cursos/farmacia-1280.webp",
+            "largura": 1000,
+            "altura": 665,
+            "bytes": 29852
+         }
+      ]
+   },
+   "filosofia": {
+      "id": "filosofia",
+      "pagina": "https://anchieta.br/graduacao/filosofia/",
+      "origem": "https://anchieta.br/wp-content/uploads/2026/08/Imagem12.jpg",
+      "sha256Original": "b992a8c9b3b6ea8824cc232e3cf9492b4272c1e7d754b336c81c33f941b96e0b",
+      "dimensoesOriginal": [513, 342],
+      "obtidaEm": "2026-10-07",
+      "variantes": [
+         {
+            "url": "/images/cursos/filosofia-320.webp",
+            "largura": 320,
+            "altura": 213,
+            "bytes": 7732
+         },
+         {
+            "url": "/images/cursos/filosofia-640.webp",
+            "largura": 513,
+            "altura": 342,
+            "bytes": 14704
+         },
+         {
+            "url": "/images/cursos/filosofia-1280.webp",
+            "largura": 513,
+            "altura": 342,
+            "bytes": 14704
+         }
+      ]
+   },
+   "fisioterapia": {
+      "id": "fisioterapia",
+      "pagina": "https://anchieta.br/graduacao/fisioterapia/",
+      "origem": "https://anchieta.br/wp-content/uploads/2023/06/banner-graduacao-fisioterapia-presencial.webp",
+      "sha256Original": "a92d99525645f55c5e3bebee7bf86b4a31ec01f3792be69aaa3832af6e2481dd",
+      "dimensoesOriginal": [1000, 665],
+      "obtidaEm": "2026-10-07",
+      "variantes": [
+         {
+            "url": "/images/cursos/fisioterapia-320.webp",
+            "largura": 320,
+            "altura": 213,
+            "bytes": 6306
+         },
+         {
+            "url": "/images/cursos/fisioterapia-640.webp",
+            "largura": 640,
+            "altura": 426,
+            "bytes": 16778
+         },
+         {
+            "url": "/images/cursos/fisioterapia-1280.webp",
+            "largura": 1000,
+            "altura": 665,
+            "bytes": 32448
+         }
+      ]
+   },
+   "fonoaudiologia": {
+      "id": "fonoaudiologia",
+      "pagina": "https://anchieta.br/graduacao/fonoaudiologia/",
+      "origem": "https://anchieta.br/wp-content/uploads/2024/10/fonoaudiologia.jpg",
+      "sha256Original": "17096d1f1806912cb092f087f8d5f07638cb3cd7513926b10828345fcdb7f4f9",
+      "dimensoesOriginal": [741, 387],
+      "obtidaEm": "2026-10-07",
+      "variantes": [
+         {
+            "url": "/images/cursos/fonoaudiologia-320.webp",
+            "largura": 320,
+            "altura": 167,
+            "bytes": 5134
+         },
+         {
+            "url": "/images/cursos/fonoaudiologia-640.webp",
+            "largura": 640,
+            "altura": 334,
+            "bytes": 12464
+         },
+         {
+            "url": "/images/cursos/fonoaudiologia-1280.webp",
+            "largura": 741,
+            "altura": 387,
+            "bytes": 16072
+         }
+      ]
+   },
+   "gastronomia": {
+      "id": "gastronomia",
+      "pagina": "https://anchieta.br/graduacao/gastronomia/",
+      "origem": "https://anchieta.br/wp-content/uploads/2025/10/Gastronomia.jpg",
+      "sha256Original": "b0a893ddb8477a646aa4fbfd184f329e959ee070f447b24ea5bf493350bf5b0c",
+      "dimensoesOriginal": [420, 278],
+      "obtidaEm": "2026-10-07",
+      "variantes": [
+         {
+            "url": "/images/cursos/gastronomia-320.webp",
+            "largura": 320,
+            "altura": 212,
+            "bytes": 10202
+         },
+         {
+            "url": "/images/cursos/gastronomia-640.webp",
+            "largura": 420,
+            "altura": 278,
+            "bytes": 15262
+         },
+         {
+            "url": "/images/cursos/gastronomia-1280.webp",
+            "largura": 420,
+            "altura": 278,
+            "bytes": 15262
+         }
+      ]
+   },
+   "gestao-comercial": {
+      "id": "gestao-comercial",
+      "pagina": "https://anchieta.br/graduacao/gestao-comercial/",
+      "origem": "https://anchieta.br/wp-content/uploads/2023/06/gestao_comercial-1-scaled-e1696864653810.webp",
+      "sha256Original": "aacf05253f8485665379cc8b6c73a495ae8962abce869c6e0c60db75ae449c1d",
+      "dimensoesOriginal": [1506, 1706],
+      "obtidaEm": "2026-10-07",
+      "variantes": [
+         {
+            "url": "/images/cursos/gestao-comercial-320.webp",
+            "largura": 320,
+            "altura": 362,
+            "bytes": 9288
+         },
+         {
+            "url": "/images/cursos/gestao-comercial-640.webp",
+            "largura": 640,
+            "altura": 725,
+            "bytes": 23542
+         },
+         {
+            "url": "/images/cursos/gestao-comercial-1280.webp",
+            "largura": 1280,
+            "altura": 1450,
+            "bytes": 56084
+         }
+      ]
+   },
+   "gestao-da-producao-industrial": {
+      "id": "gestao-da-producao-industrial",
+      "pagina": "https://anchieta.br/graduacao/gestao-da-producao-industrial/",
+      "origem": "https://anchieta.br/wp-content/uploads/2026/08/Imagem13.jpg",
+      "sha256Original": "4e5d853c130801a898f1ea19d5db025c00982887cbdf484925ac48c13c759e21",
+      "dimensoesOriginal": [510, 339],
+      "obtidaEm": "2026-10-07",
+      "variantes": [
+         {
+            "url": "/images/cursos/gestao-da-producao-industrial-320.webp",
+            "largura": 320,
+            "altura": 213,
+            "bytes": 12738
+         },
+         {
+            "url": "/images/cursos/gestao-da-producao-industrial-640.webp",
+            "largura": 510,
+            "altura": 339,
+            "bytes": 22822
+         },
+         {
+            "url": "/images/cursos/gestao-da-producao-industrial-1280.webp",
+            "largura": 510,
+            "altura": 339,
+            "bytes": 22822
+         }
+      ]
+   },
+   "gestao-de-qualidade": {
+      "id": "gestao-de-qualidade",
+      "pagina": "https://anchieta.br/graduacao/gestao-de-qualidade/",
+      "origem": "https://anchieta.br/wp-content/uploads/2023/06/imagem-ead-gestao-de-qualidade-home.webp",
+      "sha256Original": "5dae3c0e205c219e622dbd30992183ee578428b5150b2b203042f5a436a7fb24",
+      "dimensoesOriginal": [517, 341],
+      "obtidaEm": "2026-10-07",
+      "variantes": [
+         {
+            "url": "/images/cursos/gestao-de-qualidade-320.webp",
+            "largura": 320,
+            "altura": 211,
+            "bytes": 7738
+         },
+         {
+            "url": "/images/cursos/gestao-de-qualidade-640.webp",
+            "largura": 517,
+            "altura": 341,
+            "bytes": 14990
+         },
+         {
+            "url": "/images/cursos/gestao-de-qualidade-1280.webp",
+            "largura": 517,
+            "altura": 341,
+            "bytes": 14990
+         }
+      ]
+   },
+   "gestao-da-tecnologia-da-informacao": {
+      "id": "gestao-da-tecnologia-da-informacao",
+      "pagina": "https://anchieta.br/graduacao/gestao-da-tecnologia-da-informacao/",
+      "origem": "https://anchieta.br/wp-content/uploads/2023/06/banner-ead-curso-tecnologia-da-informacao-home.webp",
+      "sha256Original": "aea447c5a1c5bb20c499e7ba53a010bc634fb6418510c4b0c87578e797952230",
+      "dimensoesOriginal": [517, 341],
+      "obtidaEm": "2026-10-07",
+      "variantes": [
+         {
+            "url": "/images/cursos/gestao-da-tecnologia-da-informacao-320.webp",
+            "largura": 320,
+            "altura": 211,
+            "bytes": 5138
+         },
+         {
+            "url": "/images/cursos/gestao-da-tecnologia-da-informacao-640.webp",
+            "largura": 517,
+            "altura": 341,
+            "bytes": 11356
+         },
+         {
+            "url": "/images/cursos/gestao-da-tecnologia-da-informacao-1280.webp",
+            "largura": 517,
+            "altura": 341,
+            "bytes": 11356
+         }
+      ]
+   },
+   "gestao-de-eventos": {
+      "id": "gestao-de-eventos",
+      "pagina": "https://anchieta.br/graduacao/gestao-de-eventos/",
+      "origem": "https://anchieta.br/wp-content/uploads/2023/07/banner-evento-home-e1689362247327.webp",
+      "sha256Original": "7008475416425834689669957619f8dc0f6416d74d20137b1e5fcd635a67ed94",
+      "dimensoesOriginal": [1920, 432],
+      "obtidaEm": "2026-10-07",
+      "variantes": [
+         {
+            "url": "/images/cursos/gestao-de-eventos-320.webp",
+            "largura": 320,
+            "altura": 72,
+            "bytes": 4874
+         },
+         {
+            "url": "/images/cursos/gestao-de-eventos-640.webp",
+            "largura": 640,
+            "altura": 144,
+            "bytes": 10898
+         },
+         {
+            "url": "/images/cursos/gestao-de-eventos-1280.webp",
+            "largura": 1280,
+            "altura": 288,
+            "bytes": 25388
+         }
+      ]
+   },
+   "gestao-de-negocios-imobiliarios": {
+      "id": "gestao-de-negocios-imobiliarios",
+      "pagina": "https://anchieta.br/graduacao/gestao-de-negocios-imobiliarios/",
+      "origem": "https://anchieta.br/wp-content/uploads/2023/06/negocios-imobiliarios-ead-scaled.webp",
+      "sha256Original": "928fdb1e40002436acf951ba518505a921bebaf2f954a06c16f6b98ebf6f969e",
+      "dimensoesOriginal": [2560, 1506],
+      "obtidaEm": "2026-10-07",
+      "variantes": [
+         {
+            "url": "/images/cursos/gestao-de-negocios-imobiliarios-320.webp",
+            "largura": 320,
+            "altura": 188,
+            "bytes": 7780
+         },
+         {
+            "url": "/images/cursos/gestao-de-negocios-imobiliarios-640.webp",
+            "largura": 640,
+            "altura": 377,
+            "bytes": 20130
+         },
+         {
+            "url": "/images/cursos/gestao-de-negocios-imobiliarios-1280.webp",
+            "largura": 1280,
+            "altura": 753,
+            "bytes": 48658
+         }
+      ]
+   },
+   "gestao-de-recursos-humanos": {
+      "id": "gestao-de-recursos-humanos",
+      "pagina": "https://anchieta.br/graduacao/gestao-de-recursos-humanos/",
+      "origem": "https://anchieta.br/wp-content/uploads/2023/06/banner-graduacao-gestao-de-recursos-humanos.webp",
+      "sha256Original": "d8519c011f5889221bb492d068bd9ad10ec26d0cae89735a5b1f539dda998c5c",
+      "dimensoesOriginal": [1000, 665],
+      "obtidaEm": "2026-10-07",
+      "variantes": [
+         {
+            "url": "/images/cursos/gestao-de-recursos-humanos-320.webp",
+            "largura": 320,
+            "altura": 213,
+            "bytes": 8406
+         },
+         {
+            "url": "/images/cursos/gestao-de-recursos-humanos-640.webp",
+            "largura": 640,
+            "altura": 426,
+            "bytes": 18750
+         },
+         {
+            "url": "/images/cursos/gestao-de-recursos-humanos-1280.webp",
+            "largura": 1000,
+            "altura": 665,
+            "bytes": 31536
+         }
+      ]
+   },
+   "gestao-de-turismo": {
+      "id": "gestao-de-turismo",
+      "pagina": "https://anchieta.br/graduacao/gestao-de-turismo/",
+      "origem": "https://anchieta.br/wp-content/uploads/2026/08/Imagem14.jpg",
+      "sha256Original": "784eab414c860cebf6ef900fcba2fd2500bd1786b064df001607e4e6ff55a40e",
+      "dimensoesOriginal": [521, 347],
+      "obtidaEm": "2026-10-07",
+      "variantes": [
+         {
+            "url": "/images/cursos/gestao-de-turismo-320.webp",
+            "largura": 320,
+            "altura": 213,
+            "bytes": 13242
+         },
+         {
+            "url": "/images/cursos/gestao-de-turismo-640.webp",
+            "largura": 521,
+            "altura": 347,
+            "bytes": 25806
+         },
+         {
+            "url": "/images/cursos/gestao-de-turismo-1280.webp",
+            "largura": 521,
+            "altura": 347,
+            "bytes": 25806
+         }
+      ]
+   },
+   "gestao-financeira": {
+      "id": "gestao-financeira",
+      "pagina": "https://anchieta.br/graduacao/gestao-financeira/",
+      "origem": "https://anchieta.br/wp-content/uploads/2023/06/gestao-financeira-ead-scaled.webp",
+      "sha256Original": "3f1d90696b2c68efd15542d6cbb397eeb492a22da482be3e0e01322c4b55f2de",
+      "dimensoesOriginal": [2560, 1707],
+      "obtidaEm": "2026-10-07",
+      "variantes": [
+         {
+            "url": "/images/cursos/gestao-financeira-320.webp",
+            "largura": 320,
+            "altura": 213,
+            "bytes": 9044
+         },
+         {
+            "url": "/images/cursos/gestao-financeira-640.webp",
+            "largura": 640,
+            "altura": 427,
+            "bytes": 22962
+         },
+         {
+            "url": "/images/cursos/gestao-financeira-1280.webp",
+            "largura": 1280,
+            "altura": 854,
+            "bytes": 58558
+         }
+      ]
+   },
+   "gestao-publica": {
+      "id": "gestao-publica",
+      "pagina": "https://anchieta.br/graduacao/gestao-publica/",
+      "origem": "https://anchieta.br/wp-content/uploads/2023/06/gestao_publica-scaled.webp",
+      "sha256Original": "6d8a6eadb612ecd1640c83219f5a091436e91ca24b65f3a8a111eaa29f8d5c67",
+      "dimensoesOriginal": [2560, 1630],
+      "obtidaEm": "2026-10-07",
+      "variantes": [
+         {
+            "url": "/images/cursos/gestao-publica-320.webp",
+            "largura": 320,
+            "altura": 204,
+            "bytes": 6464
+         },
+         {
+            "url": "/images/cursos/gestao-publica-640.webp",
+            "largura": 640,
+            "altura": 408,
+            "bytes": 14864
+         },
+         {
+            "url": "/images/cursos/gestao-publica-1280.webp",
+            "largura": 1280,
+            "altura": 815,
+            "bytes": 33014
+         }
+      ]
+   },
+   "inteligencia-artificial-e-automacao-inteligente": {
+      "id": "inteligencia-artificial-e-automacao-inteligente",
+      "pagina": "https://anchieta.br/graduacao/inteligencia-artificial-e-automacao-inteligente/",
+      "origem": "https://anchieta.br/wp-content/uploads/2023/06/banner-ead-curso-tecnologia-da-informacao.webp",
+      "sha256Original": "0fe3d85f74c908dee0b1034d1a57cc1a1fef8a4d583e8497bc6401930aca53e3",
+      "dimensoesOriginal": [1920, 750],
+      "obtidaEm": "2026-10-07",
+      "variantes": [
+         {
+            "url": "/images/cursos/inteligencia-artificial-e-automacao-inteligente-320.webp",
+            "largura": 320,
+            "altura": 125,
+            "bytes": 3658
+         },
+         {
+            "url": "/images/cursos/inteligencia-artificial-e-automacao-inteligente-640.webp",
+            "largura": 640,
+            "altura": 250,
+            "bytes": 10456
+         },
+         {
+            "url": "/images/cursos/inteligencia-artificial-e-automacao-inteligente-1280.webp",
+            "largura": 1280,
+            "altura": 500,
+            "bytes": 27878
+         }
+      ]
+   },
+   "internet-das-coisas-iot": {
+      "id": "internet-das-coisas-iot",
+      "pagina": "https://anchieta.br/graduacao/internet-das-coisas-iot/",
+      "origem": "https://anchieta.br/wp-content/uploads/2026/08/Imagem15.jpg",
+      "sha256Original": "c707fb9a42381f343844ce62b6a5b95a960d9bc82d3a100773394fd694772786",
+      "dimensoesOriginal": [545, 325],
+      "obtidaEm": "2026-10-07",
+      "variantes": [
+         {
+            "url": "/images/cursos/internet-das-coisas-iot-320.webp",
+            "largura": 320,
+            "altura": 191,
+            "bytes": 7448
+         },
+         {
+            "url": "/images/cursos/internet-das-coisas-iot-640.webp",
+            "largura": 545,
+            "altura": 325,
+            "bytes": 16806
+         },
+         {
+            "url": "/images/cursos/internet-das-coisas-iot-1280.webp",
+            "largura": 545,
+            "altura": 325,
+            "bytes": 16806
+         }
+      ]
+   },
+   "jogos-digitais": {
+      "id": "jogos-digitais",
+      "pagina": "https://anchieta.br/graduacao/jogos-digitais/",
+      "origem": "https://anchieta.br/wp-content/uploads/2023/06/banner-presencial-jogos-digitais.webp",
+      "sha256Original": "26916ce62b3c475f3f18c110d37cdfbc539028df3da67d47d8ff523704a1cc33",
+      "dimensoesOriginal": [1000, 665],
+      "obtidaEm": "2026-10-07",
+      "variantes": [
+         {
+            "url": "/images/cursos/jogos-digitais-320.webp",
+            "largura": 320,
+            "altura": 213,
+            "bytes": 8804
+         },
+         {
+            "url": "/images/cursos/jogos-digitais-640.webp",
+            "largura": 640,
+            "altura": 426,
+            "bytes": 24134
+         },
+         {
+            "url": "/images/cursos/jogos-digitais-1280.webp",
+            "largura": 1000,
+            "altura": 665,
+            "bytes": 46394
+         }
+      ]
+   },
+   "letras-portugues": {
+      "id": "letras-portugues",
+      "pagina": "https://anchieta.br/graduacao/letras-portugues/",
+      "origem": "https://anchieta.br/wp-content/uploads/2023/06/banner-graduacao-letras.jpg",
+      "sha256Original": "ac9c61b2e50f0b5cc1ea299c8325c154014cee304c1613baf901adbc905acfba",
+      "dimensoesOriginal": [380, 253],
+      "obtidaEm": "2026-10-07",
+      "variantes": [
+         {
+            "url": "/images/cursos/letras-portugues-320.webp",
+            "largura": 320,
+            "altura": 213,
+            "bytes": 9140
+         },
+         {
+            "url": "/images/cursos/letras-portugues-640.webp",
+            "largura": 380,
+            "altura": 253,
+            "bytes": 11728
+         },
+         {
+            "url": "/images/cursos/letras-portugues-1280.webp",
+            "largura": 380,
+            "altura": 253,
+            "bytes": 11728
+         }
+      ]
+   },
+   "logistica": {
+      "id": "logistica",
+      "pagina": "https://anchieta.br/graduacao/logistica/",
+      "origem": "https://anchieta.br/wp-content/uploads/2023/06/banner-graduacao-logistica.jpg",
+      "sha256Original": "ececb22d07b6d50f856a3c159e68f2d5e90f5484b73dc4f16fa6fba2ef378832",
+      "dimensoesOriginal": [380, 253],
+      "obtidaEm": "2026-10-07",
+      "variantes": [
+         {
+            "url": "/images/cursos/logistica-320.webp",
+            "largura": 320,
+            "altura": 213,
+            "bytes": 11750
+         },
+         {
+            "url": "/images/cursos/logistica-640.webp",
+            "largura": 380,
+            "altura": 253,
+            "bytes": 15074
+         },
+         {
+            "url": "/images/cursos/logistica-1280.webp",
+            "largura": 380,
+            "altura": 253,
+            "bytes": 15074
+         }
+      ]
+   },
+   "marketing": {
+      "id": "marketing",
+      "pagina": "https://anchieta.br/graduacao/marketing/",
+      "origem": "https://anchieta.br/wp-content/uploads/2023/06/marketing-digital-ead-scaled.webp",
+      "sha256Original": "1dc2187e5494833062d36a12aa3f39e9b4af25ee96a7d250e35f9d69bcbff301",
+      "dimensoesOriginal": [2560, 1709],
+      "obtidaEm": "2026-10-07",
+      "variantes": [
+         {
+            "url": "/images/cursos/marketing-320.webp",
+            "largura": 320,
+            "altura": 214,
+            "bytes": 9456
+         },
+         {
+            "url": "/images/cursos/marketing-640.webp",
+            "largura": 640,
+            "altura": 427,
+            "bytes": 24064
+         },
+         {
+            "url": "/images/cursos/marketing-1280.webp",
+            "largura": 1280,
+            "altura": 855,
+            "bytes": 56628
+         }
+      ]
+   },
+   "medicina-veterinaria": {
+      "id": "medicina-veterinaria",
+      "pagina": "https://anchieta.br/graduacao/medicina-veterinaria/",
+      "origem": "https://anchieta.br/wp-content/uploads/2024/08/vecteezy_ai-generated-healing-paws-embracing-the-love-and-dedication_37375572-scaled-e1724256726302.jpg",
+      "sha256Original": "92690596aa46120928fa36c3d2022d7b07030edb6b41a49f43c4e9e5b10906a9",
+      "dimensoesOriginal": [2160, 1440],
+      "obtidaEm": "2026-10-07",
+      "variantes": [
+         {
+            "url": "/images/cursos/medicina-veterinaria-320.webp",
+            "largura": 320,
+            "altura": 213,
+            "bytes": 9258
+         },
+         {
+            "url": "/images/cursos/medicina-veterinaria-640.webp",
+            "largura": 640,
+            "altura": 427,
+            "bytes": 21332
+         },
+         {
+            "url": "/images/cursos/medicina-veterinaria-1280.webp",
+            "largura": 1280,
+            "altura": 853,
+            "bytes": 48546
+         }
+      ]
+   },
+   "midias-sociais-digitais": {
+      "id": "midias-sociais-digitais",
+      "pagina": "https://anchieta.br/graduacao/midias-sociais-digitais/",
+      "origem": "https://anchieta.br/wp-content/uploads/2024/10/Imagem2.jpg",
+      "sha256Original": "0ddca97c24d03aec0090c08ffe77e171d9646a3988609c20a75651251bec953a",
+      "dimensoesOriginal": [637, 362],
+      "obtidaEm": "2026-10-07",
+      "variantes": [
+         {
+            "url": "/images/cursos/midias-sociais-digitais-320.webp",
+            "largura": 320,
+            "altura": 182,
+            "bytes": 10142
+         },
+         {
+            "url": "/images/cursos/midias-sociais-digitais-640.webp",
+            "largura": 637,
+            "altura": 362,
+            "bytes": 29372
+         },
+         {
+            "url": "/images/cursos/midias-sociais-digitais-1280.webp",
+            "largura": 637,
+            "altura": 362,
+            "bytes": 29372
+         }
+      ]
+   },
+   "nutricao": {
+      "id": "nutricao",
+      "pagina": "https://anchieta.br/graduacao/nutricao/",
+      "origem": "https://anchieta.br/wp-content/uploads/2023/06/banner-graduacao-nutricao-presencial.webp",
+      "sha256Original": "74160ff7ac999ba0a54728c39df0491e035837f92c4160f2fd0153b73e56f1b1",
+      "dimensoesOriginal": [1000, 665],
+      "obtidaEm": "2026-10-07",
+      "variantes": [
+         {
+            "url": "/images/cursos/nutricao-320.webp",
+            "largura": 320,
+            "altura": 213,
+            "bytes": 6626
+         },
+         {
+            "url": "/images/cursos/nutricao-640.webp",
+            "largura": 640,
+            "altura": 426,
+            "bytes": 15074
+         },
+         {
+            "url": "/images/cursos/nutricao-1280.webp",
+            "largura": 1000,
+            "altura": 665,
+            "bytes": 27590
+         }
+      ]
+   },
+   "odontologia": {
+      "id": "odontologia",
+      "pagina": "https://anchieta.br/graduacao/odontologia/",
+      "origem": "https://anchieta.br/wp-content/uploads/2025/02/healthcare-dentistry-medicine-male-doctor-dentist-2024-12-08-04-15-44-utc.jpg",
+      "sha256Original": "fe71f377d6e8913671c757e29ab8d8438efda676be4eee0143fe5e86b8a5fb28",
+      "dimensoesOriginal": [800, 533],
+      "obtidaEm": "2026-10-07",
+      "variantes": [
+         {
+            "url": "/images/cursos/odontologia-320.webp",
+            "largura": 320,
+            "altura": 213,
+            "bytes": 7808
+         },
+         {
+            "url": "/images/cursos/odontologia-640.webp",
+            "largura": 640,
+            "altura": 426,
+            "bytes": 18360
+         },
+         {
+            "url": "/images/cursos/odontologia-1280.webp",
+            "largura": 800,
+            "altura": 533,
+            "bytes": 25914
+         }
+      ]
+   },
+   "oftalmica": {
+      "id": "oftalmica",
+      "pagina": "https://anchieta.br/graduacao/oftalmica/",
+      "origem": "https://anchieta.br/wp-content/uploads/2025/10/oftalmica.jpg",
+      "sha256Original": "00948f9063f97ee7794c4b0777254ccf67fc0ed5ead22c1880ccd5bd4d6320fe",
+      "dimensoesOriginal": [800, 534],
+      "obtidaEm": "2026-10-07",
+      "variantes": [
+         {
+            "url": "/images/cursos/oftalmica-320.webp",
+            "largura": 320,
+            "altura": 214,
+            "bytes": 7108
+         },
+         {
+            "url": "/images/cursos/oftalmica-640.webp",
+            "largura": 640,
+            "altura": 427,
+            "bytes": 16954
+         },
+         {
+            "url": "/images/cursos/oftalmica-1280.webp",
+            "largura": 800,
+            "altura": 534,
+            "bytes": 24118
+         }
+      ]
+   },
+   "pedagogia-licenciatura": {
+      "id": "pedagogia-licenciatura",
+      "pagina": "https://anchieta.br/graduacao/pedagogia-licenciatura/",
+      "origem": "https://anchieta.br/wp-content/uploads/2023/06/banner-graduacao-pedagogia.jpg",
+      "sha256Original": "5753a99dda9528315c8e8f41232b122fb512204a6385f04e54f40fc71463e833",
+      "dimensoesOriginal": [380, 253],
+      "obtidaEm": "2026-10-07",
+      "variantes": [
+         {
+            "url": "/images/cursos/pedagogia-licenciatura-320.webp",
+            "largura": 320,
+            "altura": 213,
+            "bytes": 6928
+         },
+         {
+            "url": "/images/cursos/pedagogia-licenciatura-640.webp",
+            "largura": 380,
+            "altura": 253,
+            "bytes": 8854
+         },
+         {
+            "url": "/images/cursos/pedagogia-licenciatura-1280.webp",
+            "largura": 380,
+            "altura": 253,
+            "bytes": 8854
+         }
+      ]
+   },
+   "pedagogia-bilingue-licenciatura": {
+      "id": "pedagogia-bilingue-licenciatura",
+      "pagina": "https://anchieta.br/graduacao/pedagogia-bilingue-licenciatura/",
+      "origem": "https://anchieta.br/wp-content/uploads/2026/08/Imagem19.jpg",
+      "sha256Original": "71ff85b7a4e3046c17d8b66cb907c6e68417889223826af2d92fa6ebf64e9062",
+      "dimensoesOriginal": [443, 295],
+      "obtidaEm": "2026-10-07",
+      "variantes": [
+         {
+            "url": "/images/cursos/pedagogia-bilingue-licenciatura-320.webp",
+            "largura": 320,
+            "altura": 213,
+            "bytes": 6906
+         },
+         {
+            "url": "/images/cursos/pedagogia-bilingue-licenciatura-640.webp",
+            "largura": 443,
+            "altura": 295,
+            "bytes": 10588
+         },
+         {
+            "url": "/images/cursos/pedagogia-bilingue-licenciatura-1280.webp",
+            "largura": 443,
+            "altura": 295,
+            "bytes": 10588
+         }
+      ]
+   },
+   "podologia": {
+      "id": "podologia",
+      "pagina": "https://anchieta.br/graduacao/podologia/",
+      "origem": "https://anchieta.br/wp-content/uploads/2025/10/Podologia.jpg",
+      "sha256Original": "6715d933c4987cd1e1f5e43547a53d7493a6c970a8d09fb623ecd4a5d3396583",
+      "dimensoesOriginal": [800, 533],
+      "obtidaEm": "2026-10-07",
+      "variantes": [
+         {
+            "url": "/images/cursos/podologia-320.webp",
+            "largura": 320,
+            "altura": 213,
+            "bytes": 7948
+         },
+         {
+            "url": "/images/cursos/podologia-640.webp",
+            "largura": 640,
+            "altura": 426,
+            "bytes": 19426
+         },
+         {
+            "url": "/images/cursos/podologia-1280.webp",
+            "largura": 800,
+            "altura": 533,
+            "bytes": 26106
+         }
+      ]
+   },
+   "processos-gerenciais": {
+      "id": "processos-gerenciais",
+      "pagina": "https://anchieta.br/graduacao/processos-gerenciais/",
+      "origem": "https://anchieta.br/wp-content/uploads/2023/06/processos-gerenciais-ead-scaled.webp",
+      "sha256Original": "4934dd588195451d759cdabe6e39ecd0fed378df8edeffb077985b41693c9b7c",
+      "dimensoesOriginal": [2560, 1707],
+      "obtidaEm": "2026-10-07",
+      "variantes": [
+         {
+            "url": "/images/cursos/processos-gerenciais-320.webp",
+            "largura": 320,
+            "altura": 213,
+            "bytes": 7460
+         },
+         {
+            "url": "/images/cursos/processos-gerenciais-640.webp",
+            "largura": 640,
+            "altura": 427,
+            "bytes": 16488
+         },
+         {
+            "url": "/images/cursos/processos-gerenciais-1280.webp",
+            "largura": 1280,
+            "altura": 854,
+            "bytes": 36672
+         }
+      ]
+   },
+   "producao-multimidia": {
+      "id": "producao-multimidia",
+      "pagina": "https://anchieta.br/graduacao/producao-multimidia/",
+      "origem": "https://anchieta.br/wp-content/uploads/2023/06/banner-presencial-producao-multimidia.jpg",
+      "sha256Original": "dfb69d5bf826358b0115116bb11f31597da3797935d8a1af94bb914a6176edbf",
+      "dimensoesOriginal": [380, 253],
+      "obtidaEm": "2026-10-07",
+      "variantes": [
+         {
+            "url": "/images/cursos/producao-multimidia-320.webp",
+            "largura": 320,
+            "altura": 213,
+            "bytes": 6664
+         },
+         {
+            "url": "/images/cursos/producao-multimidia-640.webp",
+            "largura": 380,
+            "altura": 253,
+            "bytes": 8834
+         },
+         {
+            "url": "/images/cursos/producao-multimidia-1280.webp",
+            "largura": 380,
+            "altura": 253,
+            "bytes": 8834
+         }
+      ]
+   },
+   "psicologia": {
+      "id": "psicologia",
+      "pagina": "https://anchieta.br/graduacao/psicologia/",
+      "origem": "https://anchieta.br/wp-content/uploads/2023/06/banner-graduacao-psicologia.jpg",
+      "sha256Original": "3565328a9dc7e9a1773ab1807883008931a68a54a0c71099c128763bf16959a2",
+      "dimensoesOriginal": [380, 253],
+      "obtidaEm": "2026-10-07",
+      "variantes": [
+         {
+            "url": "/images/cursos/psicologia-320.webp",
+            "largura": 320,
+            "altura": 213,
+            "bytes": 3262
+         },
+         {
+            "url": "/images/cursos/psicologia-640.webp",
+            "largura": 380,
+            "altura": 253,
+            "bytes": 4250
+         },
+         {
+            "url": "/images/cursos/psicologia-1280.webp",
+            "largura": 380,
+            "altura": 253,
+            "bytes": 4250
+         }
+      ]
+   },
+   "psicopedagogia": {
+      "id": "psicopedagogia",
+      "pagina": "https://anchieta.br/graduacao/psicopedagogia/",
+      "origem": "https://anchieta.br/wp-content/uploads/2026/08/13a85ce4-8a11-48b9-bbf7-4fe4205340b8.png",
+      "sha256Original": "f55cab2f1ae3ffaacfca3aff59a3da96b1abbcb8593dce899232f027d3726dc8",
+      "dimensoesOriginal": [1122, 1402],
+      "obtidaEm": "2026-10-07",
+      "variantes": [
+         {
+            "url": "/images/cursos/psicopedagogia-320.webp",
+            "largura": 320,
+            "altura": 400,
+            "bytes": 16684
+         },
+         {
+            "url": "/images/cursos/psicopedagogia-640.webp",
+            "largura": 640,
+            "altura": 800,
+            "bytes": 39102
+         },
+         {
+            "url": "/images/cursos/psicopedagogia-1280.webp",
+            "largura": 1122,
+            "altura": 1402,
+            "bytes": 82650
+         }
+      ]
+   },
+   "publicidade-e-propaganda": {
+      "id": "publicidade-e-propaganda",
+      "pagina": "https://anchieta.br/graduacao/publicidade-e-propaganda/",
+      "origem": "https://anchieta.br/wp-content/uploads/2023/06/banner-graduacao-publicidade-e-propaganda-1.jpg",
+      "sha256Original": "1f80410def60f5ee71d42b646db2134ec410ef9b28bbdce036e0b0b7426702b6",
+      "dimensoesOriginal": [1000, 665],
+      "obtidaEm": "2026-10-07",
+      "variantes": [
+         {
+            "url": "/images/cursos/publicidade-e-propaganda-320.webp",
+            "largura": 320,
+            "altura": 213,
+            "bytes": 8766
+         },
+         {
+            "url": "/images/cursos/publicidade-e-propaganda-640.webp",
+            "largura": 640,
+            "altura": 426,
+            "bytes": 21740
+         },
+         {
+            "url": "/images/cursos/publicidade-e-propaganda-1280.webp",
+            "largura": 1000,
+            "altura": 665,
+            "bytes": 38456
+         }
+      ]
+   },
+   "redes-de-telecomunicacoes": {
+      "id": "redes-de-telecomunicacoes",
+      "pagina": "https://anchieta.br/graduacao/redes-de-telecomunicacoes/",
+      "origem": "https://anchieta.br/wp-content/uploads/2026/08/770cae84-88d1-4538-b984-47d96cf8fd92.png",
+      "sha256Original": "f3e57e0a3d6a93b815367ddba454d6e796bd2a39abdbec1fb0bd528a2f7ede56",
+      "dimensoesOriginal": [1672, 941],
+      "obtidaEm": "2026-10-07",
+      "variantes": [
+         {
+            "url": "/images/cursos/redes-de-telecomunicacoes-320.webp",
+            "largura": 320,
+            "altura": 180,
+            "bytes": 9368
+         },
+         {
+            "url": "/images/cursos/redes-de-telecomunicacoes-640.webp",
+            "largura": 640,
+            "altura": 360,
+            "bytes": 29034
+         },
+         {
+            "url": "/images/cursos/redes-de-telecomunicacoes-1280.webp",
+            "largura": 1280,
+            "altura": 720,
+            "bytes": 78974
+         }
+      ]
+   },
+   "relacoes-internacionais": {
+      "id": "relacoes-internacionais",
+      "pagina": "https://anchieta.br/graduacao/relacoes-internacionais/",
+      "origem": "https://anchieta.br/wp-content/uploads/2023/06/relacoes-internacionais-ead-scaled.webp",
+      "sha256Original": "2408f0c9c40dd600babb00cae9917ed01d8dda51953828839a60d5aa43d35080",
+      "dimensoesOriginal": [2560, 1709],
+      "obtidaEm": "2026-10-07",
+      "variantes": [
+         {
+            "url": "/images/cursos/relacoes-internacionais-320.webp",
+            "largura": 320,
+            "altura": 214,
+            "bytes": 25026
+         },
+         {
+            "url": "/images/cursos/relacoes-internacionais-640.webp",
+            "largura": 640,
+            "altura": 427,
+            "bytes": 77150
+         },
+         {
+            "url": "/images/cursos/relacoes-internacionais-1280.webp",
+            "largura": 1280,
+            "altura": 855,
+            "bytes": 218062
+         }
+      ]
+   },
+   "relacoes-publicas": {
+      "id": "relacoes-publicas",
+      "pagina": "https://anchieta.br/graduacao/relacoes-publicas/",
+      "origem": "https://anchieta.br/wp-content/uploads/2026/08/Imagem6.jpg",
+      "sha256Original": "ecd049fa77dfe48f703d02e583e89d8a4d15332f3718b83d18296ea50df10257",
+      "dimensoesOriginal": [1123, 757],
+      "obtidaEm": "2026-10-07",
+      "variantes": [
+         {
+            "url": "/images/cursos/relacoes-publicas-320.webp",
+            "largura": 320,
+            "altura": 216,
+            "bytes": 12066
+         },
+         {
+            "url": "/images/cursos/relacoes-publicas-640.webp",
+            "largura": 640,
+            "altura": 431,
+            "bytes": 30204
+         },
+         {
+            "url": "/images/cursos/relacoes-publicas-1280.webp",
+            "largura": 1123,
+            "altura": 757,
+            "bytes": 67938
+         }
+      ]
+   },
+   "seguranca-da-informacao": {
+      "id": "seguranca-da-informacao",
+      "pagina": "https://anchieta.br/graduacao/seguranca-da-informacao/",
+      "origem": "https://anchieta.br/wp-content/uploads/2023/06/banner-ead-curso-seguranca-da-informacao-home.webp",
+      "sha256Original": "7c39f0981b5710c50ce61f3cd0f7775e4a80a404d8f7f8b4c13ea3bed1146e21",
+      "dimensoesOriginal": [517, 341],
+      "obtidaEm": "2026-10-07",
+      "variantes": [
+         {
+            "url": "/images/cursos/seguranca-da-informacao-320.webp",
+            "largura": 320,
+            "altura": 211,
+            "bytes": 7760
+         },
+         {
+            "url": "/images/cursos/seguranca-da-informacao-640.webp",
+            "largura": 517,
+            "altura": 341,
+            "bytes": 15706
+         },
+         {
+            "url": "/images/cursos/seguranca-da-informacao-1280.webp",
+            "largura": 517,
+            "altura": 341,
+            "bytes": 15706
+         }
+      ]
+   },
+   "servico-social": {
+      "id": "servico-social",
+      "pagina": "https://anchieta.br/graduacao/servico-social/",
+      "origem": "https://anchieta.br/wp-content/uploads/2023/06/imagem-ead-servico-social.webp",
+      "sha256Original": "f40e4cb9ea673aa464f07b6d4baad863d6061eccdf2e52f208dcbbf225dafe0f",
+      "dimensoesOriginal": [2096, 1397],
+      "obtidaEm": "2026-10-07",
+      "variantes": [
+         {
+            "url": "/images/cursos/servico-social-320.webp",
+            "largura": 320,
+            "altura": 213,
+            "bytes": 8866
+         },
+         {
+            "url": "/images/cursos/servico-social-640.webp",
+            "largura": 640,
+            "altura": 427,
+            "bytes": 21958
+         },
+         {
+            "url": "/images/cursos/servico-social-1280.webp",
+            "largura": 1280,
+            "altura": 853,
+            "bytes": 49344
+         }
+      ]
+   },
+   "social-commerce": {
+      "id": "social-commerce",
+      "pagina": "https://anchieta.br/graduacao/social-commerce/",
+      "origem": "https://anchieta.br/wp-content/uploads/2026/08/Imagem8-1.jpg",
+      "sha256Original": "3ca6604d6867ccb371dd87a3a8c0be1564879d04970ef2064ff610da8f9ddb3e",
+      "dimensoesOriginal": [995, 556],
+      "obtidaEm": "2026-10-07",
+      "variantes": [
+         {
+            "url": "/images/cursos/social-commerce-320.webp",
+            "largura": 320,
+            "altura": 179,
+            "bytes": 7268
+         },
+         {
+            "url": "/images/cursos/social-commerce-640.webp",
+            "largura": 640,
+            "altura": 358,
+            "bytes": 18040
+         },
+         {
+            "url": "/images/cursos/social-commerce-1280.webp",
+            "largura": 995,
+            "altura": 556,
+            "bytes": 31896
+         }
+      ]
+   },
+   "teologia": {
+      "id": "teologia",
+      "pagina": "https://anchieta.br/graduacao/teologia/",
+      "origem": "https://anchieta.br/wp-content/uploads/2026/08/Imagem10-1.jpg",
+      "sha256Original": "72bc3498997d37c67d703ce5ac91fbe6c0db2bb0938fc90eb45fe5b5cb5f716f",
+      "dimensoesOriginal": [1111, 626],
+      "obtidaEm": "2026-10-07",
+      "variantes": [
+         {
+            "url": "/images/cursos/teologia-320.webp",
+            "largura": 320,
+            "altura": 180,
+            "bytes": 4022
+         },
+         {
+            "url": "/images/cursos/teologia-640.webp",
+            "largura": 640,
+            "altura": 361,
+            "bytes": 9350
+         },
+         {
+            "url": "/images/cursos/teologia-1280.webp",
+            "largura": 1111,
+            "altura": 626,
+            "bytes": 19038
+         }
+      ]
+   },
+   "terapia-ocupacional": {
+      "id": "terapia-ocupacional",
+      "pagina": "https://anchieta.br/graduacao/terapia-ocupacional/",
+      "origem": "https://anchieta.br/wp-content/uploads/2024/10/Imagem5.png",
+      "sha256Original": "7d12003917ce6e000634ed98af8f4f56c180d06fdeb90eefd56f436dc9c820e9",
+      "dimensoesOriginal": [672, 447],
+      "obtidaEm": "2026-10-07",
+      "variantes": [
+         {
+            "url": "/images/cursos/terapia-ocupacional-320.webp",
+            "largura": 320,
+            "altura": 213,
+            "bytes": 6178
+         },
+         {
+            "url": "/images/cursos/terapia-ocupacional-640.webp",
+            "largura": 640,
+            "altura": 426,
+            "bytes": 14314
+         },
+         {
+            "url": "/images/cursos/terapia-ocupacional-1280.webp",
+            "largura": 672,
+            "altura": 447,
+            "bytes": 16402
+         }
+      ]
+   }
+}

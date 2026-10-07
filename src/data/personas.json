@@ -1,0 +1,23 @@
+[
+   {
+      "id": "gestora-1",
+      "nome": "Ana Martins",
+      "perfil": "proponente",
+      "setor": "Captação",
+      "email": "ana.martins@example.invalid"
+   },
+   {
+      "id": "gestora-2",
+      "nome": "Beatriz Souza",
+      "perfil": "proponente",
+      "setor": "Captação",
+      "email": "beatriz.souza@example.invalid"
+   },
+   {
+      "id": "gestora-responsavel",
+      "nome": "Carolina Costa",
+      "perfil": "aprovadora",
+      "setor": "Gestão de Captação",
+      "email": "carolina.costa@example.invalid"
+   }
+]

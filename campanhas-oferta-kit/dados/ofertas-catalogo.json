@@ -1,0 +1,997 @@
+{
+  "escopo": "Presencial, Híbrido e EAD; Presencial Integral excluído",
+  "ofertas": [
+    {
+      "id": "administracao__presencial",
+      "cursoId": "administracao",
+      "modalidade": "Presencial",
+      "formato": "Presencial",
+      "turnosOficiais": null,
+      "lyceumOfertaId": null
+    },
+    {
+      "id": "administracao__ead",
+      "cursoId": "administracao",
+      "modalidade": "EAD",
+      "formato": "EAD",
+      "turnosOficiais": null,
+      "lyceumOfertaId": null
+    },
+    {
+      "id": "administracao__semipresencial",
+      "cursoId": "administracao",
+      "modalidade": "Híbrido",
+      "formato": "Semipresencial",
+      "turnosOficiais": null,
+      "lyceumOfertaId": null
+    },
+    {
+      "id": "agrocomputacao__ead",
+      "cursoId": "agrocomputacao",
+      "modalidade": "EAD",
+      "formato": "EAD",
+      "turnosOficiais": null,
+      "lyceumOfertaId": null
+    },
+    {
+      "id": "agrocomputacao__semipresencial",
+      "cursoId": "agrocomputacao",
+      "modalidade": "Híbrido",
+      "formato": "Semipresencial",
+      "turnosOficiais": null,
+      "lyceumOfertaId": null
+    },
+    {
+      "id": "ai-creative-design__ead",
+      "cursoId": "ai-creative-design",
+      "modalidade": "EAD",
+      "formato": "EAD",
+      "turnosOficiais": null,
+      "lyceumOfertaId": null
+    },
+    {
+      "id": "analise-e-desenvolvimento-de-sistemas__presencial",
+      "cursoId": "analise-e-desenvolvimento-de-sistemas",
+      "modalidade": "Presencial",
+      "formato": "Presencial",
+      "turnosOficiais": null,
+      "lyceumOfertaId": null
+    },
+    {
+      "id": "analise-e-desenvolvimento-de-sistemas__ead",
+      "cursoId": "analise-e-desenvolvimento-de-sistemas",
+      "modalidade": "EAD",
+      "formato": "EAD",
+      "turnosOficiais": null,
+      "lyceumOfertaId": null
+    },
+    {
+      "id": "analise-e-desenvolvimento-de-sistemas__semipresencial",
+      "cursoId": "analise-e-desenvolvimento-de-sistemas",
+      "modalidade": "Híbrido",
+      "formato": "Semipresencial",
+      "turnosOficiais": null,
+      "lyceumOfertaId": null
+    },
+    {
+      "id": "arquitetura-e-urbanismo__presencial",
+      "cursoId": "arquitetura-e-urbanismo",
+      "modalidade": "Presencial",
+      "formato": "Presencial",
+      "turnosOficiais": null,
+      "lyceumOfertaId": null
+    },
+    {
+      "id": "arquitetura-e-urbanismo__semipresencial",
+      "cursoId": "arquitetura-e-urbanismo",
+      "modalidade": "Híbrido",
+      "formato": "Semipresencial",
+      "turnosOficiais": null,
+      "lyceumOfertaId": null
+    },
+    {
+      "id": "automacao-industrial__ead",
+      "cursoId": "automacao-industrial",
+      "modalidade": "EAD",
+      "formato": "EAD",
+      "turnosOficiais": null,
+      "lyceumOfertaId": null
+    },
+    {
+      "id": "automacao-industrial__semipresencial",
+      "cursoId": "automacao-industrial",
+      "modalidade": "Híbrido",
+      "formato": "Semipresencial",
+      "turnosOficiais": null,
+      "lyceumOfertaId": null
+    },
+    {
+      "id": "banco-de-dados__presencial",
+      "cursoId": "banco-de-dados",
+      "modalidade": "Presencial",
+      "formato": "Presencial",
+      "turnosOficiais": null,
+      "lyceumOfertaId": null
+    },
+    {
+      "id": "banco-de-dados__semipresencial",
+      "cursoId": "banco-de-dados",
+      "modalidade": "Híbrido",
+      "formato": "Semipresencial",
+      "turnosOficiais": null,
+      "lyceumOfertaId": null
+    },
+    {
+      "id": "biblioteconomia__ead",
+      "cursoId": "biblioteconomia",
+      "modalidade": "EAD",
+      "formato": "EAD",
+      "turnosOficiais": null,
+      "lyceumOfertaId": null
+    },
+    {
+      "id": "big-data-e-inteligencia-analitica-4-0__ead",
+      "cursoId": "big-data-e-inteligencia-analitica-4-0",
+      "modalidade": "EAD",
+      "formato": "EAD",
+      "turnosOficiais": null,
+      "lyceumOfertaId": null
+    },
+    {
+      "id": "biomedicina__presencial",
+      "cursoId": "biomedicina",
+      "modalidade": "Presencial",
+      "formato": "Presencial",
+      "turnosOficiais": null,
+      "lyceumOfertaId": null
+    },
+    {
+      "id": "biomedicina__semipresencial",
+      "cursoId": "biomedicina",
+      "modalidade": "Híbrido",
+      "formato": "Semipresencial",
+      "turnosOficiais": null,
+      "lyceumOfertaId": null
+    },
+    {
+      "id": "biotecnologia__semipresencial",
+      "cursoId": "biotecnologia",
+      "modalidade": "Híbrido",
+      "formato": "Semipresencial",
+      "turnosOficiais": null,
+      "lyceumOfertaId": null
+    },
+    {
+      "id": "ciencia-da-computacao__presencial",
+      "cursoId": "ciencia-da-computacao",
+      "modalidade": "Presencial",
+      "formato": "Presencial",
+      "turnosOficiais": null,
+      "lyceumOfertaId": null
+    },
+    {
+      "id": "ciencia-da-computacao__ead",
+      "cursoId": "ciencia-da-computacao",
+      "modalidade": "EAD",
+      "formato": "EAD",
+      "turnosOficiais": null,
+      "lyceumOfertaId": null
+    },
+    {
+      "id": "ciencia-da-computacao__semipresencial",
+      "cursoId": "ciencia-da-computacao",
+      "modalidade": "Híbrido",
+      "formato": "Semipresencial",
+      "turnosOficiais": null,
+      "lyceumOfertaId": null
+    },
+    {
+      "id": "ciencia-de-dados-e-ia__ead",
+      "cursoId": "ciencia-de-dados-e-ia",
+      "modalidade": "EAD",
+      "formato": "EAD",
+      "turnosOficiais": null,
+      "lyceumOfertaId": null
+    },
+    {
+      "id": "ciencia-politica__ead",
+      "cursoId": "ciencia-politica",
+      "modalidade": "EAD",
+      "formato": "EAD",
+      "turnosOficiais": null,
+      "lyceumOfertaId": null
+    },
+    {
+      "id": "ciencias-biologicas-bacharelado__semipresencial",
+      "cursoId": "ciencias-biologicas-bacharelado",
+      "modalidade": "Híbrido",
+      "formato": "Semipresencial",
+      "turnosOficiais": null,
+      "lyceumOfertaId": null
+    },
+    {
+      "id": "ciencias-biologicas-licenciatura__semipresencial",
+      "cursoId": "ciencias-biologicas-licenciatura",
+      "modalidade": "Híbrido",
+      "formato": "Semipresencial",
+      "turnosOficiais": null,
+      "lyceumOfertaId": null
+    },
+    {
+      "id": "ciencias-contabeis__presencial",
+      "cursoId": "ciencias-contabeis",
+      "modalidade": "Presencial",
+      "formato": "Presencial",
+      "turnosOficiais": null,
+      "lyceumOfertaId": null
+    },
+    {
+      "id": "ciencias-contabeis__ead",
+      "cursoId": "ciencias-contabeis",
+      "modalidade": "EAD",
+      "formato": "EAD",
+      "turnosOficiais": null,
+      "lyceumOfertaId": null
+    },
+    {
+      "id": "ciencias-contabeis__semipresencial",
+      "cursoId": "ciencias-contabeis",
+      "modalidade": "Híbrido",
+      "formato": "Semipresencial",
+      "turnosOficiais": null,
+      "lyceumOfertaId": null
+    },
+    {
+      "id": "ciencias-economicas__presencial",
+      "cursoId": "ciencias-economicas",
+      "modalidade": "Presencial",
+      "formato": "Presencial",
+      "turnosOficiais": null,
+      "lyceumOfertaId": null
+    },
+    {
+      "id": "ciencias-economicas__ead",
+      "cursoId": "ciencias-economicas",
+      "modalidade": "EAD",
+      "formato": "EAD",
+      "turnosOficiais": null,
+      "lyceumOfertaId": null
+    },
+    {
+      "id": "comercio-exterior__ead",
+      "cursoId": "comercio-exterior",
+      "modalidade": "EAD",
+      "formato": "EAD",
+      "turnosOficiais": null,
+      "lyceumOfertaId": null
+    },
+    {
+      "id": "comercio-exterior__semipresencial",
+      "cursoId": "comercio-exterior",
+      "modalidade": "Híbrido",
+      "formato": "Semipresencial",
+      "turnosOficiais": null,
+      "lyceumOfertaId": null
+    },
+    {
+      "id": "creator-e-digital-influencer__ead",
+      "cursoId": "creator-e-digital-influencer",
+      "modalidade": "EAD",
+      "formato": "EAD",
+      "turnosOficiais": null,
+      "lyceumOfertaId": null
+    },
+    {
+      "id": "creator-e-digital-influencer__semipresencial",
+      "cursoId": "creator-e-digital-influencer",
+      "modalidade": "Híbrido",
+      "formato": "Semipresencial",
+      "turnosOficiais": null,
+      "lyceumOfertaId": null
+    },
+    {
+      "id": "desenvolvimento-mobile__ead",
+      "cursoId": "desenvolvimento-mobile",
+      "modalidade": "EAD",
+      "formato": "EAD",
+      "turnosOficiais": null,
+      "lyceumOfertaId": null
+    },
+    {
+      "id": "design-de-animacao-em-ia__ead",
+      "cursoId": "design-de-animacao-em-ia",
+      "modalidade": "EAD",
+      "formato": "EAD",
+      "turnosOficiais": null,
+      "lyceumOfertaId": null
+    },
+    {
+      "id": "design-de-interiores__ead",
+      "cursoId": "design-de-interiores",
+      "modalidade": "EAD",
+      "formato": "EAD",
+      "turnosOficiais": null,
+      "lyceumOfertaId": null
+    },
+    {
+      "id": "design-de-interiores__semipresencial",
+      "cursoId": "design-de-interiores",
+      "modalidade": "Híbrido",
+      "formato": "Semipresencial",
+      "turnosOficiais": null,
+      "lyceumOfertaId": null
+    },
+    {
+      "id": "design-grafico__presencial",
+      "cursoId": "design-grafico",
+      "modalidade": "Presencial",
+      "formato": "Presencial",
+      "turnosOficiais": null,
+      "lyceumOfertaId": null
+    },
+    {
+      "id": "design-grafico__ead",
+      "cursoId": "design-grafico",
+      "modalidade": "EAD",
+      "formato": "EAD",
+      "turnosOficiais": null,
+      "lyceumOfertaId": null
+    },
+    {
+      "id": "design-grafico__semipresencial",
+      "cursoId": "design-grafico",
+      "modalidade": "Híbrido",
+      "formato": "Semipresencial",
+      "turnosOficiais": null,
+      "lyceumOfertaId": null
+    },
+    {
+      "id": "direito__presencial",
+      "cursoId": "direito",
+      "modalidade": "Presencial",
+      "formato": "Presencial",
+      "turnosOficiais": null,
+      "lyceumOfertaId": null
+    },
+    {
+      "id": "direito__intensivo",
+      "cursoId": "direito",
+      "modalidade": "Híbrido",
+      "formato": "Presencial Intensivo",
+      "turnosOficiais": null,
+      "lyceumOfertaId": null
+    },
+    {
+      "id": "educacao-fisica-bacharelado__presencial",
+      "cursoId": "educacao-fisica-bacharelado",
+      "modalidade": "Presencial",
+      "formato": "Presencial",
+      "turnosOficiais": null,
+      "lyceumOfertaId": null
+    },
+    {
+      "id": "educacao-fisica-bacharelado__semipresencial",
+      "cursoId": "educacao-fisica-bacharelado",
+      "modalidade": "Híbrido",
+      "formato": "Semipresencial",
+      "turnosOficiais": null,
+      "lyceumOfertaId": null
+    },
+    {
+      "id": "educacao-fisica-licenciatura__semipresencial",
+      "cursoId": "educacao-fisica-licenciatura",
+      "modalidade": "Híbrido",
+      "formato": "Semipresencial",
+      "turnosOficiais": null,
+      "lyceumOfertaId": null
+    },
+    {
+      "id": "energias-renovaveis__semipresencial",
+      "cursoId": "energias-renovaveis",
+      "modalidade": "Híbrido",
+      "formato": "Semipresencial",
+      "turnosOficiais": null,
+      "lyceumOfertaId": null
+    },
+    {
+      "id": "enfermagem__intensivo",
+      "cursoId": "enfermagem",
+      "modalidade": "Híbrido",
+      "formato": "Presencial Intensivo",
+      "turnosOficiais": null,
+      "lyceumOfertaId": null
+    },
+    {
+      "id": "engenharia-biomedica__presencial",
+      "cursoId": "engenharia-biomedica",
+      "modalidade": "Presencial",
+      "formato": "Presencial",
+      "turnosOficiais": null,
+      "lyceumOfertaId": null
+    },
+    {
+      "id": "engenharia-civil__presencial",
+      "cursoId": "engenharia-civil",
+      "modalidade": "Presencial",
+      "formato": "Presencial",
+      "turnosOficiais": null,
+      "lyceumOfertaId": null
+    },
+    {
+      "id": "engenharia-civil__semipresencial",
+      "cursoId": "engenharia-civil",
+      "modalidade": "Híbrido",
+      "formato": "Semipresencial",
+      "turnosOficiais": null,
+      "lyceumOfertaId": null
+    },
+    {
+      "id": "engenharia-da-computacao__semipresencial",
+      "cursoId": "engenharia-da-computacao",
+      "modalidade": "Híbrido",
+      "formato": "Semipresencial",
+      "turnosOficiais": null,
+      "lyceumOfertaId": null
+    },
+    {
+      "id": "engenharia-de-controle-e-automacao__semipresencial",
+      "cursoId": "engenharia-de-controle-e-automacao",
+      "modalidade": "Híbrido",
+      "formato": "Semipresencial",
+      "turnosOficiais": null,
+      "lyceumOfertaId": null
+    },
+    {
+      "id": "engenharia-de-producao__presencial",
+      "cursoId": "engenharia-de-producao",
+      "modalidade": "Presencial",
+      "formato": "Presencial",
+      "turnosOficiais": null,
+      "lyceumOfertaId": null
+    },
+    {
+      "id": "engenharia-de-producao__semipresencial",
+      "cursoId": "engenharia-de-producao",
+      "modalidade": "Híbrido",
+      "formato": "Semipresencial",
+      "turnosOficiais": null,
+      "lyceumOfertaId": null
+    },
+    {
+      "id": "engenharia-de-software__presencial",
+      "cursoId": "engenharia-de-software",
+      "modalidade": "Presencial",
+      "formato": "Presencial",
+      "turnosOficiais": null,
+      "lyceumOfertaId": null
+    },
+    {
+      "id": "engenharia-de-software__ead",
+      "cursoId": "engenharia-de-software",
+      "modalidade": "EAD",
+      "formato": "EAD",
+      "turnosOficiais": null,
+      "lyceumOfertaId": null
+    },
+    {
+      "id": "engenharia-de-software__semipresencial",
+      "cursoId": "engenharia-de-software",
+      "modalidade": "Híbrido",
+      "formato": "Semipresencial",
+      "turnosOficiais": null,
+      "lyceumOfertaId": null
+    },
+    {
+      "id": "engenharia-eletrica__presencial",
+      "cursoId": "engenharia-eletrica",
+      "modalidade": "Presencial",
+      "formato": "Presencial",
+      "turnosOficiais": null,
+      "lyceumOfertaId": null
+    },
+    {
+      "id": "engenharia-eletrica__semipresencial",
+      "cursoId": "engenharia-eletrica",
+      "modalidade": "Híbrido",
+      "formato": "Semipresencial",
+      "turnosOficiais": null,
+      "lyceumOfertaId": null
+    },
+    {
+      "id": "engenharia-em-inteligencia-artificial__presencial",
+      "cursoId": "engenharia-em-inteligencia-artificial",
+      "modalidade": "Presencial",
+      "formato": "Presencial",
+      "turnosOficiais": null,
+      "lyceumOfertaId": null
+    },
+    {
+      "id": "engenharia-mecanica__presencial",
+      "cursoId": "engenharia-mecanica",
+      "modalidade": "Presencial",
+      "formato": "Presencial",
+      "turnosOficiais": null,
+      "lyceumOfertaId": null
+    },
+    {
+      "id": "engenharia-mecanica__semipresencial",
+      "cursoId": "engenharia-mecanica",
+      "modalidade": "Híbrido",
+      "formato": "Semipresencial",
+      "turnosOficiais": null,
+      "lyceumOfertaId": null
+    },
+    {
+      "id": "engenharia-quimica__presencial",
+      "cursoId": "engenharia-quimica",
+      "modalidade": "Presencial",
+      "formato": "Presencial",
+      "turnosOficiais": null,
+      "lyceumOfertaId": null
+    },
+    {
+      "id": "estetica-e-cosmetica__presencial",
+      "cursoId": "estetica-e-cosmetica",
+      "modalidade": "Presencial",
+      "formato": "Presencial",
+      "turnosOficiais": null,
+      "lyceumOfertaId": null
+    },
+    {
+      "id": "estetica-e-cosmetica__semipresencial",
+      "cursoId": "estetica-e-cosmetica",
+      "modalidade": "Híbrido",
+      "formato": "Semipresencial",
+      "turnosOficiais": null,
+      "lyceumOfertaId": null
+    },
+    {
+      "id": "farmacia__presencial",
+      "cursoId": "farmacia",
+      "modalidade": "Presencial",
+      "formato": "Presencial",
+      "turnosOficiais": null,
+      "lyceumOfertaId": null
+    },
+    {
+      "id": "farmacia__semipresencial",
+      "cursoId": "farmacia",
+      "modalidade": "Híbrido",
+      "formato": "Semipresencial",
+      "turnosOficiais": null,
+      "lyceumOfertaId": null
+    },
+    {
+      "id": "filosofia__ead",
+      "cursoId": "filosofia",
+      "modalidade": "EAD",
+      "formato": "EAD",
+      "turnosOficiais": null,
+      "lyceumOfertaId": null
+    },
+    {
+      "id": "fisioterapia__presencial",
+      "cursoId": "fisioterapia",
+      "modalidade": "Presencial",
+      "formato": "Presencial",
+      "turnosOficiais": null,
+      "lyceumOfertaId": null
+    },
+    {
+      "id": "fisioterapia__semipresencial",
+      "cursoId": "fisioterapia",
+      "modalidade": "Híbrido",
+      "formato": "Semipresencial",
+      "turnosOficiais": null,
+      "lyceumOfertaId": null
+    },
+    {
+      "id": "fonoaudiologia__presencial",
+      "cursoId": "fonoaudiologia",
+      "modalidade": "Presencial",
+      "formato": "Presencial",
+      "turnosOficiais": null,
+      "lyceumOfertaId": null
+    },
+    {
+      "id": "fonoaudiologia__semipresencial",
+      "cursoId": "fonoaudiologia",
+      "modalidade": "Híbrido",
+      "formato": "Semipresencial",
+      "turnosOficiais": null,
+      "lyceumOfertaId": null
+    },
+    {
+      "id": "gastronomia__semipresencial",
+      "cursoId": "gastronomia",
+      "modalidade": "Híbrido",
+      "formato": "Semipresencial",
+      "turnosOficiais": null,
+      "lyceumOfertaId": null
+    },
+    {
+      "id": "gestao-comercial__ead",
+      "cursoId": "gestao-comercial",
+      "modalidade": "EAD",
+      "formato": "EAD",
+      "turnosOficiais": null,
+      "lyceumOfertaId": null
+    },
+    {
+      "id": "gestao-da-producao-industrial__ead",
+      "cursoId": "gestao-da-producao-industrial",
+      "modalidade": "EAD",
+      "formato": "EAD",
+      "turnosOficiais": null,
+      "lyceumOfertaId": null
+    },
+    {
+      "id": "gestao-de-qualidade__ead",
+      "cursoId": "gestao-de-qualidade",
+      "modalidade": "EAD",
+      "formato": "EAD",
+      "turnosOficiais": null,
+      "lyceumOfertaId": null
+    },
+    {
+      "id": "gestao-da-tecnologia-da-informacao__ead",
+      "cursoId": "gestao-da-tecnologia-da-informacao",
+      "modalidade": "EAD",
+      "formato": "EAD",
+      "turnosOficiais": null,
+      "lyceumOfertaId": null
+    },
+    {
+      "id": "gestao-de-eventos__ead",
+      "cursoId": "gestao-de-eventos",
+      "modalidade": "EAD",
+      "formato": "EAD",
+      "turnosOficiais": null,
+      "lyceumOfertaId": null
+    },
+    {
+      "id": "gestao-de-negocios-imobiliarios__ead",
+      "cursoId": "gestao-de-negocios-imobiliarios",
+      "modalidade": "EAD",
+      "formato": "EAD",
+      "turnosOficiais": null,
+      "lyceumOfertaId": null
+    },
+    {
+      "id": "gestao-de-recursos-humanos__presencial",
+      "cursoId": "gestao-de-recursos-humanos",
+      "modalidade": "Presencial",
+      "formato": "Presencial",
+      "turnosOficiais": null,
+      "lyceumOfertaId": null
+    },
+    {
+      "id": "gestao-de-recursos-humanos__ead",
+      "cursoId": "gestao-de-recursos-humanos",
+      "modalidade": "EAD",
+      "formato": "EAD",
+      "turnosOficiais": null,
+      "lyceumOfertaId": null
+    },
+    {
+      "id": "gestao-de-recursos-humanos__semipresencial",
+      "cursoId": "gestao-de-recursos-humanos",
+      "modalidade": "Híbrido",
+      "formato": "Semipresencial",
+      "turnosOficiais": null,
+      "lyceumOfertaId": null
+    },
+    {
+      "id": "gestao-de-turismo__ead",
+      "cursoId": "gestao-de-turismo",
+      "modalidade": "EAD",
+      "formato": "EAD",
+      "turnosOficiais": null,
+      "lyceumOfertaId": null
+    },
+    {
+      "id": "gestao-financeira__ead",
+      "cursoId": "gestao-financeira",
+      "modalidade": "EAD",
+      "formato": "EAD",
+      "turnosOficiais": null,
+      "lyceumOfertaId": null
+    },
+    {
+      "id": "gestao-publica__ead",
+      "cursoId": "gestao-publica",
+      "modalidade": "EAD",
+      "formato": "EAD",
+      "turnosOficiais": null,
+      "lyceumOfertaId": null
+    },
+    {
+      "id": "inteligencia-artificial-e-automacao-inteligente__ead",
+      "cursoId": "inteligencia-artificial-e-automacao-inteligente",
+      "modalidade": "EAD",
+      "formato": "EAD",
+      "turnosOficiais": null,
+      "lyceumOfertaId": null
+    },
+    {
+      "id": "inteligencia-artificial-e-automacao-inteligente__semipresencial",
+      "cursoId": "inteligencia-artificial-e-automacao-inteligente",
+      "modalidade": "Híbrido",
+      "formato": "Semipresencial",
+      "turnosOficiais": null,
+      "lyceumOfertaId": null
+    },
+    {
+      "id": "internet-das-coisas-iot__ead",
+      "cursoId": "internet-das-coisas-iot",
+      "modalidade": "EAD",
+      "formato": "EAD",
+      "turnosOficiais": null,
+      "lyceumOfertaId": null
+    },
+    {
+      "id": "jogos-digitais__ead",
+      "cursoId": "jogos-digitais",
+      "modalidade": "EAD",
+      "formato": "EAD",
+      "turnosOficiais": null,
+      "lyceumOfertaId": null
+    },
+    {
+      "id": "letras-portugues__semipresencial",
+      "cursoId": "letras-portugues",
+      "modalidade": "Híbrido",
+      "formato": "Semipresencial",
+      "turnosOficiais": null,
+      "lyceumOfertaId": null
+    },
+    {
+      "id": "logistica__presencial",
+      "cursoId": "logistica",
+      "modalidade": "Presencial",
+      "formato": "Presencial",
+      "turnosOficiais": null,
+      "lyceumOfertaId": null
+    },
+    {
+      "id": "logistica__ead",
+      "cursoId": "logistica",
+      "modalidade": "EAD",
+      "formato": "EAD",
+      "turnosOficiais": null,
+      "lyceumOfertaId": null
+    },
+    {
+      "id": "logistica__semipresencial",
+      "cursoId": "logistica",
+      "modalidade": "Híbrido",
+      "formato": "Semipresencial",
+      "turnosOficiais": null,
+      "lyceumOfertaId": null
+    },
+    {
+      "id": "marketing__ead",
+      "cursoId": "marketing",
+      "modalidade": "EAD",
+      "formato": "EAD",
+      "turnosOficiais": null,
+      "lyceumOfertaId": null
+    },
+    {
+      "id": "medicina-veterinaria__presencial",
+      "cursoId": "medicina-veterinaria",
+      "modalidade": "Presencial",
+      "formato": "Presencial",
+      "turnosOficiais": null,
+      "lyceumOfertaId": null
+    },
+    {
+      "id": "midias-sociais-digitais__ead",
+      "cursoId": "midias-sociais-digitais",
+      "modalidade": "EAD",
+      "formato": "EAD",
+      "turnosOficiais": null,
+      "lyceumOfertaId": null
+    },
+    {
+      "id": "nutricao__presencial",
+      "cursoId": "nutricao",
+      "modalidade": "Presencial",
+      "formato": "Presencial",
+      "turnosOficiais": null,
+      "lyceumOfertaId": null
+    },
+    {
+      "id": "nutricao__semipresencial",
+      "cursoId": "nutricao",
+      "modalidade": "Híbrido",
+      "formato": "Semipresencial",
+      "turnosOficiais": null,
+      "lyceumOfertaId": null
+    },
+    {
+      "id": "odontologia__presencial",
+      "cursoId": "odontologia",
+      "modalidade": "Presencial",
+      "formato": "Presencial",
+      "turnosOficiais": null,
+      "lyceumOfertaId": null
+    },
+    {
+      "id": "oftalmica__semipresencial",
+      "cursoId": "oftalmica",
+      "modalidade": "Híbrido",
+      "formato": "Semipresencial",
+      "turnosOficiais": null,
+      "lyceumOfertaId": null
+    },
+    {
+      "id": "pedagogia-licenciatura__presencial",
+      "cursoId": "pedagogia-licenciatura",
+      "modalidade": "Presencial",
+      "formato": "Presencial",
+      "turnosOficiais": null,
+      "lyceumOfertaId": null
+    },
+    {
+      "id": "pedagogia-licenciatura__semipresencial",
+      "cursoId": "pedagogia-licenciatura",
+      "modalidade": "Híbrido",
+      "formato": "Semipresencial",
+      "turnosOficiais": null,
+      "lyceumOfertaId": null
+    },
+    {
+      "id": "pedagogia-bilingue-licenciatura__semipresencial",
+      "cursoId": "pedagogia-bilingue-licenciatura",
+      "modalidade": "Híbrido",
+      "formato": "Semipresencial",
+      "turnosOficiais": null,
+      "lyceumOfertaId": null
+    },
+    {
+      "id": "podologia__semipresencial",
+      "cursoId": "podologia",
+      "modalidade": "Híbrido",
+      "formato": "Semipresencial",
+      "turnosOficiais": null,
+      "lyceumOfertaId": null
+    },
+    {
+      "id": "processos-gerenciais__ead",
+      "cursoId": "processos-gerenciais",
+      "modalidade": "EAD",
+      "formato": "EAD",
+      "turnosOficiais": null,
+      "lyceumOfertaId": null
+    },
+    {
+      "id": "producao-multimidia__presencial",
+      "cursoId": "producao-multimidia",
+      "modalidade": "Presencial",
+      "formato": "Presencial",
+      "turnosOficiais": null,
+      "lyceumOfertaId": null
+    },
+    {
+      "id": "psicologia__presencial",
+      "cursoId": "psicologia",
+      "modalidade": "Presencial",
+      "formato": "Presencial",
+      "turnosOficiais": null,
+      "lyceumOfertaId": null
+    },
+    {
+      "id": "psicologia__intensivo",
+      "cursoId": "psicologia",
+      "modalidade": "Híbrido",
+      "formato": "Presencial Intensivo",
+      "turnosOficiais": null,
+      "lyceumOfertaId": null
+    },
+    {
+      "id": "psicopedagogia__semipresencial",
+      "cursoId": "psicopedagogia",
+      "modalidade": "Híbrido",
+      "formato": "Semipresencial",
+      "turnosOficiais": null,
+      "lyceumOfertaId": null
+    },
+    {
+      "id": "publicidade-e-propaganda__presencial",
+      "cursoId": "publicidade-e-propaganda",
+      "modalidade": "Presencial",
+      "formato": "Presencial",
+      "turnosOficiais": null,
+      "lyceumOfertaId": null
+    },
+    {
+      "id": "publicidade-e-propaganda__ead",
+      "cursoId": "publicidade-e-propaganda",
+      "modalidade": "EAD",
+      "formato": "EAD",
+      "turnosOficiais": null,
+      "lyceumOfertaId": null
+    },
+    {
+      "id": "publicidade-e-propaganda__semipresencial",
+      "cursoId": "publicidade-e-propaganda",
+      "modalidade": "Híbrido",
+      "formato": "Semipresencial",
+      "turnosOficiais": null,
+      "lyceumOfertaId": null
+    },
+    {
+      "id": "redes-de-telecomunicacoes__semipresencial",
+      "cursoId": "redes-de-telecomunicacoes",
+      "modalidade": "Híbrido",
+      "formato": "Semipresencial",
+      "turnosOficiais": null,
+      "lyceumOfertaId": null
+    },
+    {
+      "id": "relacoes-internacionais__ead",
+      "cursoId": "relacoes-internacionais",
+      "modalidade": "EAD",
+      "formato": "EAD",
+      "turnosOficiais": null,
+      "lyceumOfertaId": null
+    },
+    {
+      "id": "relacoes-publicas__ead",
+      "cursoId": "relacoes-publicas",
+      "modalidade": "EAD",
+      "formato": "EAD",
+      "turnosOficiais": null,
+      "lyceumOfertaId": null
+    },
+    {
+      "id": "seguranca-da-informacao__ead",
+      "cursoId": "seguranca-da-informacao",
+      "modalidade": "EAD",
+      "formato": "EAD",
+      "turnosOficiais": null,
+      "lyceumOfertaId": null
+    },
+    {
+      "id": "servico-social__semipresencial",
+      "cursoId": "servico-social",
+      "modalidade": "Híbrido",
+      "formato": "Semipresencial",
+      "turnosOficiais": null,
+      "lyceumOfertaId": null
+    },
+    {
+      "id": "social-commerce__ead",
+      "cursoId": "social-commerce",
+      "modalidade": "EAD",
+      "formato": "EAD",
+      "turnosOficiais": null,
+      "lyceumOfertaId": null
+    },
+    {
+      "id": "teologia__ead",
+      "cursoId": "teologia",
+      "modalidade": "EAD",
+      "formato": "EAD",
+      "turnosOficiais": null,
+      "lyceumOfertaId": null
+    },
+    {
+      "id": "terapia-ocupacional__presencial",
+      "cursoId": "terapia-ocupacional",
+      "modalidade": "Presencial",
+      "formato": "Presencial",
+      "turnosOficiais": null,
+      "lyceumOfertaId": null
+    },
+    {
+      "id": "terapia-ocupacional__semipresencial",
+      "cursoId": "terapia-ocupacional",
+      "modalidade": "Híbrido",
+      "formato": "Semipresencial",
+      "turnosOficiais": null,
+      "lyceumOfertaId": null
+    }
+  ]
+}

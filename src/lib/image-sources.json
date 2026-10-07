@@ -1,0 +1,494 @@
+{
+   "administracao": {
+      "imagem": "/images/cursos/administracao-640.webp",
+      "srcSet": "/images/cursos/administracao-320.webp 320w, /images/cursos/administracao-640.webp 640w, /images/cursos/administracao-1280.webp 1000w",
+      "largura": 640,
+      "altura": 426
+   },
+   "agrocomputacao": {
+      "imagem": "/images/cursos/agrocomputacao-640.webp",
+      "srcSet": "/images/cursos/agrocomputacao-320.webp 320w, /images/cursos/agrocomputacao-640.webp 640w, /images/cursos/agrocomputacao-1280.webp 1280w",
+      "largura": 640,
+      "altura": 395
+   },
+   "ai-creative-design": {
+      "imagem": "/images/cursos/ai-creative-design-640.webp",
+      "srcSet": "/images/cursos/ai-creative-design-320.webp 320w, /images/cursos/ai-creative-design-1280.webp 529w",
+      "largura": 529,
+      "altura": 298
+   },
+   "analise-e-desenvolvimento-de-sistemas": {
+      "imagem": "/images/cursos/analise-e-desenvolvimento-de-sistemas-640.webp",
+      "srcSet": "/images/cursos/analise-e-desenvolvimento-de-sistemas-320.webp 320w, /images/cursos/analise-e-desenvolvimento-de-sistemas-1280.webp 588w",
+      "largura": 588,
+      "altura": 392
+   },
+   "arquitetura-e-urbanismo": {
+      "imagem": "/images/cursos/arquitetura-e-urbanismo-640.webp",
+      "srcSet": "/images/cursos/arquitetura-e-urbanismo-320.webp 320w, /images/cursos/arquitetura-e-urbanismo-640.webp 640w, /images/cursos/arquitetura-e-urbanismo-1280.webp 1000w",
+      "largura": 640,
+      "altura": 426
+   },
+   "automacao-industrial": {
+      "imagem": "/images/cursos/automacao-industrial-640.webp",
+      "srcSet": "/images/cursos/automacao-industrial-320.webp 320w, /images/cursos/automacao-industrial-640.webp 640w, /images/cursos/automacao-industrial-1280.webp 805w",
+      "largura": 640,
+      "altura": 427
+   },
+   "banco-de-dados": {
+      "imagem": "/images/cursos/banco-de-dados-640.webp",
+      "srcSet": "/images/cursos/banco-de-dados-320.webp 320w, /images/cursos/banco-de-dados-640.webp 640w, /images/cursos/banco-de-dados-1280.webp 1280w",
+      "largura": 640,
+      "altura": 427
+   },
+   "biblioteconomia": {
+      "imagem": "/images/cursos/biblioteconomia-640.webp",
+      "srcSet": "/images/cursos/biblioteconomia-320.webp 320w, /images/cursos/biblioteconomia-640.webp 640w, /images/cursos/biblioteconomia-1280.webp 1280w",
+      "largura": 640,
+      "altura": 395
+   },
+   "big-data-e-inteligencia-analitica-4-0": {
+      "imagem": "/images/cursos/big-data-e-inteligencia-analitica-4-0-640.webp",
+      "srcSet": "/images/cursos/big-data-e-inteligencia-analitica-4-0-320.webp 320w, /images/cursos/big-data-e-inteligencia-analitica-4-0-640.webp 640w, /images/cursos/big-data-e-inteligencia-analitica-4-0-1280.webp 1280w",
+      "largura": 640,
+      "altura": 480
+   },
+   "biomedicina": {
+      "imagem": "/images/cursos/biomedicina-640.webp",
+      "srcSet": "/images/cursos/biomedicina-320.webp 320w, /images/cursos/biomedicina-1280.webp 380w",
+      "largura": 380,
+      "altura": 253
+   },
+   "biotecnologia": {
+      "imagem": "/images/cursos/biotecnologia-640.webp",
+      "srcSet": "/images/cursos/biotecnologia-320.webp 320w, /images/cursos/biotecnologia-640.webp 640w, /images/cursos/biotecnologia-1280.webp 1280w",
+      "largura": 640,
+      "altura": 395
+   },
+   "ciencia-da-computacao": {
+      "imagem": "/images/cursos/ciencia-da-computacao-640.webp",
+      "srcSet": "/images/cursos/ciencia-da-computacao-320.webp 320w, /images/cursos/ciencia-da-computacao-640.webp 640w, /images/cursos/ciencia-da-computacao-1280.webp 1280w",
+      "largura": 640,
+      "altura": 400
+   },
+   "ciencia-de-dados-e-ia": {
+      "imagem": "/images/cursos/ciencia-de-dados-e-ia-640.webp",
+      "srcSet": "/images/cursos/ciencia-de-dados-e-ia-320.webp 320w, /images/cursos/ciencia-de-dados-e-ia-640.webp 640w, /images/cursos/ciencia-de-dados-e-ia-1280.webp 678w",
+      "largura": 640,
+      "altura": 427
+   },
+   "ciencia-politica": {
+      "imagem": "/images/cursos/ciencia-politica-640.webp",
+      "srcSet": "/images/cursos/ciencia-politica-320.webp 320w, /images/cursos/ciencia-politica-640.webp 640w, /images/cursos/ciencia-politica-1280.webp 1280w",
+      "largura": 640,
+      "altura": 360
+   },
+   "ciencias-biologicas-bacharelado": {
+      "imagem": "/images/cursos/ciencias-biologicas-bacharelado-640.webp",
+      "srcSet": "/images/cursos/ciencias-biologicas-bacharelado-320.webp 320w, /images/cursos/ciencias-biologicas-bacharelado-640.webp 640w, /images/cursos/ciencias-biologicas-bacharelado-1280.webp 1280w",
+      "largura": 640,
+      "altura": 407
+   },
+   "ciencias-biologicas-licenciatura": {
+      "imagem": "/images/cursos/ciencias-biologicas-licenciatura-640.webp",
+      "srcSet": "/images/cursos/ciencias-biologicas-licenciatura-320.webp 320w, /images/cursos/ciencias-biologicas-licenciatura-640.webp 640w, /images/cursos/ciencias-biologicas-licenciatura-1280.webp 1180w",
+      "largura": 640,
+      "altura": 360
+   },
+   "ciencias-contabeis": {
+      "imagem": "/images/cursos/ciencias-contabeis-640.webp",
+      "srcSet": "/images/cursos/ciencias-contabeis-320.webp 320w, /images/cursos/ciencias-contabeis-1280.webp 380w",
+      "largura": 380,
+      "altura": 253
+   },
+   "ciencias-economicas": {
+      "imagem": "/images/cursos/ciencias-economicas-640.webp",
+      "srcSet": "/images/cursos/ciencias-economicas-320.webp 320w, /images/cursos/ciencias-economicas-1280.webp 380w",
+      "largura": 380,
+      "altura": 253
+   },
+   "comercio-exterior": {
+      "imagem": "/images/cursos/comercio-exterior-640.webp",
+      "srcSet": "/images/cursos/comercio-exterior-320.webp 320w, /images/cursos/comercio-exterior-1280.webp 380w",
+      "largura": 380,
+      "altura": 253
+   },
+   "creator-e-digital-influencer": {
+      "imagem": "/images/cursos/creator-e-digital-influencer-640.webp",
+      "srcSet": "/images/cursos/creator-e-digital-influencer-320.webp 320w, /images/cursos/creator-e-digital-influencer-640.webp 640w, /images/cursos/creator-e-digital-influencer-1280.webp 1280w",
+      "largura": 640,
+      "altura": 360
+   },
+   "desenvolvimento-mobile": {
+      "imagem": "/images/cursos/desenvolvimento-mobile-640.webp",
+      "srcSet": "/images/cursos/desenvolvimento-mobile-320.webp 320w, /images/cursos/desenvolvimento-mobile-1280.webp 524w",
+      "largura": 524,
+      "altura": 348
+   },
+   "design-de-animacao-em-ia": {
+      "imagem": "/images/cursos/design-de-animacao-em-ia-640.webp",
+      "srcSet": "/images/cursos/design-de-animacao-em-ia-320.webp 320w, /images/cursos/design-de-animacao-em-ia-1280.webp 500w",
+      "largura": 500,
+      "altura": 331
+   },
+   "design-de-interiores": {
+      "imagem": "/images/cursos/design-de-interiores-640.webp",
+      "srcSet": "/images/cursos/design-de-interiores-320.webp 320w, /images/cursos/design-de-interiores-640.webp 640w, /images/cursos/design-de-interiores-1280.webp 1223w",
+      "largura": 640,
+      "altura": 427
+   },
+   "design-grafico": {
+      "imagem": "/images/cursos/design-grafico-640.webp",
+      "srcSet": "/images/cursos/design-grafico-320.webp 320w, /images/cursos/design-grafico-1280.webp 380w",
+      "largura": 380,
+      "altura": 253
+   },
+   "direito": {
+      "imagem": "/images/cursos/direito-640.webp",
+      "srcSet": "/images/cursos/direito-320.webp 320w, /images/cursos/direito-640.webp 640w, /images/cursos/direito-1280.webp 800w",
+      "largura": 640,
+      "altura": 428
+   },
+   "educacao-fisica-bacharelado": {
+      "imagem": "/images/cursos/educacao-fisica-bacharelado-640.webp",
+      "srcSet": "/images/cursos/educacao-fisica-bacharelado-320.webp 320w, /images/cursos/educacao-fisica-bacharelado-640.webp 640w, /images/cursos/educacao-fisica-bacharelado-1280.webp 1000w",
+      "largura": 640,
+      "altura": 426
+   },
+   "educacao-fisica-licenciatura": {
+      "imagem": "/images/cursos/educacao-fisica-licenciatura-640.webp",
+      "srcSet": "/images/cursos/educacao-fisica-licenciatura-320.webp 320w, /images/cursos/educacao-fisica-licenciatura-640.webp 640w, /images/cursos/educacao-fisica-licenciatura-1280.webp 989w",
+      "largura": 640,
+      "altura": 426
+   },
+   "energias-renovaveis": {
+      "imagem": "/images/cursos/energias-renovaveis-640.webp",
+      "srcSet": "/images/cursos/energias-renovaveis-320.webp 320w, /images/cursos/energias-renovaveis-640.webp 640w, /images/cursos/energias-renovaveis-1280.webp 800w",
+      "largura": 640,
+      "altura": 426
+   },
+   "enfermagem": {
+      "imagem": "/images/cursos/enfermagem-640.webp",
+      "srcSet": "/images/cursos/enfermagem-320.webp 320w, /images/cursos/enfermagem-1280.webp 380w",
+      "largura": 380,
+      "altura": 253
+   },
+   "engenharia-biomedica": {
+      "imagem": "/images/cursos/engenharia-biomedica-640.webp",
+      "srcSet": "/images/cursos/engenharia-biomedica-320.webp 320w, /images/cursos/engenharia-biomedica-1280.webp 522w",
+      "largura": 522,
+      "altura": 315
+   },
+   "engenharia-civil": {
+      "imagem": "/images/cursos/engenharia-civil-640.webp",
+      "srcSet": "/images/cursos/engenharia-civil-320.webp 320w, /images/cursos/engenharia-civil-1280.webp 380w",
+      "largura": 380,
+      "altura": 253
+   },
+   "engenharia-da-computacao": {
+      "imagem": "/images/cursos/engenharia-da-computacao-640.webp",
+      "srcSet": "/images/cursos/engenharia-da-computacao-320.webp 320w, /images/cursos/engenharia-da-computacao-640.webp 640w, /images/cursos/engenharia-da-computacao-1280.webp 703w",
+      "largura": 640,
+      "altura": 715
+   },
+   "engenharia-de-controle-e-automacao": {
+      "imagem": "/images/cursos/engenharia-de-controle-e-automacao-640.webp",
+      "srcSet": "/images/cursos/engenharia-de-controle-e-automacao-320.webp 320w, /images/cursos/engenharia-de-controle-e-automacao-640.webp 640w, /images/cursos/engenharia-de-controle-e-automacao-1280.webp 1280w",
+      "largura": 640,
+      "altura": 490
+   },
+   "engenharia-de-producao": {
+      "imagem": "/images/cursos/engenharia-de-producao-640.webp",
+      "srcSet": "/images/cursos/engenharia-de-producao-320.webp 320w, /images/cursos/engenharia-de-producao-1280.webp 380w",
+      "largura": 380,
+      "altura": 253
+   },
+   "engenharia-de-software": {
+      "imagem": "/images/cursos/engenharia-de-software-640.webp",
+      "srcSet": "/images/cursos/engenharia-de-software-320.webp 320w, /images/cursos/engenharia-de-software-1280.webp 614w",
+      "largura": 614,
+      "altura": 342
+   },
+   "engenharia-eletrica": {
+      "imagem": "/images/cursos/engenharia-eletrica-640.webp",
+      "srcSet": "/images/cursos/engenharia-eletrica-320.webp 320w, /images/cursos/engenharia-eletrica-1280.webp 380w",
+      "largura": 380,
+      "altura": 253
+   },
+   "engenharia-em-inteligencia-artificial": {
+      "imagem": "/images/cursos/engenharia-em-inteligencia-artificial-640.webp",
+      "srcSet": "/images/cursos/engenharia-em-inteligencia-artificial-320.webp 320w, /images/cursos/engenharia-em-inteligencia-artificial-1280.webp 539w",
+      "largura": 539,
+      "altura": 326
+   },
+   "engenharia-mecanica": {
+      "imagem": "/images/cursos/engenharia-mecanica-640.webp",
+      "srcSet": "/images/cursos/engenharia-mecanica-320.webp 320w, /images/cursos/engenharia-mecanica-640.webp 640w, /images/cursos/engenharia-mecanica-1280.webp 1000w",
+      "largura": 640,
+      "altura": 426
+   },
+   "engenharia-quimica": {
+      "imagem": "/images/cursos/engenharia-quimica-640.webp",
+      "srcSet": "/images/cursos/engenharia-quimica-320.webp 320w, /images/cursos/engenharia-quimica-640.webp 640w, /images/cursos/engenharia-quimica-1280.webp 1000w",
+      "largura": 640,
+      "altura": 426
+   },
+   "estetica-e-cosmetica": {
+      "imagem": "/images/cursos/estetica-e-cosmetica-640.webp",
+      "srcSet": "/images/cursos/estetica-e-cosmetica-320.webp 320w, /images/cursos/estetica-e-cosmetica-640.webp 640w, /images/cursos/estetica-e-cosmetica-1280.webp 1000w",
+      "largura": 640,
+      "altura": 426
+   },
+   "farmacia": {
+      "imagem": "/images/cursos/farmacia-640.webp",
+      "srcSet": "/images/cursos/farmacia-320.webp 320w, /images/cursos/farmacia-640.webp 640w, /images/cursos/farmacia-1280.webp 1000w",
+      "largura": 640,
+      "altura": 426
+   },
+   "filosofia": {
+      "imagem": "/images/cursos/filosofia-640.webp",
+      "srcSet": "/images/cursos/filosofia-320.webp 320w, /images/cursos/filosofia-1280.webp 513w",
+      "largura": 513,
+      "altura": 342
+   },
+   "fisioterapia": {
+      "imagem": "/images/cursos/fisioterapia-640.webp",
+      "srcSet": "/images/cursos/fisioterapia-320.webp 320w, /images/cursos/fisioterapia-640.webp 640w, /images/cursos/fisioterapia-1280.webp 1000w",
+      "largura": 640,
+      "altura": 426
+   },
+   "fonoaudiologia": {
+      "imagem": "/images/cursos/fonoaudiologia-640.webp",
+      "srcSet": "/images/cursos/fonoaudiologia-320.webp 320w, /images/cursos/fonoaudiologia-640.webp 640w, /images/cursos/fonoaudiologia-1280.webp 741w",
+      "largura": 640,
+      "altura": 334
+   },
+   "gastronomia": {
+      "imagem": "/images/cursos/gastronomia-640.webp",
+      "srcSet": "/images/cursos/gastronomia-320.webp 320w, /images/cursos/gastronomia-1280.webp 420w",
+      "largura": 420,
+      "altura": 278
+   },
+   "gestao-comercial": {
+      "imagem": "/images/cursos/gestao-comercial-640.webp",
+      "srcSet": "/images/cursos/gestao-comercial-320.webp 320w, /images/cursos/gestao-comercial-640.webp 640w, /images/cursos/gestao-comercial-1280.webp 1280w",
+      "largura": 640,
+      "altura": 725
+   },
+   "gestao-da-producao-industrial": {
+      "imagem": "/images/cursos/gestao-da-producao-industrial-640.webp",
+      "srcSet": "/images/cursos/gestao-da-producao-industrial-320.webp 320w, /images/cursos/gestao-da-producao-industrial-1280.webp 510w",
+      "largura": 510,
+      "altura": 339
+   },
+   "gestao-de-qualidade": {
+      "imagem": "/images/cursos/gestao-de-qualidade-640.webp",
+      "srcSet": "/images/cursos/gestao-de-qualidade-320.webp 320w, /images/cursos/gestao-de-qualidade-1280.webp 517w",
+      "largura": 517,
+      "altura": 341
+   },
+   "gestao-da-tecnologia-da-informacao": {
+      "imagem": "/images/cursos/gestao-da-tecnologia-da-informacao-640.webp",
+      "srcSet": "/images/cursos/gestao-da-tecnologia-da-informacao-320.webp 320w, /images/cursos/gestao-da-tecnologia-da-informacao-1280.webp 517w",
+      "largura": 517,
+      "altura": 341
+   },
+   "gestao-de-eventos": {
+      "imagem": "/images/cursos/gestao-de-eventos-640.webp",
+      "srcSet": "/images/cursos/gestao-de-eventos-320.webp 320w, /images/cursos/gestao-de-eventos-640.webp 640w, /images/cursos/gestao-de-eventos-1280.webp 1280w",
+      "largura": 640,
+      "altura": 144
+   },
+   "gestao-de-negocios-imobiliarios": {
+      "imagem": "/images/cursos/gestao-de-negocios-imobiliarios-640.webp",
+      "srcSet": "/images/cursos/gestao-de-negocios-imobiliarios-320.webp 320w, /images/cursos/gestao-de-negocios-imobiliarios-640.webp 640w, /images/cursos/gestao-de-negocios-imobiliarios-1280.webp 1280w",
+      "largura": 640,
+      "altura": 377
+   },
+   "gestao-de-recursos-humanos": {
+      "imagem": "/images/cursos/gestao-de-recursos-humanos-640.webp",
+      "srcSet": "/images/cursos/gestao-de-recursos-humanos-320.webp 320w, /images/cursos/gestao-de-recursos-humanos-640.webp 640w, /images/cursos/gestao-de-recursos-humanos-1280.webp 1000w",
+      "largura": 640,
+      "altura": 426
+   },
+   "gestao-de-turismo": {
+      "imagem": "/images/cursos/gestao-de-turismo-640.webp",
+      "srcSet": "/images/cursos/gestao-de-turismo-320.webp 320w, /images/cursos/gestao-de-turismo-1280.webp 521w",
+      "largura": 521,
+      "altura": 347
+   },
+   "gestao-financeira": {
+      "imagem": "/images/cursos/gestao-financeira-640.webp",
+      "srcSet": "/images/cursos/gestao-financeira-320.webp 320w, /images/cursos/gestao-financeira-640.webp 640w, /images/cursos/gestao-financeira-1280.webp 1280w",
+      "largura": 640,
+      "altura": 427
+   },
+   "gestao-publica": {
+      "imagem": "/images/cursos/gestao-publica-640.webp",
+      "srcSet": "/images/cursos/gestao-publica-320.webp 320w, /images/cursos/gestao-publica-640.webp 640w, /images/cursos/gestao-publica-1280.webp 1280w",
+      "largura": 640,
+      "altura": 408
+   },
+   "inteligencia-artificial-e-automacao-inteligente": {
+      "imagem": "/images/cursos/inteligencia-artificial-e-automacao-inteligente-640.webp",
+      "srcSet": "/images/cursos/inteligencia-artificial-e-automacao-inteligente-320.webp 320w, /images/cursos/inteligencia-artificial-e-automacao-inteligente-640.webp 640w, /images/cursos/inteligencia-artificial-e-automacao-inteligente-1280.webp 1280w",
+      "largura": 640,
+      "altura": 250
+   },
+   "internet-das-coisas-iot": {
+      "imagem": "/images/cursos/internet-das-coisas-iot-640.webp",
+      "srcSet": "/images/cursos/internet-das-coisas-iot-320.webp 320w, /images/cursos/internet-das-coisas-iot-1280.webp 545w",
+      "largura": 545,
+      "altura": 325
+   },
+   "jogos-digitais": {
+      "imagem": "/images/cursos/jogos-digitais-640.webp",
+      "srcSet": "/images/cursos/jogos-digitais-320.webp 320w, /images/cursos/jogos-digitais-640.webp 640w, /images/cursos/jogos-digitais-1280.webp 1000w",
+      "largura": 640,
+      "altura": 426
+   },
+   "letras-portugues": {
+      "imagem": "/images/cursos/letras-portugues-640.webp",
+      "srcSet": "/images/cursos/letras-portugues-320.webp 320w, /images/cursos/letras-portugues-1280.webp 380w",
+      "largura": 380,
+      "altura": 253
+   },
+   "logistica": {
+      "imagem": "/images/cursos/logistica-640.webp",
+      "srcSet": "/images/cursos/logistica-320.webp 320w, /images/cursos/logistica-1280.webp 380w",
+      "largura": 380,
+      "altura": 253
+   },
+   "marketing": {
+      "imagem": "/images/cursos/marketing-640.webp",
+      "srcSet": "/images/cursos/marketing-320.webp 320w, /images/cursos/marketing-640.webp 640w, /images/cursos/marketing-1280.webp 1280w",
+      "largura": 640,
+      "altura": 427
+   },
+   "medicina-veterinaria": {
+      "imagem": "/images/cursos/medicina-veterinaria-640.webp",
+      "srcSet": "/images/cursos/medicina-veterinaria-320.webp 320w, /images/cursos/medicina-veterinaria-640.webp 640w, /images/cursos/medicina-veterinaria-1280.webp 1280w",
+      "largura": 640,
+      "altura": 427
+   },
+   "midias-sociais-digitais": {
+      "imagem": "/images/cursos/midias-sociais-digitais-640.webp",
+      "srcSet": "/images/cursos/midias-sociais-digitais-320.webp 320w, /images/cursos/midias-sociais-digitais-1280.webp 637w",
+      "largura": 637,
+      "altura": 362
+   },
+   "nutricao": {
+      "imagem": "/images/cursos/nutricao-640.webp",
+      "srcSet": "/images/cursos/nutricao-320.webp 320w, /images/cursos/nutricao-640.webp 640w, /images/cursos/nutricao-1280.webp 1000w",
+      "largura": 640,
+      "altura": 426
+   },
+   "odontologia": {
+      "imagem": "/images/cursos/odontologia-640.webp",
+      "srcSet": "/images/cursos/odontologia-320.webp 320w, /images/cursos/odontologia-640.webp 640w, /images/cursos/odontologia-1280.webp 800w",
+      "largura": 640,
+      "altura": 426
+   },
+   "oftalmica": {
+      "imagem": "/images/cursos/oftalmica-640.webp",
+      "srcSet": "/images/cursos/oftalmica-320.webp 320w, /images/cursos/oftalmica-640.webp 640w, /images/cursos/oftalmica-1280.webp 800w",
+      "largura": 640,
+      "altura": 427
+   },
+   "pedagogia-licenciatura": {
+      "imagem": "/images/cursos/pedagogia-licenciatura-640.webp",
+      "srcSet": "/images/cursos/pedagogia-licenciatura-320.webp 320w, /images/cursos/pedagogia-licenciatura-1280.webp 380w",
+      "largura": 380,
+      "altura": 253
+   },
+   "pedagogia-bilingue-licenciatura": {
+      "imagem": "/images/cursos/pedagogia-bilingue-licenciatura-640.webp",
+      "srcSet": "/images/cursos/pedagogia-bilingue-licenciatura-320.webp 320w, /images/cursos/pedagogia-bilingue-licenciatura-1280.webp 443w",
+      "largura": 443,
+      "altura": 295
+   },
+   "podologia": {
+      "imagem": "/images/cursos/podologia-640.webp",
+      "srcSet": "/images/cursos/podologia-320.webp 320w, /images/cursos/podologia-640.webp 640w, /images/cursos/podologia-1280.webp 800w",
+      "largura": 640,
+      "altura": 426
+   },
+   "processos-gerenciais": {
+      "imagem": "/images/cursos/processos-gerenciais-640.webp",
+      "srcSet": "/images/cursos/processos-gerenciais-320.webp 320w, /images/cursos/processos-gerenciais-640.webp 640w, /images/cursos/processos-gerenciais-1280.webp 1280w",
+      "largura": 640,
+      "altura": 427
+   },
+   "producao-multimidia": {
+      "imagem": "/images/cursos/producao-multimidia-640.webp",
+      "srcSet": "/images/cursos/producao-multimidia-320.webp 320w, /images/cursos/producao-multimidia-1280.webp 380w",
+      "largura": 380,
+      "altura": 253
+   },
+   "psicologia": {
+      "imagem": "/images/cursos/psicologia-640.webp",
+      "srcSet": "/images/cursos/psicologia-320.webp 320w, /images/cursos/psicologia-1280.webp 380w",
+      "largura": 380,
+      "altura": 253
+   },
+   "psicopedagogia": {
+      "imagem": "/images/cursos/psicopedagogia-640.webp",
+      "srcSet": "/images/cursos/psicopedagogia-320.webp 320w, /images/cursos/psicopedagogia-640.webp 640w, /images/cursos/psicopedagogia-1280.webp 1122w",
+      "largura": 640,
+      "altura": 800
+   },
+   "publicidade-e-propaganda": {
+      "imagem": "/images/cursos/publicidade-e-propaganda-640.webp",
+      "srcSet": "/images/cursos/publicidade-e-propaganda-320.webp 320w, /images/cursos/publicidade-e-propaganda-640.webp 640w, /images/cursos/publicidade-e-propaganda-1280.webp 1000w",
+      "largura": 640,
+      "altura": 426
+   },
+   "redes-de-telecomunicacoes": {
+      "imagem": "/images/cursos/redes-de-telecomunicacoes-640.webp",
+      "srcSet": "/images/cursos/redes-de-telecomunicacoes-320.webp 320w, /images/cursos/redes-de-telecomunicacoes-640.webp 640w, /images/cursos/redes-de-telecomunicacoes-1280.webp 1280w",
+      "largura": 640,
+      "altura": 360
+   },
+   "relacoes-internacionais": {
+      "imagem": "/images/cursos/relacoes-internacionais-640.webp",
+      "srcSet": "/images/cursos/relacoes-internacionais-320.webp 320w, /images/cursos/relacoes-internacionais-640.webp 640w, /images/cursos/relacoes-internacionais-1280.webp 1280w",
+      "largura": 640,
+      "altura": 427
+   },
+   "relacoes-publicas": {
+      "imagem": "/images/cursos/relacoes-publicas-640.webp",
+      "srcSet": "/images/cursos/relacoes-publicas-320.webp 320w, /images/cursos/relacoes-publicas-640.webp 640w, /images/cursos/relacoes-publicas-1280.webp 1123w",
+      "largura": 640,
+      "altura": 431
+   },
+   "seguranca-da-informacao": {
+      "imagem": "/images/cursos/seguranca-da-informacao-640.webp",
+      "srcSet": "/images/cursos/seguranca-da-informacao-320.webp 320w, /images/cursos/seguranca-da-informacao-1280.webp 517w",
+      "largura": 517,
+      "altura": 341
+   },
+   "servico-social": {
+      "imagem": "/images/cursos/servico-social-640.webp",
+      "srcSet": "/images/cursos/servico-social-320.webp 320w, /images/cursos/servico-social-640.webp 640w, /images/cursos/servico-social-1280.webp 1280w",
+      "largura": 640,
+      "altura": 427
+   },
+   "social-commerce": {
+      "imagem": "/images/cursos/social-commerce-640.webp",
+      "srcSet": "/images/cursos/social-commerce-320.webp 320w, /images/cursos/social-commerce-640.webp 640w, /images/cursos/social-commerce-1280.webp 995w",
+      "largura": 640,
+      "altura": 358
+   },
+   "teologia": {
+      "imagem": "/images/cursos/teologia-640.webp",
+      "srcSet": "/images/cursos/teologia-320.webp 320w, /images/cursos/teologia-640.webp 640w, /images/cursos/teologia-1280.webp 1111w",
+      "largura": 640,
+      "altura": 361
+   },
+   "terapia-ocupacional": {
+      "imagem": "/images/cursos/terapia-ocupacional-640.webp",
+      "srcSet": "/images/cursos/terapia-ocupacional-320.webp 320w, /images/cursos/terapia-ocupacional-640.webp 640w, /images/cursos/terapia-ocupacional-1280.webp 672w",
+      "largura": 640,
+      "altura": 426
+   }
+}
