@@ -4,6 +4,7 @@ import type { Campanha, Contexto, DemoData, Formacao, Matricula, Revisao } from 
 import type { Refund, ServiceRecord } from "@/types/refunds";
 import { refundLabels } from "@/lib/refunds";
 import logo from "@/data/report-logo.json";
+import campaignLogo from "@/data/campaign-logo.json";
 
 export interface ExportContext {
    contexto: Contexto;
@@ -333,7 +334,7 @@ export async function buildCampaignPdf({ campaign, revision, data, geradoPor }: 
    const total = doc.getNumberOfPages();
    for (let i = 1; i <= total; i++) {
       doc.setPage(i);
-      doc.addImage(logo.dataUrl, "PNG", 14, 9, 40, 12);
+      doc.addImage(campaignLogo.dataUrl, "PNG", 14, 6, 40, (40 * campaignLogo.height) / campaignLogo.width);
       doc.setFont("helvetica", "bold");
       doc.setFontSize(10);
       doc.setTextColor(38, 47, 59);

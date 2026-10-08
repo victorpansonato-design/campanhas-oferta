@@ -14,6 +14,7 @@ import { env } from "@/config/env";
 import type { Campanha, DemoData } from "@/types/domain";
 import { toast } from "sonner";
 import { CampaignPdfButton } from "@/components/campaign-pdf-button";
+import { CampaignLogo } from "@/components/campaign-logo";
 import { standardForRevision } from "@/lib/domain";
 export default function CampanhaPage() {
    const location = useLocation();
@@ -120,7 +121,10 @@ export function CampaignDetail({ campaign: c, data, approval = false }: { campai
          )}
          <div className="campaign-detail-sections">
             <section className="campaign-offer">
-               <h2>Mensalidades da campanha</h2>
+               <div className="panel-heading">
+                  <h2>Mensalidades da campanha</h2>
+                  {rev.estado === "aprovada" && <CampaignLogo />}
+               </div>
                {rev.contextosIds.length > 1 &&
                   rev.regras.some(rule => rule.tipo === "percentual" || rule.tipo === "base" || rule.tipo === "padrao") && (
                      <SelectField

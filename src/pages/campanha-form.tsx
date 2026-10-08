@@ -5,6 +5,7 @@ import { useQueryClient } from "@tanstack/react-query";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { z } from "zod";
 import { Plus, Send, Trash2 } from "lucide-react";
+import { m as motion, useReducedMotion } from "motion/react";
 import { PageHeading, DataBoundary, SearchField, MonthlySchedule, Status } from "@/components/shared";
 import { Button } from "@/components/ui/button";
 import { Callout } from "@/components/ui/callout";
@@ -19,9 +20,12 @@ import {
    conflitos,
    contextLabel,
    cursos,
+   dateLabel,
    gerarEntradas,
    lastRevision,
+   listarMeses,
    modalidades,
+   monthLabel,
    money,
    normalizeSearch,
    ofertas,
@@ -57,6 +61,9 @@ const formSchema = z.object({
    ),
 });
 type Values = z.infer<typeof formSchema>;
+function periodMonths(months: string[], current?: string) {
+   return [...new Set([...months, ...(current ? [current] : [])])].sort();
+}
 function toRevision(v: Values, personaId: string, contexts: string[], existingFee?: Revisao["taxaMatricula"]): Revisao {
    return {
       numero: 1,
@@ -202,6 +209,8 @@ function Editor({
       yearQuery = useDemo(values.ano),
       data = yearQuery.data ?? initial;
    const { fields, append, remove } = useFieldArray({ control, name: "regras" });
+   const reducedMotion = useReducedMotion();
+   const cardTransition = { duration: reducedMotion ? 0 : 0.22, ease: [0.16, 1, 0.3, 1] as const };
    const [search, setSearch] = useState(""),
       [error, setError] = useState(""),
       [notice, setNotice] = useState(""),
@@ -247,6 +256,17 @@ function Editor({
    const baseContext = contexts.find(c => c.id === preview) ?? contexts[0],
       base = revision && baseContext ? baseForRevision(revision, data, baseContext.id) : undefined,
       standard = revision && baseContext ? standardForRevision(revision, data, baseContext.id) : undefined;
+   const selectedEntries = gerarEntradas(values.ano, values.modalidade).filter(e => values.entradas.includes(e.codigo));
+   const defaultAdhesion = selectedEntries.length
+      ? `${dateLabel(selectedEntries[0].inicio)} a ${dateLabel(selectedEntries.at(-1)!.fim)}`
+      : "Selecione uma entrada para definir o prazo.";
+   const billingMonths = useMemo(() => {
+      try {
+         return listarMeses(values.inicio, values.fim);
+      } catch {
+         return [];
+      }
+   }, [values.inicio, values.fim]);
    const canEdit =
       persona.perfil === "proponente" &&
       (!campaign || campaign.criadaPor === personaId) &&
@@ -339,334 +359,378 @@ function Editor({
                      void save();
                   }}
                   aria-describedby={error ? "form-error" : undefined}
-                  className="wizard-layout"
+                  className="wizard-layout campaign-editor"
                >
                   <div className="wizard-main">
-                     <section className="panel">
-                        <h2>Quais cursos recebem a campanha?</h2>
-                        <p className="panel-description">Escolha a modalidade e refine as ofertas que serão contempladas.</p>
-                        <div className="form-grid">
-                           <label className="field">
-                              Modalidade
-                              <select {...register("modalidade")} onChange={e => changeModality(e.target.value)}>
-                                 {modalidades.map(m => (
-                                    <option key={m}>{m}</option>
-                                 ))}
-                              </select>
-                           </label>
-                           <label className="field">
-                              Abrangência
-                              <select
-                                 {...register("modo")}
-                                 onChange={e => {
-                                    const mode = e.target.value;
-                                    setChooseCourse(true);
-                                    if (mode === "modalidade" || values.modo === "modalidade") setValue("cursoIds", []);
-                                    else if (mode === "cursos") setValue("cursoIds", values.cursoIds.slice(0, 1));
-                                    setValue("modo", mode);
-                                 }}
-                              >
-                                 <option value="cursos">Um curso</option>
-                                 <option value="varios-cursos">Vários cursos</option>
-                                 <option value="modalidade">Modalidade inteira · Todos</option>
-                              </select>
-                           </label>
-                           <details className="scope-options">
-                              <summary>Formato e turno</summary>
-                              <div className="form-grid mt-3">
-                                 <label className="field">
-                                    Formato
-                                    <select {...register("formato")}>
-                                       <option value="">Todos os formatos</option>
-                                       {[...new Set(ofertas.filter(o => o.modalidade === values.modalidade).map(o => o.formato))].map(
-                                          format => (
-                                             <option key={format}>{format}</option>
-                                          ),
-                                       )}
-                                    </select>
-                                 </label>
-                                 <label className="field">
-                                    Turno
-                                    <select {...register("turno")}>
-                                       <option value="">Todos os turnos cadastrados</option>
-                                       {[
-                                          ...new Set(
-                                             data.contextos.filter(c => possibleOffers.some(o => o.id === c.ofertaId)).map(c => c.turno),
-                                          ),
-                                       ].map(turno => (
-                                          <option key={turno}>{turno}</option>
-                                       ))}
-                                       <option value="desconhecido">Turno não cadastrado (requer cadastro)</option>
-                                    </select>
-                                 </label>
-                              </div>
-                           </details>
-                        </div>
-                        {values.turno === "desconhecido" && (
-                           <section className="panel mb-5">
-                              <h3>Cadastrar turno</h3>
-                              <p className="panel-description">O turno será criado apenas para as ofertas e entradas selecionadas.</p>
+                     <div className="campaign-setup">
+                        <section className="panel campaign-scope">
+                           <h2>Cursos da campanha</h2>
+                           <div className="form-grid">
                               <label className="field">
-                                 Nome do turno
-                                 <input value={turnName} onChange={e => setTurnName(e.target.value)} placeholder="Ex.: Vespertino" />
+                                 Modalidade
+                                 <select {...register("modalidade")} onChange={e => changeModality(e.target.value)}>
+                                    {modalidades.map(m => (
+                                       <option key={m}>{m}</option>
+                                    ))}
+                                 </select>
                               </label>
-                              <Button
-                                 type="button"
-                                 variant="outline"
-                                 className="mt-3"
-                                 disabled={saving || !turnName.trim() || !selectedOffers.length || !values.entradas.length}
-                                 onClick={async () => {
-                                    setSaving(true);
-                                    try {
-                                       await repository.registerTurn(
-                                          selectedOffers.map(o => o.id),
-                                          values.entradas,
-                                          turnName,
-                                          personaId,
-                                       );
-                                       await yearQuery.refetch();
-                                       setValue("turno", turnName.trim());
-                                       setNotice("Turno cadastrado para as ofertas selecionadas.");
-                                    } catch (err) {
-                                       setError((err as Error).message);
-                                    } finally {
-                                       setSaving(false);
-                                    }
-                                 }}
-                              >
-                                 Cadastrar turno nas ofertas selecionadas
-                              </Button>
-                           </section>
-                        )}
-                        {values.modo !== "modalidade" ? (
-                           <>
-                              {values.modo === "cursos" && !chooseCourse && values.cursoIds.length === 1 ? (
-                                 <div className="selected-course">
-                                    <strong>{cursos.find(c => c.id === values.cursoIds[0])?.nome}</strong>
-                                    <Button type="button" variant="link" onClick={() => setChooseCourse(true)}>
-                                       Trocar curso
-                                    </Button>
+                              <label className="field">
+                                 Abrangência
+                                 <select
+                                    {...register("modo")}
+                                    onChange={e => {
+                                       const mode = e.target.value;
+                                       setChooseCourse(true);
+                                       if (mode === "modalidade" || values.modo === "modalidade") setValue("cursoIds", []);
+                                       else if (mode === "cursos") setValue("cursoIds", values.cursoIds.slice(0, 1));
+                                       setValue("modo", mode);
+                                    }}
+                                 >
+                                    <option value="cursos">Um curso</option>
+                                    <option value="varios-cursos">Vários cursos</option>
+                                    <option value="modalidade">Modalidade inteira · Todos</option>
+                                 </select>
+                              </label>
+                              <details className="scope-options">
+                                 <summary>Formato e turno</summary>
+                                 <div className="form-grid mt-3">
+                                    <label className="field">
+                                       Formato
+                                       <select {...register("formato")}>
+                                          <option value="">Todos os formatos</option>
+                                          {[...new Set(ofertas.filter(o => o.modalidade === values.modalidade).map(o => o.formato))].map(
+                                             format => (
+                                                <option key={format}>{format}</option>
+                                             ),
+                                          )}
+                                       </select>
+                                    </label>
+                                    <label className="field">
+                                       Turno
+                                       <select {...register("turno")}>
+                                          <option value="">Todos os turnos cadastrados</option>
+                                          {[
+                                             ...new Set(
+                                                data.contextos.filter(c => possibleOffers.some(o => o.id === c.ofertaId)).map(c => c.turno),
+                                             ),
+                                          ].map(turno => (
+                                             <option key={turno}>{turno}</option>
+                                          ))}
+                                          <option value="desconhecido">Turno não cadastrado (requer cadastro)</option>
+                                       </select>
+                                    </label>
                                  </div>
-                              ) : (
-                                 <>
-                                    <SearchField
-                                       label="Filtrar cursos para seleção"
-                                       value={search}
-                                       onChange={setSearch}
-                                       placeholder="Pesquisar cursos para a campanha…"
-                                    />
-                                    <fieldset className="course-selection">
-                                       <legend className="sr-only">Cursos elegíveis</legend>
-                                       {courseChoices.map(c => (
-                                          <label key={c.id}>
+                              </details>
+                           </div>
+                           {values.turno === "desconhecido" && (
+                              <section className="panel mb-5">
+                                 <h3>Cadastrar turno</h3>
+                                 <p className="panel-description">O turno será criado apenas para as ofertas e entradas selecionadas.</p>
+                                 <label className="field">
+                                    Nome do turno
+                                    <input value={turnName} onChange={e => setTurnName(e.target.value)} placeholder="Ex.: Vespertino" />
+                                 </label>
+                                 <Button
+                                    type="button"
+                                    variant="outline"
+                                    className="mt-3"
+                                    disabled={saving || !turnName.trim() || !selectedOffers.length || !values.entradas.length}
+                                    onClick={async () => {
+                                       setSaving(true);
+                                       try {
+                                          await repository.registerTurn(
+                                             selectedOffers.map(o => o.id),
+                                             values.entradas,
+                                             turnName,
+                                             personaId,
+                                          );
+                                          await yearQuery.refetch();
+                                          setValue("turno", turnName.trim());
+                                          setNotice("Turno cadastrado para as ofertas selecionadas.");
+                                       } catch (err) {
+                                          setError((err as Error).message);
+                                       } finally {
+                                          setSaving(false);
+                                       }
+                                    }}
+                                 >
+                                    Cadastrar turno nas ofertas selecionadas
+                                 </Button>
+                              </section>
+                           )}
+                           {values.modo !== "modalidade" ? (
+                              <>
+                                 {values.modo === "cursos" && !chooseCourse && values.cursoIds.length === 1 ? (
+                                    <div className="selected-course">
+                                       <strong>{cursos.find(c => c.id === values.cursoIds[0])?.nome}</strong>
+                                       <Button type="button" variant="link" onClick={() => setChooseCourse(true)}>
+                                          Trocar curso
+                                       </Button>
+                                    </div>
+                                 ) : (
+                                    <>
+                                       <SearchField
+                                          label="Filtrar cursos para seleção"
+                                          value={search}
+                                          onChange={setSearch}
+                                          placeholder="Pesquisar cursos para a campanha…"
+                                       />
+                                       <fieldset className="course-selection">
+                                          <legend className="sr-only">Cursos elegíveis</legend>
+                                          {courseChoices.map(c => (
+                                             <label key={c.id}>
+                                                <input
+                                                   type={values.modo === "cursos" ? "radio" : "checkbox"}
+                                                   name="selected-courses"
+                                                   checked={values.cursoIds.includes(c.id)}
+                                                   onChange={e => {
+                                                      setChooseCourse(values.modo !== "cursos");
+                                                      setValue(
+                                                         "cursoIds",
+                                                         values.modo === "cursos"
+                                                            ? [c.id]
+                                                            : e.target.checked
+                                                              ? [...values.cursoIds, c.id]
+                                                              : values.cursoIds.filter(id => id !== c.id),
+                                                      );
+                                                   }}
+                                                />
+                                                <span>
+                                                   <strong>{c.nome}</strong>
+                                                   <small>
+                                                      {c.diploma} ·{" "}
+                                                      {possibleOffers
+                                                         .filter(o => o.cursoId === c.id)
+                                                         .map(o => o.formato)
+                                                         .join(" · ")}
+                                                   </small>
+                                                </span>
+                                                {c.novo && <Status value="Novo" />}
+                                             </label>
+                                          ))}
+                                       </fieldset>
+                                    </>
+                                 )}
+                              </>
+                           ) : (
+                              <>
+                                 <Callout className="mt-5">
+                                    Todos os {new Set(possibleOffers.map(o => o.cursoId)).size} cursos desta modalidade serão considerados.
+                                    O escopo será congelado no envio.
+                                 </Callout>
+                                 <details className="mt-5">
+                                    <summary>Exceções por curso (opcional)</summary>
+                                    <p className="my-3 text-sm text-muted-foreground">
+                                       Selecione os cursos que devem ficar fora da campanha.
+                                    </p>
+                                    {cursos
+                                       .filter(c => possibleOffers.some(o => o.cursoId === c.id))
+                                       .map(c => (
+                                          <label className="check-label" key={c.id}>
                                              <input
-                                                type={values.modo === "cursos" ? "radio" : "checkbox"}
-                                                name="selected-courses"
+                                                type="checkbox"
                                                 checked={values.cursoIds.includes(c.id)}
-                                                onChange={e => {
-                                                   setChooseCourse(values.modo !== "cursos");
+                                                onChange={e =>
                                                    setValue(
                                                       "cursoIds",
-                                                      values.modo === "cursos"
-                                                         ? [c.id]
-                                                         : e.target.checked
-                                                           ? [...values.cursoIds, c.id]
-                                                           : values.cursoIds.filter(id => id !== c.id),
-                                                   );
-                                                }}
+                                                      e.target.checked
+                                                         ? [...values.cursoIds, c.id]
+                                                         : values.cursoIds.filter(id => id !== c.id),
+                                                   )
+                                                }
                                              />
-                                             <span>
-                                                <strong>{c.nome}</strong>
-                                                <small>
-                                                   {c.diploma} ·{" "}
-                                                   {possibleOffers
-                                                      .filter(o => o.cursoId === c.id)
-                                                      .map(o => o.formato)
-                                                      .join(" · ")}
-                                                </small>
-                                             </span>
-                                             {c.novo && <Status value="Novo" />}
+                                             {c.nome}
                                           </label>
                                        ))}
-                                    </fieldset>
-                                 </>
-                              )}
-                           </>
-                        ) : (
-                           <>
-                              <Callout className="mt-5">
-                                 Todos os {new Set(possibleOffers.map(o => o.cursoId)).size} cursos desta modalidade serão considerados. O
-                                 escopo será congelado no envio.
-                              </Callout>
-                              <details className="mt-5">
-                                 <summary>Exceções por curso (opcional)</summary>
-                                 <p className="my-3 text-sm text-muted-foreground">Selecione os cursos que devem ficar fora da campanha.</p>
-                                 {cursos
-                                    .filter(c => possibleOffers.some(o => o.cursoId === c.id))
-                                    .map(c => (
-                                       <label className="check-label" key={c.id}>
-                                          <input
-                                             type="checkbox"
-                                             checked={values.cursoIds.includes(c.id)}
-                                             onChange={e =>
-                                                setValue(
-                                                   "cursoIds",
-                                                   e.target.checked
-                                                      ? [...values.cursoIds, c.id]
-                                                      : values.cursoIds.filter(id => id !== c.id),
-                                                )
-                                             }
-                                          />
-                                          {c.nome}
-                                       </label>
-                                    ))}
-                              </details>
-                           </>
-                        )}
-                        <p className="mt-4 text-xs text-muted-foreground">Presencial Integral não faz parte das ofertas elegíveis.</p>
-                     </section>
-                     <section className="panel">
-                        <h2>Ingresso e prazo de adesão</h2>
-                        <p className="panel-description">Entrada identifica a turma; o prazo define quando a matrícula pode aderir.</p>
-                        <label className="field max-w-52">
-                           Ano de ingresso
-                           <input
-                              type="number"
-                              min="2000"
-                              max="9999"
-                              {...register("ano", { valueAsNumber: true })}
-                              onChange={e => {
-                                 const y = Number(e.target.value);
-                                 if (y >= 2000 && y <= 9999) {
-                                    setValue("ano", y);
-                                    setValue("entradas", []);
-                                    setNotice("Ano alterado. Selecione as entradas do novo ano; revise os meses da cobrança.");
-                                 }
-                              }}
-                           />
-                        </label>
-                        <fieldset className="entry-selection">
-                           <legend>
-                              Entradas de {values.modalidade} · {values.ano}
-                           </legend>
-                           {gerarEntradas(values.ano, values.modalidade).map(e => (
-                              <label key={e.codigo}>
+                                 </details>
+                              </>
+                           )}
+                        </section>
+                        <section className="panel campaign-timing">
+                           <div className="setup-heading">
+                              <h2>Ingresso</h2>
+                              <label className="field entry-year">
+                                 Ano
                                  <input
-                                    type="checkbox"
-                                    checked={values.entradas.includes(e.codigo)}
-                                    onChange={ev => {
-                                       setValue(
-                                          "entradas",
-                                          ev.target.checked ? [...values.entradas, e.codigo] : values.entradas.filter(c => c !== e.codigo),
-                                       );
-                                       if (
-                                          ev.target.checked &&
-                                          !values.entradas.length &&
-                                          !campaign &&
-                                          !source &&
-                                          !form.formState.dirtyFields.regras
-                                       ) {
-                                          const start = e.inicio.slice(0, 7);
-                                          setValue("inicio", start);
-                                          setValue("fim", `${values.ano}-12`);
-                                          setValue("regras", [{ inicio: start, fim: start, tipo: "fixo", valor: "" }]);
+                                    type="number"
+                                    min="2000"
+                                    max="9999"
+                                    {...register("ano", { valueAsNumber: true })}
+                                    onChange={e => {
+                                       const y = Number(e.target.value);
+                                       if (y >= 2000 && y <= 9999) {
+                                          setValue("ano", y);
+                                          setValue("entradas", []);
+                                          setNotice("Ano alterado. Selecione as entradas do novo ano; revise os meses da cobrança.");
                                        }
                                     }}
                                  />
-                                 <span>
-                                    <strong>
-                                       {values.modalidade === "Presencial"
-                                          ? e.codigo.endsWith("/1")
-                                             ? "1º semestre"
-                                             : "2º semestre"
-                                          : `${gerarEntradas(values.ano, values.modalidade).findIndex(x => x.codigo === e.codigo) + 1}º trimestre`}{" "}
-                                       de {values.ano}
-                                    </strong>
-                                    <small>
-                                       {e.codigo} · {e.inicio.split("-").reverse().join("/")} a {e.fim.split("-").reverse().join("/")}
-                                    </small>
-                                 </span>
-                              </label>
-                           ))}
-                        </fieldset>
-                        <label className="check-label my-5">
-                           <input type="checkbox" {...register("janela")} />
-                           Definir um prazo específico de adesão
-                        </label>
-                        {values.janela && (
-                           <div className="form-grid">
-                              <label className="field">
-                                 Matrícula a partir de
-                                 <input type="date" {...register("adesaoInicio")} />
-                              </label>
-                              <label className="field">
-                                 Matrícula até
-                                 <input type="date" {...register("adesaoFim")} />
                               </label>
                            </div>
-                        )}
-                        <Callout className="mt-5">
-                           Os meses de benefício podem ir além do semestre ou trimestre de ingresso. Defina o período de cobrança abaixo.
-                        </Callout>
-                     </section>
-                     <section className="panel">
-                        <h2>Quanto o aluno paga em cada mês?</h2>
-                        <p className="panel-description">
-                           Defina o benefício dos primeiros meses. Depois, a bolsa comercial padrão será aplicada automaticamente até o fim
-                           da cobrança.
-                        </p>
-                        <div className="form-grid">
-                           <label className="field">
-                              Cobrança de
-                              <input type="month" {...register("inicio")} />
-                           </label>
-                           <label className="field">
-                              Cobrança até
-                              <input type="month" {...register("fim")} />
-                           </label>
+                           <fieldset className="entry-selection">
+                              <legend>Selecione as entradas</legend>
+                              {gerarEntradas(values.ano, values.modalidade).map(e => (
+                                 <label key={e.codigo}>
+                                    <input
+                                       type="checkbox"
+                                       checked={values.entradas.includes(e.codigo)}
+                                       onChange={ev => {
+                                          setValue(
+                                             "entradas",
+                                             ev.target.checked
+                                                ? [...values.entradas, e.codigo]
+                                                : values.entradas.filter(c => c !== e.codigo),
+                                          );
+                                          if (
+                                             ev.target.checked &&
+                                             !values.entradas.length &&
+                                             !campaign &&
+                                             !source &&
+                                             !form.formState.dirtyFields.regras
+                                          ) {
+                                             const start = e.inicio.slice(0, 7);
+                                             setValue("inicio", start);
+                                             setValue("fim", `${values.ano}-12`);
+                                             setValue("regras", [{ inicio: start, fim: start, tipo: "fixo", valor: "" }]);
+                                          }
+                                       }}
+                                    />
+                                    <span>
+                                       <strong>
+                                          {values.modalidade === "Presencial"
+                                             ? e.codigo.endsWith("/1")
+                                                ? "1º semestre"
+                                                : "2º semestre"
+                                             : `${gerarEntradas(values.ano, values.modalidade).findIndex(x => x.codigo === e.codigo) + 1}º trimestre`}{" "}
+                                       </strong>
+                                       <small>
+                                          {e.inicio.split("-").reverse().slice(0, 2).join("/")} a{" "}
+                                          {e.fim.split("-").reverse().slice(0, 2).join("/")}
+                                       </small>
+                                    </span>
+                                 </label>
+                              ))}
+                           </fieldset>
+                           <div className="adhesion-settings">
+                              <div className="adhesion-heading">
+                                 <h3>Prazo de adesão</h3>
+                                 <label className="check-label">
+                                    <input type="checkbox" {...register("janela")} aria-controls="adhesion-dates" />
+                                    Personalizar
+                                 </label>
+                              </div>
+                              {!values.janela && <p className="timing-help">{defaultAdhesion}</p>}
+                              {values.janela && (
+                                 <motion.div
+                                    id="adhesion-dates"
+                                    className="form-grid adhesion-dates"
+                                    initial={{ y: reducedMotion ? 0 : -6 }}
+                                    animate={{ y: 0 }}
+                                    transition={cardTransition}
+                                 >
+                                    <label className="field">
+                                       Matrícula a partir de
+                                       <input type="date" {...register("adesaoInicio")} />
+                                    </label>
+                                    <label className="field">
+                                       Matrícula até
+                                       <input type="date" {...register("adesaoFim")} />
+                                    </label>
+                                 </motion.div>
+                              )}
+                           </div>
+                        </section>
+                     </div>
+                     <section className="panel campaign-payments">
+                        <div className="payments-heading">
+                           <div>
+                              <h2>Quanto o aluno paga em cada mês?</h2>
+                              <p className="panel-description">
+                                 Defina os meses com benefício. Nos demais, o aluno paga a mensalidade padrão.
+                              </p>
+                           </div>
+                           <div className="form-grid billing-dates">
+                              <label className="field">
+                                 Cobrança de
+                                 <input type="month" {...register("inicio")} />
+                              </label>
+                              <label className="field">
+                                 Cobrança até
+                                 <input type="month" {...register("fim")} />
+                              </label>
+                           </div>
                         </div>
                         <div className="monthly-rules">
                            {fields.map((field, i) => (
-                              <fieldset key={field.id} className="rule-card">
+                              <motion.fieldset
+                                 key={field.id}
+                                 className="rule-card"
+                                 layout="position"
+                                 initial={{ y: reducedMotion ? 0 : 8 }}
+                                 animate={{ y: 0 }}
+                                 transition={cardTransition}
+                              >
                                  <legend>Período {i + 1}</legend>
+                                 <Button
+                                    type="button"
+                                    size="icon"
+                                    variant="ghost"
+                                    className="rule-remove"
+                                    aria-label={`Remover condição ${i + 1}`}
+                                    onClick={() => remove(i)}
+                                 >
+                                    <Trash2 aria-hidden />
+                                 </Button>
                                  <div className="rule-fields">
                                     <label className="field">
                                        De
-                                       <input type="month" {...register(`regras.${i}.inicio`)} />
+                                       <select
+                                          {...register(`regras.${i}.inicio`)}
+                                          value={values.regras[i]?.inicio ?? ""}
+                                          onChange={e => setValue(`regras.${i}.inicio`, e.target.value, { shouldDirty: true })}
+                                       >
+                                          {periodMonths(billingMonths, values.regras[i]?.inicio).map(month => (
+                                             <option key={month} value={month}>
+                                                {monthLabel(month).replace(" de ", " ")}
+                                             </option>
+                                          ))}
+                                       </select>
                                     </label>
                                     <label className="field">
                                        Até
-                                       <input type="month" {...register(`regras.${i}.fim`)} />
+                                       <select
+                                          {...register(`regras.${i}.fim`)}
+                                          value={values.regras[i]?.fim ?? ""}
+                                          onChange={e => setValue(`regras.${i}.fim`, e.target.value, { shouldDirty: true })}
+                                       >
+                                          {periodMonths(billingMonths, values.regras[i]?.fim).map(month => (
+                                             <option key={month} value={month}>
+                                                {monthLabel(month).replace(" de ", " ")}
+                                             </option>
+                                          ))}
+                                       </select>
                                     </label>
-                                    <label className="field">
+                                    <label className="field rule-condition">
                                        Condição
                                        <select {...register(`regras.${i}.tipo`)}>
                                           <option value="fixo">Valor fixo</option>
-                                          <option value="percentual">Bolsa total sobre o contrato</option>
+                                          <option value="percentual">Bolsa sobre o contrato (%)</option>
                                           <option value="isencao">Isenção</option>
-                                          <option value="base">Valor de contrato sem bolsa</option>
+                                          <option value="base">Contrato sem bolsa</option>
                                        </select>
                                     </label>
                                     {["fixo", "percentual"].includes(values.regras[i]?.tipo) && (
-                                       <label className="field">
+                                       <label className="field rule-value">
                                           {values.regras[i]?.tipo === "percentual" ? "Bolsa (%)" : "Valor mensal (R$)"}
                                           <input
                                              inputMode="decimal"
-                                             placeholder={values.regras[i]?.tipo === "percentual" ? "30,00" : "599,00"}
+                                             placeholder={values.regras[i]?.tipo === "percentual" ? "Ex.: 30,00" : "Ex.: 599,00"}
                                              {...register(`regras.${i}.valor`)}
                                              aria-invalid={!!financialError}
+                                             aria-describedby={financialError ? "payment-error" : undefined}
                                           />
                                        </label>
                                     )}
-                                    <Button
-                                       type="button"
-                                       size="icon"
-                                       variant="ghost"
-                                       aria-label={`Remover condição ${i + 1}`}
-                                       onClick={() => remove(i)}
-                                    >
-                                       <Trash2 className="size-4" />
-                                    </Button>
                                  </div>
                                  <Button
                                     type="button"
@@ -680,14 +744,14 @@ function Editor({
                                        else setNotice("Não há meses seguintes no horizonte. Ajuste o término da cobrança.");
                                     }}
                                  >
-                                    Copiar para meses seguintes
+                                    Repetir nos próximos meses
                                  </Button>
-                              </fieldset>
+                              </motion.fieldset>
                            ))}
                         </div>
                         <Button
                            type="button"
-                           variant="outline"
+                           variant="default"
                            className="gap-2"
                            onClick={() => {
                               const end = values.regras
@@ -725,8 +789,8 @@ function Editor({
                            </Button>
                         )}
                         <p className="standard-return-note">
-                           Após o último mês de benefício, o aluno volta à mensalidade com a bolsa comercial padrão. O percentual da
-                           campanha é a bolsa total sobre o contrato, sem somar à bolsa padrão.
+                           Depois do benefício, a mensalidade padrão retorna automaticamente. A bolsa da campanha é o desconto total sobre o
+                           contrato; ela não se soma à bolsa padrão.
                         </p>
                         {values.modalidade === "Presencial" &&
                            values.regras.some(r => {
@@ -767,7 +831,7 @@ function Editor({
                            </div>
                         </details>
                         {financialError && (
-                           <Callout tone="danger" className="mt-5">
+                           <Callout tone="danger" className="mt-5" id="payment-error" role="alert">
                               {financialError}
                            </Callout>
                         )}

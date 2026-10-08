@@ -1,6 +1,7 @@
 import { useMemo, useState } from "react";
 import { Link } from "react-router-dom";
-import { ArrowRight, LayoutGrid, List, SlidersHorizontal, X } from "lucide-react";
+import { ArrowRight, ClipboardList, LayoutGrid, List, SlidersHorizontal, X } from "lucide-react";
+import { FormationDialog } from "@/components/formation-dialog";
 import { PageHeading, NewCampaign, DataBoundary, SelectField, SearchField, CourseImage, Status } from "@/components/shared";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
@@ -206,6 +207,18 @@ function CatalogContent({ data }: { data: DemoData }) {
                      gray = unavailable(c.id).length > 0 && unavailable(c.id).length === scopedContexts(c.id).length;
                   return (
                      <article className="course-card" key={c.id}>
+                        <FormationDialog contexts={scopedContexts(c.id)} data={data} year={ano} courseName={c.nome}>
+                           <Button
+                              variant="outline"
+                              size="sm"
+                              className="course-formation-shortcut"
+                              disabled={!scopedContexts(c.id).length}
+                              aria-label={`Registrar não formação de turma para ${c.nome}`}
+                           >
+                              <ClipboardList data-icon="inline-start" aria-hidden />
+                              Não formação
+                           </Button>
+                        </FormationDialog>
                         <Link
                            onPointerEnter={() => preloadRoute(`/cursos/${c.id}`)}
                            to={`/cursos/${c.id}?ano=${ano}${entry ? `&entrada=${encodeURIComponent(entry)}` : ""}`}

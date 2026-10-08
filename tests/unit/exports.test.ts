@@ -48,6 +48,8 @@ it("exporta uma única campanha e a revisão escolhida com contrato, bolsa e men
    const pdf = new TextDecoder().decode(await bytes(await buildCampaignPdf({ campaign, revision, data })));
    expect(pdf.startsWith("%PDF-")).toBe(true);
    expect(pdf).toContain(campaign.nome);
+   expect(pdf.match(/\/Width \d+/g)).toContain("/Width 403");
+   expect(pdf.match(/\/Height \d+/g)).toContain("/Height 165");
    expect(pdf).toContain("1.996,05");
    expect(pdf).toContain("55%");
    expect(pdf).toContain("898,22");

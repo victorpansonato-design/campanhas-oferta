@@ -2,6 +2,7 @@ import { Link, useNavigate } from "react-router-dom";
 import { Copy, Archive, ArrowUpRight } from "lucide-react";
 import { PageHeading, NewCampaign, DataBoundary, SearchField, SelectField, Status } from "@/components/shared";
 import { Button } from "@/components/ui/button";
+import { CampaignLogo } from "@/components/campaign-logo";
 import { EmptyState } from "@/components/ui/empty-state";
 import { useDemo, useAction } from "@/hooks/use-demo";
 import { useFilters } from "@/hooks/use-filters";
@@ -92,6 +93,7 @@ function CampaignList({ data }: { data: DemoData }) {
                               {data.personas.find(p => p.id === c.criadaPor)?.nome.replace(" Exemplo", "")} · {dateLabel(c.criadaEm)}
                            </p>
                         </div>
+                        {r.estado === "aprovada" && <CampaignLogo />}
                         <div className="row-actions">
                            <Link className="detail-link" to={`/campanhas/${c.id}?revisao=${r.numero}`}>
                               Abrir

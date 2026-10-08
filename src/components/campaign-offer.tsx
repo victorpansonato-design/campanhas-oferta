@@ -4,6 +4,7 @@ import { MonthlySchedule, Status } from "@/components/shared";
 import { buttonVariants } from "@/components/ui/button";
 import { baseForRevision, standardForRevision, contextLabel, dateLabel, lastRevision, ofertas, cursos, janela } from "@/lib/domain";
 import { CampaignPdfButton } from "@/components/campaign-pdf-button";
+import { CampaignLogo } from "@/components/campaign-logo";
 import type { Campanha, DemoData, Revisao } from "@/types/domain";
 
 export function CampaignOffer({
@@ -51,7 +52,10 @@ export function CampaignOffer({
                   {turns.length > 0 && ` · ${turns.join(" / ")}`}
                </p>
             </div>
-            <Status value={campaign.arquivadaEm ? "Arquivada" : revision.estado} />
+            <div className="offer-brand-status">
+               {revision.estado === "aprovada" && <CampaignLogo />}
+               <Status value={campaign.arquivadaEm ? "Arquivada" : revision.estado} />
+            </div>
          </div>
          {approval && (
             <p className="offer-courses">

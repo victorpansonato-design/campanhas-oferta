@@ -1,18 +1,15 @@
 import { useState } from "react";
-import { Link, useNavigate, useParams } from "react-router-dom";
-import { ArrowLeft, ClipboardList, Plus } from "lucide-react";
+import { Link, useParams } from "react-router-dom";
+import { ArrowLeft, ClipboardList } from "lucide-react";
 import { NewCampaign, DataBoundary, CourseImage, SelectField, Status, DetailLink } from "@/components/shared";
 import { Button } from "@/components/ui/button";
 import { CampaignOffer } from "@/components/campaign-offer";
 import { EmptyState } from "@/components/ui/empty-state";
-import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogDescription, DialogFooter } from "@/components/ui/dialog";
-import { useDemo, useAction } from "@/hooks/use-demo";
+import { FormationDialog } from "@/components/formation-dialog";
+import { useDemo } from "@/hooks/use-demo";
 import { useFilters } from "@/hooks/use-filters";
-import { useSession } from "@/stores/session.store";
-import { repository } from "@/services/repositories";
 import { approvedRevision, contextLabel, cursos, dateLabel, gerarEntradas, lastRevision, money, ofertas } from "@/lib/domain";
 import type { DemoData } from "@/types/domain";
-import { toast } from "sonner";
 import { commercialPrice, standardMonthly } from "@/lib/commercial-pricing";
 
 export default function Curso() {
@@ -59,14 +56,6 @@ function CourseContent({ course, data }: { course: (typeof cursos)[number]; data
       const revision = approved?.contextosIds.some(id => ids.includes(id)) ? approved : lastRevision(c);
       return revision.contextosIds.some(id => ids.includes(id)) ? [{ campaign: c, revision }] : [];
    });
-   const [modal, setModal] = useState(false),
-      [selected, setSelected] = useState(""),
-      [note, setNote] = useState("");
-   const action = useAction(),
-      persona = useSession(s => s.personaId),
-      navigate = useNavigate();
-   const eligible = contexts.filter(c => !data.naoFormacao.some(n => n.contextoId === c.id && n.estado === "nao-formou"));
-   const enrolled = data.matriculas.filter(m => m.contextoId === selected);
    const linked = data.matriculas.filter(m => ids.includes(m.contextoId) && m.campanhaVinculada);
    const events = data.historico.filter(h => campaigns.some(c => c.id === h.entidadeId) || formations.some(n => n.id === h.entidadeId));
    return (
@@ -244,17 +233,12 @@ function CourseContent({ course, data }: { course: (typeof cursos)[number]; data
          )}
          {tab === "formacao" && (
             <div className="flex flex-col gap-4">
-               <Button
-                  variant="outline"
-                  className="gap-2"
-                  onClick={() => {
-                     setSelected(eligible[0]?.id ?? "");
-                     setModal(true);
-                  }}
-               >
-                  <ClipboardList className="size-4" />
-                  Registrar não formação
-               </Button>
+               <FormationDialog contexts={contexts} data={data} year={ano} courseName={course.nome}>
+                  <Button variant="outline" className="gap-2">
+                     <ClipboardList data-icon="inline-start" aria-hidden />
+                     Registrar não formação
+                  </Button>
+               </FormationDialog>
                {!formations.length && (
                   <EmptyState title="Sem registro de não formação" hint="A ausência de registro não confirma que a turma foi formada." />
                )}
@@ -296,50 +280,6 @@ function CourseContent({ course, data }: { course: (typeof cursos)[number]; data
                )}
             </section>
          )}
-         <Dialog open={modal} onOpenChange={setModal}>
-            <DialogContent>
-               <DialogHeader>
-                  <DialogTitle>Registrar não formação de turma</DialogTitle>
-                  <DialogDescription>
-                     A decisão vale somente para o contexto selecionado. Matrículas e campanhas anteriores serão preservadas.
-                  </DialogDescription>
-               </DialogHeader>
-               <SelectField
-                  label="Oferta, turno e entrada"
-                  value={selected}
-                  onChange={setSelected}
-                  options={[{ value: "", label: "Selecione um contexto" }, ...eligible.map(c => ({ value: c.id, label: contextLabel(c) }))]}
-               />
-               <p className="text-sm">
-                  <strong>{enrolled.length} matrículas</strong> neste recorte
-               </p>
-               <label className="field">
-                  Observação (opcional)
-                  <textarea value={note} onChange={e => setNote(e.target.value)} />
-               </label>
-               <p className="text-sm text-muted-foreground">Motivo: Número insuficiente de alunos</p>
-               <DialogFooter>
-                  <Button variant="outline" onClick={() => setModal(false)}>
-                     Cancelar
-                  </Button>
-                  <Button
-                     className="gap-2"
-                     disabled={!selected || action.isPending}
-                     onClick={() =>
-                        action.mutate(async () => {
-                           const id = await repository.register(selected, note, persona, ano);
-                           setModal(false);
-                           toast.success("Não formação registrada");
-                           navigate(`/sem-formacao/${id}`);
-                        })
-                     }
-                  >
-                     <Plus className="size-4" />
-                     Confirmar registro
-                  </Button>
-               </DialogFooter>
-            </DialogContent>
-         </Dialog>
       </div>
    );
 }
