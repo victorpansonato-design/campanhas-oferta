@@ -308,6 +308,7 @@ main > div {
    gap: 21px;
 }
 .course-card {
+   position: relative;
    display: flex;
    flex-direction: column;
    overflow: hidden;
@@ -915,13 +916,131 @@ summary {
    border-color: var(--primary);
    background: var(--primary-soft);
 }
+.campaign-timing,
+.campaign-payments {
+   --primary: var(--brand-blue);
+   --primary-foreground: oklch(99% 0.005 264);
+}
+.campaign-timing .entry-selection label {
+   direction: ltr;
+   padding: 12px 10px;
+   border-radius: 12px;
+   cursor: pointer;
+   align-items: flex-start;
+   transition:
+      background-color 160ms ease-out,
+      border-color 160ms ease-out;
+}
+.campaign-timing .entry-selection {
+   direction: ltr;
+}
+.campaign-timing .entry-selection label:has(input:checked) {
+   background: var(--primary);
+   color: var(--primary-foreground);
+}
+.campaign-timing .entry-selection label:has(input:checked) small {
+   color: inherit;
+}
+.campaign-timing .entry-selection label:has(input:checked) input {
+   accent-color: var(--primary-foreground);
+}
+.campaign-timing .entry-selection label:focus-within {
+   outline: 2px solid var(--ring);
+   outline-offset: 3px;
+}
+.timing-help {
+   font-size: 13px;
+   line-height: 1.6;
+   color: var(--muted-foreground);
+}
+.adhesion-settings .timing-help {
+   margin-block: 8px 16px;
+}
+.adhesion-dates {
+   grid-template-columns: 1fr;
+   margin-block: 16px 0;
+   gap: 12px;
+}
+.billing-dates {
+   max-width: 430px;
+}
+.campaign-payments .rule-card > button:last-child {
+   margin-top: 12px;
+   max-width: 100%;
+   white-space: normal;
+   height: auto;
+   min-height: 36px;
+   text-align: left;
+}
+.campaign-brand-logo {
+   display: block;
+   width: 144px;
+   height: auto;
+   object-fit: contain;
+   flex-shrink: 0;
+}
+.campaign-row .campaign-brand-logo {
+   width: 112px;
+}
+.offer-brand-status {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-end;
+   gap: 10px;
+   flex-shrink: 0;
+}
+.course-formation-shortcut {
+   position: absolute;
+   top: 12px;
+   right: 12px;
+   z-index: 1;
+   opacity: 0;
+   pointer-events: none;
+   transition: opacity 160ms ease-out;
+}
+.course-card:hover .course-formation-shortcut,
+.course-card:focus-within .course-formation-shortcut {
+   opacity: 1;
+   pointer-events: auto;
+}
+@media (hover: none), (pointer: coarse) {
+   .course-formation-shortcut {
+      opacity: 1;
+      pointer-events: auto;
+   }
+}
+@media (max-width: 600px) {
+   .campaign-timing .entry-selection {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+   }
+   .campaign-timing .entry-selection label {
+      flex-wrap: wrap;
+   }
+   .campaign-brand-logo {
+      width: 120px;
+   }
+   .list-view .course-formation-shortcut {
+      position: static;
+      order: 2;
+      margin: 0 16px 16px;
+      align-self: flex-start;
+      opacity: 1;
+      pointer-events: auto;
+   }
+}
+@media (prefers-reduced-motion: reduce) {
+   .course-formation-shortcut,
+   .campaign-timing .entry-selection label {
+      transition: none;
+   }
+}
 .entry-selection span {
    display: flex;
    flex-direction: column;
    gap: 5px;
 }
 .entry-selection strong {
-   font: 500 12px var(--font-display);
+   font: 600 13px var(--font-sans);
 }
 .entry-selection small {
    font-size: 10px;
@@ -934,22 +1053,29 @@ summary {
    margin-bottom: 18px;
 }
 .monthly-rules {
-   display: flex;
-   flex-direction: column;
+   direction: ltr;
+   display: grid;
+   grid-template-columns: repeat(auto-fill, minmax(min(100%, 250px), 1fr));
+   align-items: start;
    gap: 15px;
    margin-bottom: 20px;
 }
 .rule-card {
-   padding: 15px;
+   direction: ltr;
+   position: relative;
+   padding: 12px;
    border: 1px solid var(--border);
-   border-radius: 6px;
-   background: var(--surface);
+   border-radius: 12px;
+   background: var(--card);
    min-width: 0;
 }
 .rule-card legend {
-   padding: 0 5px;
-   font-size: 11px;
-   font-weight: 500;
+   padding: 6px 12px;
+   border-radius: 6px;
+   background: var(--primary);
+   color: var(--primary-foreground);
+   font-size: 13px;
+   font-weight: 600;
 }
 .rule-fields {
    display: grid;
@@ -957,10 +1083,23 @@ summary {
    gap: 12px;
    align-items: end;
 }
-.rule-fields > button {
-   width: 28px;
-   height: 28px;
-   justify-self: end;
+.rule-condition,
+.rule-value {
+   grid-column: 1 / -1;
+}
+.rule-remove {
+   position: absolute;
+   right: 8px;
+   top: -31px;
+}
+.rule-value input {
+   font-size: 18px;
+   font-weight: 600;
+   font-variant-numeric: tabular-nums;
+}
+.rule-value input::placeholder {
+   font-size: 13px;
+   font-weight: 400;
 }
 .wizard-footer {
    display: flex;
@@ -1115,6 +1254,10 @@ summary {
    }
 }
 @media (max-width: 600px) {
+   .course-formation-shortcut {
+      opacity: 1;
+      pointer-events: auto;
+   }
    .page-heading {
       margin-bottom: 22px;
    }
@@ -1340,6 +1483,117 @@ summary {
 }
 .wizard-main > .panel {
    margin: 0;
+}
+.campaign-editor .wizard-main {
+   gap: 16px;
+}
+.campaign-setup {
+   display: grid;
+   grid-template-columns: repeat(2, minmax(0, 1fr));
+   align-items: start;
+   gap: 16px;
+}
+.campaign-editor .panel {
+   padding: 18px;
+   border-radius: 12px;
+}
+.campaign-scope > h2 {
+   margin-bottom: 16px;
+}
+.campaign-scope > .form-grid {
+   gap: 12px;
+   margin-bottom: 12px;
+}
+.campaign-scope .course-selection {
+   max-height: 240px;
+   margin-top: 10px;
+}
+.campaign-scope .selected-course {
+   background: var(--card);
+   padding: 12px 0 0;
+   border-top: 1px solid var(--border);
+   border-radius: 0;
+   gap: 8px;
+}
+.campaign-scope .selected-course strong {
+   overflow-wrap: anywhere;
+}
+.campaign-scope .selected-course button {
+   padding-inline: 0;
+   flex-shrink: 0;
+}
+.setup-heading,
+.adhesion-heading {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   gap: 12px;
+}
+.setup-heading {
+   margin-bottom: 14px;
+}
+.entry-year {
+   flex-direction: row;
+   align-items: center;
+}
+.entry-year input {
+   width: 90px;
+}
+.campaign-timing .entry-selection {
+   gap: 8px;
+}
+.campaign-timing .entry-selection legend {
+   margin-bottom: 8px;
+}
+.campaign-timing .entry-selection label {
+   padding: 10px;
+   gap: 7px;
+}
+.campaign-timing .adhesion-settings {
+   margin-top: 16px;
+   padding-top: 14px;
+   border-top: 1px solid var(--border);
+}
+.campaign-timing .adhesion-settings .timing-help {
+   margin: 8px 0 0;
+}
+.campaign-timing .adhesion-dates {
+   grid-template-columns: repeat(2, minmax(0, 1fr));
+   margin-top: 12px;
+}
+.payments-heading {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   gap: 16px 24px;
+   margin-bottom: 18px;
+}
+.payments-heading > div:first-child {
+   max-width: 440px;
+}
+.payments-heading .panel-description {
+   margin-bottom: 0;
+}
+.payments-heading .billing-dates {
+   grid-template-columns: repeat(2, minmax(0, 1fr));
+   flex: 0 1 360px;
+   gap: 12px;
+   margin: 0;
+}
+@media (max-width: 1150px) and (min-width: 901px), (max-width: 600px) {
+   .campaign-setup {
+      grid-template-columns: 1fr;
+   }
+}
+@media (max-width: 600px) {
+   .campaign-scope > .form-grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+   }
+   .campaign-timing .adhesion-dates {
+      grid-template-columns: 1fr;
+   }
 }
 .selected-course {
    display: flex;
